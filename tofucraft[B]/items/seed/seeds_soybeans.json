@@ -5,15 +5,17 @@
             "identifier": "tofucraft:seeds_soybeans",
             "menu_category": {
                 "category": "nature",
-                "group": "itemGroup.name.seed"
+                "group": "tofucraft:itemGroup.name.seed"
             }
         },
         "components": {
             "minecraft:icon": {
-                "textures":{"default": "seeds_soybeans"
-            },
-            "minecraft:display_name": {
-                "value": "item.tofucraft:seeds_soybeans.name"
+                "textures": {
+                    "default": "seeds_soybeans"
+                },
+                "minecraft:display_name": {
+                    "value": "item.tofucraft:seeds_soybeans.name"
+                }
             }
         }
     }

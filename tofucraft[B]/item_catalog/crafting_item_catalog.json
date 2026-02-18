@@ -1,0 +1,83 @@
+{
+   "format_version": "1.26.0",
+   "minecraft:crafting_items_catalog": {
+      "categories": [
+         {
+            "category_name": "equipment",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:tofukinu",
+                     "name": "tofucraft:itemGroup.name.tofu"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:tofu_diamond_helmet",
+                     "name": "tofucraft:itemGroup.name.helmet"
+                  },
+                  "items": [
+                     "tofucraft:tofu_kinu_helmet",
+                     "tofucraft:tofu_momen_helmet",
+                     "tofucraft:tofu_solid_helmet",
+                     "tofucraft:tofu_metal_helmet",
+                     "tofucraft:tofu_diamond_helmet"
+                  ]
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:tofu_diamond_chestplate",
+                     "name": "tofucraft:itemGroup.name.chestplate"
+                  },
+                  "items": [
+                     "tofucraft:tofu_kinu_chestplate",
+                     "tofucraft:tofu_momen_chestplate",
+                     "tofucraft:tofu_solid_chestplate",
+                     "tofucraft:tofu_metal_chestplate",
+                     "tofucraft:tofu_diamond_chestplate"
+                  ]
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:tofu_diamond_leggings",
+                     "name": "tofucraft:itemGroup.name.leggings"
+                  },
+                  "items": [
+                     "tofucraft:tofu_kinu_leggings",
+                     "tofucraft:tofu_momen_leggings",
+                     "tofucraft:tofu_solid_leggings",
+                     "tofucraft:tofu_metal_leggings",
+                     "tofucraft:tofu_diamond_leggings"
+                  ]
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:tofu_diamond_boots",
+                     "name": "tofucraft:itemGroup.name.boots"
+                  },
+                  "items": [
+                     "tofucraft:tofu_kinu_boots",
+                     "tofucraft:tofu_momen_boots",
+                     "tofucraft:tofu_solid_boots",
+                     "tofucraft:tofu_metal_boots",
+                     "tofucraft:tofu_diamond_boots"
+                  ]
+               }
+            ]
+         },
+         {
+            "category_name": "nature",
+            "groups": [
+              
+            ]
+         },
+         {
+            "category_name": "items",
+            "groups": [
+               
+            ]
+         }
+      ]
+   }
+}

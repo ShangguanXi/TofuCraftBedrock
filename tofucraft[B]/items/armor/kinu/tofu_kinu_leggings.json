@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tofu_kinu_leggings",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.leggings"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tofu_kinu_leggings"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tofu_kinu_leggings.name"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.legs",
+                "protection": 1
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:trimmable_armors"
+                ]
+            }
+        }
+    }
+}

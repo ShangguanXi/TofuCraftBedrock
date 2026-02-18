@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tofuportal_activator",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tofucore"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tofuportal_activator.name"
+            }
+        }
+    }
+}

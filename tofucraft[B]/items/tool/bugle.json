@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:bugle",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "bugle"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:bugle.name"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tofu_solid_helmet",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.helmet"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tofu_solid_helmet"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tofu_solid_helmet.name"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head",
+                "protection": 2
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:trimmable_armors"
+                ]
+            }
+        }
+    }
+}

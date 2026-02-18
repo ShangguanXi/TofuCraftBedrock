@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:bucket_bittern",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "bucket_bittern"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:bucket_bittern.name"
+            }
+        }
+    }
+}

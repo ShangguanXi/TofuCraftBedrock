@@ -1,0 +1,22 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:sesame",
+            "menu_category": {
+                "category": "nature",
+                "group": "tofucraft:itemGroup.name.crop"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sesame"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:sesame.name"
+            }
+        }
+    }
+}

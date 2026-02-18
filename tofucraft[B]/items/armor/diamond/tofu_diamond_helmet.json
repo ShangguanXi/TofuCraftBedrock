@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tofu_diamond_helmet",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.helmet"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tofu_diamond_helmet"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tofu_diamond_helmet.name"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head",
+                "protection": 3
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:trimmable_armors"
+                ]
+            }
+        }
+    }
+}

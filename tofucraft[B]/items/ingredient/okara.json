@@ -1,0 +1,22 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:okara",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "okara"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:okara.name"
+            }
+        }
+    }
+}

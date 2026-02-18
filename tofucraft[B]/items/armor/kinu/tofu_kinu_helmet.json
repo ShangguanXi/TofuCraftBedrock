@@ -5,7 +5,7 @@
             "identifier": "tofucraft:tofu_kinu_helmet",
             "menu_category": {
                 "category": "equipment",
-                "group": "itemGroup.name.helmet"
+                "group": "tofucraft:itemGroup.name.helmet"
             }
         },
         "components": {

@@ -5,7 +5,7 @@
             "identifier": "tofucraft:soy_sculk_bone",
             "menu_category": {
                 "category": "equipment",
-                "group": "itemGroup.name.equipment"
+                "group": "tofucraft:itemGroup.name.tofu"
             }
         },
         "components": {

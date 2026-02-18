@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tofu_metal_boots",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.boots"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tofu_metal_boots"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tofu_metal_boots.name"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.feet",
+                "protection": 2
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:trimmable_armors"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tofu_metal_chestplate",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.chestplate"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tofu_metal_chestplate"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tofu_metal_chestplate.name"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest",
+                "protection": 7
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:trimmable_armors"
+                ]
+            }
+        }
+    }
+}

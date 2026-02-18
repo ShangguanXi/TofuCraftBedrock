@@ -1,3 +1,10 @@
+tofucraft:itemGroup.name.tofu=豆腐工艺：豆腐
+tofucraft:itemGroup.name.helmet=豆腐工艺：头盔
+tofucraft:itemGroup.name.chestplate=豆腐工艺：胸甲
+tofucraft:itemGroup.name.leggings=豆腐工艺：护腿
+tofucraft:itemGroup.name.boots=豆腐工艺：靴子
+
+
 
 item.tofucraft:tofukinu.name=嫩豆腐
 item.tofucraft:tofumomen.name=豆腐

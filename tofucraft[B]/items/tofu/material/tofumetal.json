@@ -5,7 +5,7 @@
             "identifier": "tofucraft:tofumetal",
             "menu_category": {
                 "category": "equipment",
-                "group": "itemGroup.name.equipment"
+                "group": "tofucraft:itemGroup.name.tofu"
             }
         },
         "components": {

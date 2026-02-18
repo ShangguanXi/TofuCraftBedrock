@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:leek",
+            "menu_category": {
+                "category": "nature",
+                "group": "tofucraft:itemGroup.name.crop"
+            }
+        },
+        "components": {
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6
+            },
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation_modifier": 0.1,
+                "can_always_eat": false
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:icon": {
+                "textures": {
+                    "default": "leek"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:leek.name"
+            }
+        }
+    }
+}
