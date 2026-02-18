@@ -17,7 +17,7 @@
                 "saturation_modifier": 0.125,
                 "can_always_eat": false
             },
-            "minecraft:use_animation": "brush",
+            "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
                     "default": "tofuegg"
