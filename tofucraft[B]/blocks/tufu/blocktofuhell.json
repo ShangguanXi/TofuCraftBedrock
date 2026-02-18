@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:blocktofuhell",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "blocktofuhell"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.35
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.25
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "dependencies": [
+        {
+            "uuid": "4786cd9b-a146-448f-9022-3649d4353bb5",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.6.0"
+        }
+    ],
+    "format_version": 2,
+    "header": {
+        "description": "TofuCraftBedrock",
+        "min_engine_version": [
+            1,
+            26,
+            0
+        ],
+        "name": " TofuCraft",
+        "uuid": "d55a2731-d60e-4dbf-b582-be1f730c9c8b",
+        "version": [
+            0,
+            0,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "description": "TofuCraft",
+            "type": "data",
+            "uuid": "90c8b90f-2dfe-40c2-a06b-d1c7d9e6dce7",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "description": "script",
+            "entry": "scripts/main.js",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "58c7fdd3-1ab6-4cd5-8661-7763d3247178",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

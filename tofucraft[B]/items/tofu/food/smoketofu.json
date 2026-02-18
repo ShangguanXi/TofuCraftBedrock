@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:smoketofu",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.miscFood"
+            }
+        },
+        "components": {
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6
+            },
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 0.015,
+                "can_always_eat": false
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:icon": {
+                "textures": {
+                    "default": "smoketofu"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:smoketofu.name"
+            }
+        }
+    }
+}

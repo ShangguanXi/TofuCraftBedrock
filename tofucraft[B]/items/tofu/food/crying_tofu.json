@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:crying_tofu",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.miscFood"
+            }
+        },
+        "components": {
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6
+            },
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation_modifier": 0.125,
+                "can_always_eat": false
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:icon": {
+                "textures": {
+                    "default": "crying_tofu"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:crying_tofu.name"
+            }
+        }
+    }
+}

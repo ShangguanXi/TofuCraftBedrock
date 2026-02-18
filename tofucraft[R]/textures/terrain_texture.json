@@ -1,0 +1,1135 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "up": {
+            "textures": "textures/blocks/up"
+        },
+        "side": {
+            "textures": "textures/blocks/side"
+        },
+        "front": {
+            "textures": "textures/blocks/front"
+        },
+        "barrel_top_fin": {
+            "textures": "textures/blocks/barrel_top_fin"
+        },
+        "barrel_top": {
+            "textures": "textures/blocks/barrel_top"
+        },
+        "barrel_bottom_fin": {
+            "textures": "textures/blocks/barrel_bottom_fin"
+        },
+        "barrel_bottom": {
+            "textures": "textures/blocks/barrel_bottom"
+        },
+        "barrelmiso_side_fin": {
+            "textures": "textures/blocks/barrelmiso_side_fin"
+        },
+        "barrelmiso_side": {
+            "textures": "textures/blocks/barrelmiso_side"
+        },
+        "barrelmisotofu_side_fin": {
+            "textures": "textures/blocks/barrelmisotofu_side_fin"
+        },
+        "barrelmisotofu_side": {
+            "textures": "textures/blocks/barrelmisotofu_side"
+        },
+        "barreldoubanjiang_side_null": {
+            "textures": "textures/blocks/barreldoubanjiang_side_null"
+        },
+        "barreldoubanjiang_side_fin": {
+            "textures": "textures/blocks/barreldoubanjiang_side_fin"
+        },
+        "barreldoubanjiang_side": {
+            "textures": "textures/blocks/barreldoubanjiang_side"
+        },
+        "barreladvtofugem_side_fin": {
+            "textures": "textures/blocks/barreladvtofugem_side_fin"
+        },
+        "barreladvtofugem_side": {
+            "textures": "textures/blocks/barreladvtofugem_side"
+        },
+        "water_still_9": {
+            "textures": "textures/blocks/water_still_9"
+        },
+        "water_still_8": {
+            "textures": "textures/blocks/water_still_8"
+        },
+        "water_still_7": {
+            "textures": "textures/blocks/water_still_7"
+        },
+        "water_still_6": {
+            "textures": "textures/blocks/water_still_6"
+        },
+        "water_still_5": {
+            "textures": "textures/blocks/water_still_5"
+        },
+        "water_still_4": {
+            "textures": "textures/blocks/water_still_4"
+        },
+        "water_still_31": {
+            "textures": "textures/blocks/water_still_31"
+        },
+        "water_still_30": {
+            "textures": "textures/blocks/water_still_30"
+        },
+        "water_still_3": {
+            "textures": "textures/blocks/water_still_3"
+        },
+        "water_still_29": {
+            "textures": "textures/blocks/water_still_29"
+        },
+        "water_still_28": {
+            "textures": "textures/blocks/water_still_28"
+        },
+        "water_still_27": {
+            "textures": "textures/blocks/water_still_27"
+        },
+        "water_still_26": {
+            "textures": "textures/blocks/water_still_26"
+        },
+        "water_still_25": {
+            "textures": "textures/blocks/water_still_25"
+        },
+        "water_still_24": {
+            "textures": "textures/blocks/water_still_24"
+        },
+        "water_still_23": {
+            "textures": "textures/blocks/water_still_23"
+        },
+        "water_still_22": {
+            "textures": "textures/blocks/water_still_22"
+        },
+        "water_still_21": {
+            "textures": "textures/blocks/water_still_21"
+        },
+        "water_still_20": {
+            "textures": "textures/blocks/water_still_20"
+        },
+        "water_still_2": {
+            "textures": "textures/blocks/water_still_2"
+        },
+        "water_still_19": {
+            "textures": "textures/blocks/water_still_19"
+        },
+        "water_still_18": {
+            "textures": "textures/blocks/water_still_18"
+        },
+        "water_still_17": {
+            "textures": "textures/blocks/water_still_17"
+        },
+        "water_still_16": {
+            "textures": "textures/blocks/water_still_16"
+        },
+        "water_still_15": {
+            "textures": "textures/blocks/water_still_15"
+        },
+        "water_still_14": {
+            "textures": "textures/blocks/water_still_14"
+        },
+        "water_still_13": {
+            "textures": "textures/blocks/water_still_13"
+        },
+        "water_still_12": {
+            "textures": "textures/blocks/water_still_12"
+        },
+        "water_still_11": {
+            "textures": "textures/blocks/water_still_11"
+        },
+        "water_still_10": {
+            "textures": "textures/blocks/water_still_10"
+        },
+        "water_still_1": {
+            "textures": "textures/blocks/water_still_1"
+        },
+        "water_still_0": {
+            "textures": "textures/blocks/water_still_0"
+        },
+        "nigari_9": {
+            "textures": "textures/blocks/nigari_9"
+        },
+        "nigari_8": {
+            "textures": "textures/blocks/nigari_8"
+        },
+        "nigari_7": {
+            "textures": "textures/blocks/nigari_7"
+        },
+        "nigari_6": {
+            "textures": "textures/blocks/nigari_6"
+        },
+        "nigari_5": {
+            "textures": "textures/blocks/nigari_5"
+        },
+        "nigari_4": {
+            "textures": "textures/blocks/nigari_4"
+        },
+        "nigari_31": {
+            "textures": "textures/blocks/nigari_31"
+        },
+        "nigari_30": {
+            "textures": "textures/blocks/nigari_30"
+        },
+        "nigari_3": {
+            "textures": "textures/blocks/nigari_3"
+        },
+        "nigari_29": {
+            "textures": "textures/blocks/nigari_29"
+        },
+        "nigari_28": {
+            "textures": "textures/blocks/nigari_28"
+        },
+        "nigari_27": {
+            "textures": "textures/blocks/nigari_27"
+        },
+        "nigari_26": {
+            "textures": "textures/blocks/nigari_26"
+        },
+        "nigari_25": {
+            "textures": "textures/blocks/nigari_25"
+        },
+        "nigari_24": {
+            "textures": "textures/blocks/nigari_24"
+        },
+        "nigari_23": {
+            "textures": "textures/blocks/nigari_23"
+        },
+        "nigari_22": {
+            "textures": "textures/blocks/nigari_22"
+        },
+        "nigari_21": {
+            "textures": "textures/blocks/nigari_21"
+        },
+        "nigari_20": {
+            "textures": "textures/blocks/nigari_20"
+        },
+        "nigari_2": {
+            "textures": "textures/blocks/nigari_2"
+        },
+        "nigari_19": {
+            "textures": "textures/blocks/nigari_19"
+        },
+        "nigari_18": {
+            "textures": "textures/blocks/nigari_18"
+        },
+        "nigari_17": {
+            "textures": "textures/blocks/nigari_17"
+        },
+        "nigari_16": {
+            "textures": "textures/blocks/nigari_16"
+        },
+        "nigari_15": {
+            "textures": "textures/blocks/nigari_15"
+        },
+        "nigari_14": {
+            "textures": "textures/blocks/nigari_14"
+        },
+        "nigari_13": {
+            "textures": "textures/blocks/nigari_13"
+        },
+        "nigari_12": {
+            "textures": "textures/blocks/nigari_12"
+        },
+        "nigari_11": {
+            "textures": "textures/blocks/nigari_11"
+        },
+        "nigari_10": {
+            "textures": "textures/blocks/nigari_10"
+        },
+        "nigari_1": {
+            "textures": "textures/blocks/nigari_1"
+        },
+        "nigari_0": {
+            "textures": "textures/blocks/nigari_0"
+        },
+        "zundatofu_mushroom": {
+            "textures": "textures/blocks/zundatofu_mushroom"
+        },
+        "zundatofucake_top": {
+            "textures": "textures/blocks/zundatofucake_top"
+        },
+        "zundatofucake_side": {
+            "textures": "textures/blocks/zundatofucake_side"
+        },
+        "zundatofucake_inner": {
+            "textures": "textures/blocks/zundatofucake_inner"
+        },
+        "zundatofucake_bottom": {
+            "textures": "textures/blocks/zundatofucake_bottom"
+        },
+        "zundama_block": {
+            "textures": "textures/blocks/zundama_block"
+        },
+        "yubagrass_top": {
+            "textures": "textures/blocks/yubagrass_top"
+        },
+        "yubagrass_bottom": {
+            "textures": "textures/blocks/yubagrass_bottom"
+        },
+        "yuba": {
+            "textures": "textures/blocks/yuba"
+        },
+        "wheat_bowl_koujibase": {
+            "textures": "textures/blocks/wheat_bowl_koujibase"
+        },
+        "wheat_bowl_kouji": {
+            "textures": "textures/blocks/wheat_bowl_kouji"
+        },
+        "tofu_work_station": {
+            "textures": "textures/blocks/tofu_work_station"
+        },
+        "tofu_terrain_zunda_side": {
+            "textures": "textures/blocks/tofu_terrain_zunda_side"
+        },
+        "tofu_terrain": {
+            "textures": "textures/blocks/tofu_terrain"
+        },
+        "tofu_metal_soul_lantern": {
+            "textures": "textures/blocks/tofu_metal_soul_lantern"
+        },
+        "tofu_metal_lantern": {
+            "textures": "textures/blocks/tofu_metal_lantern"
+        },
+        "tofu_metal_chain": {
+            "textures": "textures/blocks/tofu_metal_chain"
+        },
+        "tofu_gem_block": {
+            "textures": "textures/blocks/tofu_gem_block"
+        },
+        "tofu_detector": {
+            "textures": "textures/blocks/tofu_detector"
+        },
+        "tofu_bedrock": {
+            "textures": "textures/blocks/tofu_bedrock"
+        },
+        "tofuzunda_smooth_brick": {
+            "textures": "textures/blocks/tofuzunda_smooth_brick"
+        },
+        "tofuzunda_brick": {
+            "textures": "textures/blocks/tofuzunda_brick"
+        },
+        "tofutrapdoor_zunda": {
+            "textures": "textures/blocks/tofutrapdoor_zunda"
+        },
+        "tofuTrapdoor_strawberry": {
+            "textures": "textures/blocks/tofuTrapdoor_strawberry"
+        },
+        "tofutrapdoor_soul": {
+            "textures": "textures/blocks/tofutrapdoor_soul"
+        },
+        "tofuTrapdoor_sesame": {
+            "textures": "textures/blocks/tofuTrapdoor_sesame"
+        },
+        "tofutrapdoor_momen": {
+            "textures": "textures/blocks/tofutrapdoor_momen"
+        },
+        "tofuTrapdoor_miso": {
+            "textures": "textures/blocks/tofuTrapdoor_miso"
+        },
+        "tofutrapdoor_metal": {
+            "textures": "textures/blocks/tofutrapdoor_metal"
+        },
+        "tofutrapdoor_kinu": {
+            "textures": "textures/blocks/tofutrapdoor_kinu"
+        },
+        "tofutrapdoor_ishi": {
+            "textures": "textures/blocks/tofutrapdoor_ishi"
+        },
+        "tofutrapdoor_hell": {
+            "textures": "textures/blocks/tofutrapdoor_hell"
+        },
+        "tofutrapdoor_grilled": {
+            "textures": "textures/blocks/tofutrapdoor_grilled"
+        },
+        "tofuTrapdoor_glow": {
+            "textures": "textures/blocks/tofuTrapdoor_glow"
+        },
+        "tofuTrapdoor_friedPouch": {
+            "textures": "textures/blocks/tofuTrapdoor_friedPouch"
+        },
+        "tofuTrapdoor_fried": {
+            "textures": "textures/blocks/tofuTrapdoor_fried"
+        },
+        "tofuTrapdoor_egg": {
+            "textures": "textures/blocks/tofuTrapdoor_egg"
+        },
+        "tofutrapdoor_dried": {
+            "textures": "textures/blocks/tofutrapdoor_dried"
+        },
+        "tofuTrapdoor_diamond": {
+            "textures": "textures/blocks/tofuTrapdoor_diamond"
+        },
+        "tofuTrapdoor_annin": {
+            "textures": "textures/blocks/tofuTrapdoor_annin"
+        },
+        "tofutorch_zunda": {
+            "textures": "textures/blocks/tofutorch_zunda"
+        },
+        "tofutorch_strawberry": {
+            "textures": "textures/blocks/tofutorch_strawberry"
+        },
+        "tofutorch_soul": {
+            "textures": "textures/blocks/tofutorch_soul"
+        },
+        "tofutorch_sesame": {
+            "textures": "textures/blocks/tofutorch_sesame"
+        },
+        "tofutorch_momen": {
+            "textures": "textures/blocks/tofutorch_momen"
+        },
+        "tofutorch_miso": {
+            "textures": "textures/blocks/tofutorch_miso"
+        },
+        "tofutorch_metal": {
+            "textures": "textures/blocks/tofutorch_metal"
+        },
+        "tofutorch_kinu": {
+            "textures": "textures/blocks/tofutorch_kinu"
+        },
+        "tofutorch_ishi": {
+            "textures": "textures/blocks/tofutorch_ishi"
+        },
+        "tofutorch_hell": {
+            "textures": "textures/blocks/tofutorch_hell"
+        },
+        "tofutorch_grilled": {
+            "textures": "textures/blocks/tofutorch_grilled"
+        },
+        "tofutorch_friedpouch": {
+            "textures": "textures/blocks/tofutorch_friedpouch"
+        },
+        "tofutorch_fried": {
+            "textures": "textures/blocks/tofutorch_fried"
+        },
+        "tofutorch_egg": {
+            "textures": "textures/blocks/tofutorch_egg"
+        },
+        "tofutorch_dried": {
+            "textures": "textures/blocks/tofutorch_dried"
+        },
+        "tofutorch_diamond": {
+            "textures": "textures/blocks/tofutorch_diamond"
+        },
+        "tofutorch_annin": {
+            "textures": "textures/blocks/tofutorch_annin"
+        },
+        "tofustem_trapdoor": {
+            "textures": "textures/blocks/tofustem_trapdoor"
+        },
+        "tofustem_top_emissive": {
+            "textures": "textures/blocks/tofustem_top_emissive"
+        },
+        "tofustem_top": {
+            "textures": "textures/blocks/tofustem_top"
+        },
+        "tofustem_planks": {
+            "textures": "textures/blocks/tofustem_planks"
+        },
+        "tofustem_emissive": {
+            "textures": "textures/blocks/tofustem_emissive"
+        },
+        "tofustem_door_top": {
+            "textures": "textures/blocks/tofustem_door_top"
+        },
+        "tofustem_door_bottom": {
+            "textures": "textures/blocks/tofustem_door_bottom"
+        },
+        "tofustem": {
+            "textures": "textures/blocks/tofustem"
+        },
+        "tofusoul_smooth_brick": {
+            "textures": "textures/blocks/tofusoul_smooth_brick"
+        },
+        "tofusoul_brick": {
+            "textures": "textures/blocks/tofusoul_brick"
+        },
+        "tofuslate_tofu_diamond_ore": {
+            "textures": "textures/blocks/tofuslate_tofu_diamond_ore"
+        },
+        "tofuslate": {
+            "textures": "textures/blocks/tofuslate"
+        },
+        "tofuportal": {
+            "textures": "textures/blocks/tofuportal"
+        },
+        "tofuladder_zunda": {
+            "textures": "textures/blocks/tofuladder_zunda"
+        },
+        "tofuladder_strawberry": {
+            "textures": "textures/blocks/tofuladder_strawberry"
+        },
+        "tofuladder_soul": {
+            "textures": "textures/blocks/tofuladder_soul"
+        },
+        "tofuladder_sesame": {
+            "textures": "textures/blocks/tofuladder_sesame"
+        },
+        "tofuladder_momen": {
+            "textures": "textures/blocks/tofuladder_momen"
+        },
+        "tofuladder_miso": {
+            "textures": "textures/blocks/tofuladder_miso"
+        },
+        "tofuladder_metal": {
+            "textures": "textures/blocks/tofuladder_metal"
+        },
+        "tofuladder_kinu": {
+            "textures": "textures/blocks/tofuladder_kinu"
+        },
+        "tofuladder_ishibrick": {
+            "textures": "textures/blocks/tofuladder_ishibrick"
+        },
+        "tofuladder_ishi": {
+            "textures": "textures/blocks/tofuladder_ishi"
+        },
+        "tofuladder_hell": {
+            "textures": "textures/blocks/tofuladder_hell"
+        },
+        "tofuladder_grilled": {
+            "textures": "textures/blocks/tofuladder_grilled"
+        },
+        "tofuladder_glow": {
+            "textures": "textures/blocks/tofuladder_glow"
+        },
+        "tofuladder_friedPouch": {
+            "textures": "textures/blocks/tofuladder_friedPouch"
+        },
+        "tofuladder_fried": {
+            "textures": "textures/blocks/tofuladder_fried"
+        },
+        "tofuladder_egg": {
+            "textures": "textures/blocks/tofuladder_egg"
+        },
+        "tofuladder_dried": {
+            "textures": "textures/blocks/tofuladder_dried"
+        },
+        "tofuladder_diamond": {
+            "textures": "textures/blocks/tofuladder_diamond"
+        },
+        "tofuladder_annin": {
+            "textures": "textures/blocks/tofuladder_annin"
+        },
+        "tofuishi_terrain": {
+            "textures": "textures/blocks/tofuishi_terrain"
+        },
+        "tofuishi_smooth_brick": {
+            "textures": "textures/blocks/tofuishi_smooth_brick"
+        },
+        "tofuishi_chiseled_brick": {
+            "textures": "textures/blocks/tofuishi_chiseled_brick"
+        },
+        "tofuishi_brick": {
+            "textures": "textures/blocks/tofuishi_brick"
+        },
+        "tofuhell_smooth_brick": {
+            "textures": "textures/blocks/tofuhell_smooth_brick"
+        },
+        "tofuhell_brick": {
+            "textures": "textures/blocks/tofuhell_brick"
+        },
+        "tofuflower": {
+            "textures": "textures/blocks/tofuflower"
+        },
+        "tofufarmland_wet": {
+            "textures": "textures/blocks/tofufarmland_wet"
+        },
+        "tofufarmland_dry": {
+            "textures": "textures/blocks/tofufarmland_dry"
+        },
+        "tofuegg_smooth_brick": {
+            "textures": "textures/blocks/tofuegg_smooth_brick"
+        },
+        "tofuegg_brick": {
+            "textures": "textures/blocks/tofuegg_brick"
+        },
+        "tofudried_smooth_brick": {
+            "textures": "textures/blocks/tofudried_smooth_brick"
+        },
+        "tofudried_brick": {
+            "textures": "textures/blocks/tofudried_brick"
+        },
+        "tofudoor_zunda_upper": {
+            "textures": "textures/blocks/tofudoor_zunda_upper"
+        },
+        "tofudoor_zunda_lower": {
+            "textures": "textures/blocks/tofudoor_zunda_lower"
+        },
+        "tofudoor_strawberry_upper": {
+            "textures": "textures/blocks/tofudoor_strawberry_upper"
+        },
+        "tofudoor_strawberry_lower": {
+            "textures": "textures/blocks/tofudoor_strawberry_lower"
+        },
+        "tofudoor_soul_upper": {
+            "textures": "textures/blocks/tofudoor_soul_upper"
+        },
+        "tofudoor_soul_lower": {
+            "textures": "textures/blocks/tofudoor_soul_lower"
+        },
+        "tofudoor_sesame_upper": {
+            "textures": "textures/blocks/tofudoor_sesame_upper"
+        },
+        "tofudoor_sesame_lower": {
+            "textures": "textures/blocks/tofudoor_sesame_lower"
+        },
+        "tofudoor_momen_upper": {
+            "textures": "textures/blocks/tofudoor_momen_upper"
+        },
+        "tofudoor_momen_lower": {
+            "textures": "textures/blocks/tofudoor_momen_lower"
+        },
+        "tofudoor_miso_upper": {
+            "textures": "textures/blocks/tofudoor_miso_upper"
+        },
+        "tofudoor_miso_lower": {
+            "textures": "textures/blocks/tofudoor_miso_lower"
+        },
+        "tofudoor_metal_upper": {
+            "textures": "textures/blocks/tofudoor_metal_upper"
+        },
+        "tofudoor_metal_lower": {
+            "textures": "textures/blocks/tofudoor_metal_lower"
+        },
+        "tofudoor_kinu_upper": {
+            "textures": "textures/blocks/tofudoor_kinu_upper"
+        },
+        "tofudoor_kinu_side": {
+            "textures": "textures/blocks/tofudoor_kinu_side"
+        },
+        "tofudoor_kinu_lower": {
+            "textures": "textures/blocks/tofudoor_kinu_lower"
+        },
+        "tofudoor_ishi_upper": {
+            "textures": "textures/blocks/tofudoor_ishi_upper"
+        },
+        "tofudoor_ishi_lower": {
+            "textures": "textures/blocks/tofudoor_ishi_lower"
+        },
+        "tofudoor_hell_upper": {
+            "textures": "textures/blocks/tofudoor_hell_upper"
+        },
+        "tofudoor_hell_lower": {
+            "textures": "textures/blocks/tofudoor_hell_lower"
+        },
+        "tofudoor_grilled_upper": {
+            "textures": "textures/blocks/tofudoor_grilled_upper"
+        },
+        "tofudoor_grilled_lower": {
+            "textures": "textures/blocks/tofudoor_grilled_lower"
+        },
+        "tofudoor_glow_upper": {
+            "textures": "textures/blocks/tofudoor_glow_upper"
+        },
+        "tofudoor_glow_lower": {
+            "textures": "textures/blocks/tofudoor_glow_lower"
+        },
+        "tofudoor_fried_upper": {
+            "textures": "textures/blocks/tofudoor_fried_upper"
+        },
+        "tofudoor_fried_lower": {
+            "textures": "textures/blocks/tofudoor_fried_lower"
+        },
+        "tofudoor_friedpouch_upper": {
+            "textures": "textures/blocks/tofudoor_friedpouch_upper"
+        },
+        "tofudoor_friedpouch_lower": {
+            "textures": "textures/blocks/tofudoor_friedpouch_lower"
+        },
+        "tofudoor_egg_upper": {
+            "textures": "textures/blocks/tofudoor_egg_upper"
+        },
+        "tofudoor_egg_lower": {
+            "textures": "textures/blocks/tofudoor_egg_lower"
+        },
+        "tofudoor_dried_upper": {
+            "textures": "textures/blocks/tofudoor_dried_upper"
+        },
+        "tofudoor_dried_lower": {
+            "textures": "textures/blocks/tofudoor_dried_lower"
+        },
+        "tofudoor_diamond_upper": {
+            "textures": "textures/blocks/tofudoor_diamond_upper"
+        },
+        "tofudoor_diamond_lower": {
+            "textures": "textures/blocks/tofudoor_diamond_lower"
+        },
+        "tofudoor_annin_upper": {
+            "textures": "textures/blocks/tofudoor_annin_upper"
+        },
+        "tofudoor_annin_lower": {
+            "textures": "textures/blocks/tofudoor_annin_lower"
+        },
+        "tofucake_top": {
+            "textures": "textures/blocks/tofucake_top"
+        },
+        "tofucake_side": {
+            "textures": "textures/blocks/tofucake_side"
+        },
+        "tofucake_inner": {
+            "textures": "textures/blocks/tofucake_inner"
+        },
+        "tofucake_bottom": {
+            "textures": "textures/blocks/tofucake_bottom"
+        },
+        "tf_collector": {
+            "textures": "textures/blocks/tf_collector"
+        },
+        "tfstorage_front_lit": {
+            "textures": "textures/blocks/tfstorage_front_lit"
+        },
+        "tfstorage_front": {
+            "textures": "textures/blocks/tfstorage_front"
+        },
+        "tfSaturator_top": {
+            "textures": "textures/blocks/tfSaturator_top"
+        },
+        "tfSaturator_front_lit": {
+            "textures": "textures/blocks/tfSaturator_front_lit"
+        },
+        "tfSaturator_front": {
+            "textures": "textures/blocks/tfSaturator_front"
+        },
+        "tfoven_front_lit": {
+            "textures": "textures/blocks/tfoven_front_lit"
+        },
+        "tfoven_front": {
+            "textures": "textures/blocks/tfoven_front"
+        },
+        "tfminer_front_lit": {
+            "textures": "textures/blocks/tfminer_front_lit"
+        },
+        "tfminer_front": {
+            "textures": "textures/blocks/tfminer_front"
+        },
+        "tfmachine_side": {
+            "textures": "textures/blocks/tfmachine_side"
+        },
+        "tfmachine_battery_top": {
+            "textures": "textures/blocks/tfmachine_battery_top"
+        },
+        "tfmachine_battery": {
+            "textures": "textures/blocks/tfmachine_battery"
+        },
+        "tfMachineCase_front": {
+            "textures": "textures/blocks/tfMachineCase_front"
+        },
+        "tfcrafter_front_lit": {
+            "textures": "textures/blocks/tfcrafter_front_lit"
+        },
+        "tfcrafter_front": {
+            "textures": "textures/blocks/tfcrafter_front"
+        },
+        "tfcondenser_front_lit": {
+            "textures": "textures/blocks/tfcondenser_front_lit"
+        },
+        "tfcondenser_front": {
+            "textures": "textures/blocks/tfcondenser_front"
+        },
+        "tfAntennaU": {
+            "textures": "textures/blocks/tfAntennaU"
+        },
+        "tfAntennaS": {
+            "textures": "textures/blocks/tfAntennaS"
+        },
+        "tfaggregator_front_lit": {
+            "textures": "textures/blocks/tfaggregator_front_lit"
+        },
+        "tfaggregator_front": {
+            "textures": "textures/blocks/tfaggregator_front"
+        },
+        "tfadvanced_aggregator_front_lit": {
+            "textures": "textures/blocks/tfadvanced_aggregator_front_lit"
+        },
+        "tfadvanced_aggregator_front": {
+            "textures": "textures/blocks/tfadvanced_aggregator_front"
+        },
+        "suspicious_tofu_terrain": {
+            "textures": "textures/blocks/suspicious_tofu_terrain"
+        },
+        "strawberryJam": {
+            "textures": "textures/blocks/strawberryJam"
+        },
+        "sprouts_3": {
+            "textures": "textures/blocks/sprouts_3"
+        },
+        "sprouts_2": {
+            "textures": "textures/blocks/sprouts_2"
+        },
+        "sprouts_1": {
+            "textures": "textures/blocks/sprouts_1"
+        },
+        "sprouts_0": {
+            "textures": "textures/blocks/sprouts_0"
+        },
+        "soy_soul_cheese": {
+            "textures": "textures/blocks/soy_soul_cheese"
+        },
+        "soy_nether_cheese": {
+            "textures": "textures/blocks/soy_nether_cheese"
+        },
+        "soy_cheese": {
+            "textures": "textures/blocks/soy_cheese"
+        },
+        "soysauce_flow": {
+            "textures": "textures/blocks/soysauce_flow"
+        },
+        "soysauce": {
+            "textures": "textures/blocks/soysauce"
+        },
+        "soymilk_soul_overlay": {
+            "textures": "textures/blocks/soymilk_soul_overlay"
+        },
+        "soymilk_soul_flow": {
+            "textures": "textures/blocks/soymilk_soul_flow"
+        },
+        "soymilk_soul": {
+            "textures": "textures/blocks/soymilk_soul"
+        },
+        "soymilk_overlay": {
+            "textures": "textures/blocks/soymilk_overlay"
+        },
+        "soymilk_hell_overlay": {
+            "textures": "textures/blocks/soymilk_hell_overlay"
+        },
+        "soymilk_hell_flow": {
+            "textures": "textures/blocks/soymilk_hell_flow"
+        },
+        "soymilk_hell": {
+            "textures": "textures/blocks/soymilk_hell"
+        },
+        "soymilk_flow": {
+            "textures": "textures/blocks/soymilk_flow"
+        },
+        "soymilkMineral": {
+            "textures": "textures/blocks/soymilkMineral"
+        },
+        "soymilk": {
+            "textures": "textures/blocks/soymilk"
+        },
+        "soycheese_tart_top": {
+            "textures": "textures/blocks/soycheese_tart_top"
+        },
+        "soycheese_tart_side": {
+            "textures": "textures/blocks/soycheese_tart_side"
+        },
+        "soycheese_tart_inner": {
+            "textures": "textures/blocks/soycheese_tart_inner"
+        },
+        "soycheese_tart_bottom": {
+            "textures": "textures/blocks/soycheese_tart_bottom"
+        },
+        "soybean_soul_3": {
+            "textures": "textures/blocks/soybean_soul_3"
+        },
+        "soybean_soul_2": {
+            "textures": "textures/blocks/soybean_soul_2"
+        },
+        "soybean_soul_1": {
+            "textures": "textures/blocks/soybean_soul_1"
+        },
+        "soybean_soul_0": {
+            "textures": "textures/blocks/soybean_soul_0"
+        },
+        "soybean_hell_3": {
+            "textures": "textures/blocks/soybean_hell_3"
+        },
+        "soybean_hell_2": {
+            "textures": "textures/blocks/soybean_hell_2"
+        },
+        "soybean_hell_1": {
+            "textures": "textures/blocks/soybean_hell_1"
+        },
+        "soybean_hell_0": {
+            "textures": "textures/blocks/soybean_hell_0"
+        },
+        "soybean_4": {
+            "textures": "textures/blocks/soybean_4"
+        },
+        "soybean_3": {
+            "textures": "textures/blocks/soybean_3"
+        },
+        "soybean_2": {
+            "textures": "textures/blocks/soybean_2"
+        },
+        "soybean_1": {
+            "textures": "textures/blocks/soybean_1"
+        },
+        "soybean_0": {
+            "textures": "textures/blocks/soybean_0"
+        },
+        "soupstock": {
+            "textures": "textures/blocks/soupstock"
+        },
+        "sesame_3": {
+            "textures": "textures/blocks/sesame_3"
+        },
+        "sesame_2": {
+            "textures": "textures/blocks/sesame_2"
+        },
+        "sesame_1": {
+            "textures": "textures/blocks/sesame_1"
+        },
+        "sesame_0": {
+            "textures": "textures/blocks/sesame_0"
+        },
+        "sculk_bone": {
+            "textures": "textures/blocks/sculk_bone"
+        },
+        "sapling_tofu": {
+            "textures": "textures/blocks/sapling_tofu"
+        },
+        "sapling_apricot": {
+            "textures": "textures/blocks/sapling_apricot"
+        },
+        "salt_furnace_top_lit": {
+            "textures": "textures/blocks/salt_furnace_top_lit"
+        },
+        "salt_furnace_top": {
+            "textures": "textures/blocks/salt_furnace_top"
+        },
+        "salt_furnace_side": {
+            "textures": "textures/blocks/salt_furnace_side"
+        },
+        "salt_furnace_front_lit": {
+            "textures": "textures/blocks/salt_furnace_front_lit"
+        },
+        "salt_furnace_front": {
+            "textures": "textures/blocks/salt_furnace_front"
+        },
+        "salt_furnace_bottom": {
+            "textures": "textures/blocks/salt_furnace_bottom"
+        },
+        "salt_block": {
+            "textures": "textures/blocks/salt_block"
+        },
+        "rice_root": {
+            "textures": "textures/blocks/rice_root"
+        },
+        "ricecrop_4": {
+            "textures": "textures/blocks/ricecrop_4"
+        },
+        "ricecrop_3": {
+            "textures": "textures/blocks/ricecrop_3"
+        },
+        "ricecrop_2": {
+            "textures": "textures/blocks/ricecrop_2"
+        },
+        "ricecrop_1": {
+            "textures": "textures/blocks/ricecrop_1"
+        },
+        "ricecrop_0": {
+            "textures": "textures/blocks/ricecrop_0"
+        },
+        "potted_leek": {
+            "textures": "textures/blocks/potted_leek"
+        },
+        "ore_tofu_diamond": {
+            "textures": "textures/blocks/ore_tofu_diamond"
+        },
+        "ore_tofugem": {
+            "textures": "textures/blocks/ore_tofugem"
+        },
+        "nether_nattobed_top_fin": {
+            "textures": "textures/blocks/nether_nattobed_top_fin"
+        },
+        "nether_nattobed_top": {
+            "textures": "textures/blocks/nether_nattobed_top"
+        },
+        "nether_nattobed_side_fin": {
+            "textures": "textures/blocks/nether_nattobed_side_fin"
+        },
+        "nether_nattobed_side": {
+            "textures": "textures/blocks/nether_nattobed_side"
+        },
+        "nattobed_top_fin": {
+            "textures": "textures/blocks/nattobed_top_fin"
+        },
+        "nattobed_top": {
+            "textures": "textures/blocks/nattobed_top"
+        },
+        "nattobed_side_fin": {
+            "textures": "textures/blocks/nattobed_side_fin"
+        },
+        "nattobed_side": {
+            "textures": "textures/blocks/nattobed_side"
+        },
+        "leek_stem_top": {
+            "textures": "textures/blocks/leek_stem_top"
+        },
+        "leek_stem": {
+            "textures": "textures/blocks/leek_stem"
+        },
+        "leek_planks": {
+            "textures": "textures/blocks/leek_planks"
+        },
+        "leek_half_stem": {
+            "textures": "textures/blocks/leek_half_stem"
+        },
+        "leek_green_trapdoor": {
+            "textures": "textures/blocks/leek_green_trapdoor"
+        },
+        "leek_green_stem_top": {
+            "textures": "textures/blocks/leek_green_stem_top"
+        },
+        "leek_green_stem": {
+            "textures": "textures/blocks/leek_green_stem"
+        },
+        "leek_green_planks": {
+            "textures": "textures/blocks/leek_green_planks"
+        },
+        "leek_green_door_top": {
+            "textures": "textures/blocks/leek_green_door_top"
+        },
+        "leek_green_door_bottom": {
+            "textures": "textures/blocks/leek_green_door_bottom"
+        },
+        "leaves_tofu_opaque": {
+            "textures": "textures/blocks/leaves_tofu_opaque"
+        },
+        "leaves_tofu": {
+            "textures": "textures/blocks/leaves_tofu"
+        },
+        "leaves_apricot_opaque_f": {
+            "textures": "textures/blocks/leaves_apricot_opaque_f"
+        },
+        "leaves_apricot_opaque": {
+            "textures": "textures/blocks/leaves_apricot_opaque"
+        },
+        "leaves_apricot_f": {
+            "textures": "textures/blocks/leaves_apricot_f"
+        },
+        "leaves_apricot": {
+            "textures": "textures/blocks/leaves_apricot"
+        },
+        "foodplate": {
+            "textures": "textures/blocks/foodplate"
+        },
+        "chili_4": {
+            "textures": "textures/blocks/chili_4"
+        },
+        "chili_3": {
+            "textures": "textures/blocks/chili_3"
+        },
+        "chili_2": {
+            "textures": "textures/blocks/chili_2"
+        },
+        "chili_1": {
+            "textures": "textures/blocks/chili_1"
+        },
+        "chili_0": {
+            "textures": "textures/blocks/chili_0"
+        },
+        "chikuwa_side_tofu": {
+            "textures": "textures/blocks/chikuwa_side_tofu"
+        },
+        "chikuwa_side_plain": {
+            "textures": "textures/blocks/chikuwa_side_plain"
+        },
+        "chikuwa_plain": {
+            "textures": "textures/blocks/chikuwa_plain"
+        },
+        "chikuwa_inner": {
+            "textures": "textures/blocks/chikuwa_inner"
+        },
+        "chikuwaPlatform_tip": {
+            "textures": "textures/blocks/chikuwaPlatform_tip"
+        },
+        "blockyuba": {
+            "textures": "textures/blocks/blockyuba"
+        },
+        "blocktofuzunda": {
+            "textures": "textures/blocks/blocktofuzunda"
+        },
+        "blocktofustrawberry": {
+            "textures": "textures/blocks/blocktofustrawberry"
+        },
+        "blocktofusoul": {
+            "textures": "textures/blocks/blocktofusoul"
+        },
+        "blocktofusesame": {
+            "textures": "textures/blocks/blocktofusesame"
+        },
+        "blocktofumomen": {
+            "textures": "textures/blocks/blocktofumomen"
+        },
+        "blocktofumiso": {
+            "textures": "textures/blocks/blocktofumiso"
+        },
+        "blocktofuminced": {
+            "textures": "textures/blocks/blocktofuminced"
+        },
+        "blocktofumetal": {
+            "textures": "textures/blocks/blocktofumetal"
+        },
+        "blocktofukinu": {
+            "textures": "textures/blocks/blocktofukinu"
+        },
+        "blocktofuishi": {
+            "textures": "textures/blocks/blocktofuishi"
+        },
+        "blocktofuhell": {
+            "textures": "textures/blocks/blocktofuhell"
+        },
+        "blocktofugrilled": {
+            "textures": "textures/blocks/blocktofugrilled"
+        },
+        "blocktofuglow": {
+            "textures": "textures/blocks/blocktofuglow"
+        },
+        "blocktofufriedpouch": {
+            "textures": "textures/blocks/blocktofufriedpouch"
+        },
+        "blocktofufried": {
+            "textures": "textures/blocks/blocktofufried"
+        },
+        "blocktofuegg": {
+            "textures": "textures/blocks/blocktofuegg"
+        },
+        "blocktofudried": {
+            "textures": "textures/blocks/blocktofudried"
+        },
+        "blocktofudiamond": {
+            "textures": "textures/blocks/blocktofudiamond"
+        },
+        "blocktofuannin": {
+            "textures": "textures/blocks/blocktofuannin"
+        },
+        "blockoretofu": {
+            "textures": "textures/blocks/blockoretofu"
+        },
+        "blocknatto": {
+            "textures": "textures/blocks/blocknatto"
+        },
+        "blockleek_2": {
+            "textures": "textures/blocks/blockleek_2"
+        },
+        "blockleek_1": {
+            "textures": "textures/blocks/blockleek_1"
+        },
+        "blockleek_0": {
+            "textures": "textures/blocks/blockleek_0"
+        },
+        "blockleek": {
+            "textures": "textures/blocks/blockleek"
+        },
+        "blockcrying_tofu": {
+            "textures": "textures/blocks/blockcrying_tofu"
+        },
+        "blockadvtofugem": {
+            "textures": "textures/blocks/blockadvtofugem"
+        },
+        "bittern_overlay": {
+            "textures": "textures/blocks/bittern_overlay"
+        },
+        "bittern": {
+            "textures": "textures/blocks/bittern"
+        },
+        "antenna_basic": {
+            "textures": "textures/blocks/antenna_basic"
+        },
+        "adv_tofu_gem_block": {
+            "textures": "textures/blocks/adv_tofu_gem_block"
+        }
+    }
+}

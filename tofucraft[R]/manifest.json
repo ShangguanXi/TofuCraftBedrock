@@ -1,0 +1,40 @@
+{
+    "dependencies": [
+        {
+            "uuid": "d55a2731-d60e-4dbf-b582-be1f730c9c8b",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "format_version": 2,
+    "header": {
+        "description": "TofucraftBedrock",
+        "min_engine_version": [
+            1,
+            26,
+            0
+        ],
+        "name": " TofuCraft",
+        "uuid": "4786cd9b-a146-448f-9022-3649d4353bb5",
+        "version": [
+            0,
+            0,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "description": "TofucraftBedrock",
+            "type": "resources",
+            "uuid": "8382764d-853b-4c00-8dae-0d1fa0358a45",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}
