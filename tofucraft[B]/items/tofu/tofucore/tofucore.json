@@ -2,20 +2,19 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:soy_sculk_bone",
+            "identifier": "tofucraft:tofucore",
             "menu_category": {
-                "category": "equipment",
-                "group": "tofucraft:itemGroup.name.tofu"
+                "category": "none"
             }
         },
         "components": {
             "minecraft:icon": {
                 "textures": {
-                    "default": "soy_sculk_bone"
+                    "default": "tofucore"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:soy_sculk_bone.name"
+                "value": "item.tofucraft:tofucore.name"
             }
         }
     }

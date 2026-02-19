@@ -4,8 +4,7 @@
         "description": {
             "identifier": "tofucraft:tofuforce_core",
             "menu_category": {
-                "category": "items",
-                "group": "tofucraft:itemGroup.name.miscellaneous"
+                "category": "none"
             }
         },
         "components": {

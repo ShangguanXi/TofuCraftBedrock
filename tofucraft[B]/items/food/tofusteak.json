@@ -2,29 +2,29 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:tofusoul",
+            "identifier": "tofucraft:tofusteak",
             "menu_category": {
                 "category": "equipment",
-                "group": "tofucraft:itemGroup.name.tofu"
+                "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
             "minecraft:use_modifiers": {
-                "use_duration": 1.6
+                "use_duration": 2.4
             },
             "minecraft:food": {
-                "nutrition": 2,
-                "saturation_modifier": 0.03,
+                "nutrition": 6,
+                "saturation_modifier": 0.6,
                 "can_always_eat": false
             },
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
-                    "default": "tofusoul"
+                    "default": "tofusteak"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:tofusoul.name"
+                "value": "item.tofucraft:tofusteak.name"
             }
         }
     }

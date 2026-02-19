@@ -13,8 +13,8 @@
                 "use_duration": 1.6
             },
             "minecraft:food": {
-                "nutrition": 4,
-                "saturation_modifier": 0.125,
+                "nutrition": 3,
+                "saturation_modifier": 0.2,
                 "can_always_eat": false
             },
             "minecraft:use_animation": "eat",
