@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": { "identifier": "tofucraft:tofu_solid_hoe" },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:damage": { "value": 2 },
+            "minecraft:durability": { "max_durability": 183 },
+            "minecraft:hand_equipped": true,
+            "minecraft:icon": { "textures": { "default": "tofu_solid_hoe" } },
+            "minecraft:display_name": { "value": "item.tofucraft:tofu_solid_hoe.name" },
+            "minecraft:enchantable": { "value": 6, "slot": "hoe" },
+            "minecraft:tags": { "tags": ["minecraft:is_hoe"] },
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    { "block": { "tags": "q.any_tag('leaves', 'sculk')" }, "speed": 3.0 }
+                ]
+            }
+        }
+    }
+}

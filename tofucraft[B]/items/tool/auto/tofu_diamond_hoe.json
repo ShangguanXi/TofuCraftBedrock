@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": { "identifier": "tofucraft:tofu_diamond_hoe" },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:damage": { "value": 6 },
+            "minecraft:durability": { "max_durability": 4626 },
+            "minecraft:hand_equipped": true,
+            "minecraft:icon": { "textures": { "default": "tofu_diamond_hoe" } },
+            "minecraft:display_name": { "value": "item.tofucraft:tofu_diamond_hoe.name" },
+            "minecraft:enchantable": { "value": 18, "slot": "hoe" },
+            "minecraft:tags": { "tags": ["minecraft:is_hoe"] },
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    { "block": { "tags": "q.any_tag('leaves', 'sculk')" }, "speed": 8.0 }
+                ]
+            }
+        }
+    }
+}

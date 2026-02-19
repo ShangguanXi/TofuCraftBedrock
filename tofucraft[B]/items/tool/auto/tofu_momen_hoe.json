@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": { "identifier": "tofucraft:tofu_momen_hoe" },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:damage": { "value": 1 },
+            "minecraft:durability": { "max_durability": 5 },
+            "minecraft:hand_equipped": true,
+            "minecraft:icon": { "textures": { "default": "tofu_momen_hoe" } },
+            "minecraft:display_name": { "value": "item.tofucraft:tofu_momen_hoe.name" },
+            "minecraft:enchantable": { "value": 2, "slot": "hoe" },
+            "minecraft:tags": { "tags": ["minecraft:is_hoe"] },
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    { "block": { "tags": "q.any_tag('leaves', 'sculk')" }, "speed": 1.2 }
+                ]
+            }
+        }
+    }
+}
