@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "tofucraft:blocktofudiamond",
+            "identifier": "tofucraft:tofu_kinu",
             "menu_category": {
                 "category": "items"
             }
@@ -10,16 +10,18 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "blocktofudiamond"
+                    "texture": "block_tofu_kinu"
                 }
             },
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 5
+                "seconds_to_destroy": 0.1
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 30
+                "explosion_resistance": 0.2
             },
-            "minecraft:geometry": "minecraft:geometry.full_block"
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:loot": "loot_tables/blocks/tofu/block_tofu_kinu.json",
+            "tofucraft:tofu_kinu": {}
         }
     }
 }

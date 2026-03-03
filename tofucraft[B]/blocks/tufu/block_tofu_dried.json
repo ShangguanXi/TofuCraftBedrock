@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "tofucraft:blocktofugrilled",
+            "identifier": "tofucraft:tofu_dried",
             "menu_category": {
                 "category": "items"
             }
@@ -10,16 +10,17 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "blocktofugrilled"
+                    "texture": "block_tofu_dried"
                 }
             },
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.3
+                "seconds_to_destroy": 0.5
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 0.25
+                "explosion_resistance": 2.0
             },
-            "minecraft:geometry": "minecraft:geometry.full_block"
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:loot": "loot_tables/blocks/tofu/block_tofu_dried.json"
         }
     }
 }

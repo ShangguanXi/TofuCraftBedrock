@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "tofucraft:blocktofumomen",
+            "identifier": "tofucraft:tofu_momen",
             "menu_category": {
                 "category": "items"
             }
@@ -10,7 +10,7 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "blocktofumomen"
+                    "texture": "block_tofu_momen"
                 }
             },
             "minecraft:destructible_by_mining": {
@@ -20,7 +20,7 @@
                 "explosion_resistance": 0.2
             },
             "minecraft:geometry": "minecraft:geometry.full_block",
-            "minecraft:loot": "loot_tables/blocks/tofu/blocktofumomen.json",
+            "minecraft:loot": "loot_tables/blocks/tofu/block_tofu_momen.json",
             "minecraft:random_ticking": {
                 "on_tick": {
                     "condition": "query.block_neighbor_has_any_tag(0, 1, 0,'stone','metal','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable')&&query.block_neighbor_has_any_tag(0, -1, 0,'stone','metal','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable')",
@@ -32,7 +32,7 @@
         "events": {
             "transform": {
                 "set_block": {
-                    "block_type": "tofucraft:blocktofuishi"
+                    "block_type": "tofucraft:tofu_ishi"
                 }
             }
         }

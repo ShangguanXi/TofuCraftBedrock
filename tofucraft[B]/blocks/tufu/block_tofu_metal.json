@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "tofucraft:blocktofumetal",
+            "identifier": "tofucraft:tofu_metal",
             "menu_category": {
                 "category": "items"
             }
@@ -10,7 +10,7 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "blocktofumetal"
+                    "texture": "block_tofu_metal"
                 }
             },
             "minecraft:destructible_by_mining": {

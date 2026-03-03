@@ -1050,7 +1050,7 @@
         "blocktofusesame": {
             "textures": "textures/blocks/blocktofusesame"
         },
-        "blocktofumomen": {
+        "block_tofu_momen": {
             "textures": "textures/blocks/blocktofumomen"
         },
         "blocktofumiso": {
@@ -1059,19 +1059,19 @@
         "blocktofuminced": {
             "textures": "textures/blocks/blocktofuminced"
         },
-        "blocktofumetal": {
+        "block_tofu_metal": {
             "textures": "textures/blocks/blocktofumetal"
         },
-        "blocktofukinu": {
+        "block_tofu_kinu": {
             "textures": "textures/blocks/blocktofukinu"
         },
-        "blocktofuishi": {
+        "block_tofu_ishi": {
             "textures": "textures/blocks/blocktofuishi"
         },
-        "blocktofuhell": {
+        "block_tofu_hell": {
             "textures": "textures/blocks/blocktofuhell"
         },
-        "blocktofugrilled": {
+        "block_tofu_grilled": {
             "textures": "textures/blocks/blocktofugrilled"
         },
         "blocktofuglow": {
@@ -1086,10 +1086,10 @@
         "blocktofuegg": {
             "textures": "textures/blocks/blocktofuegg"
         },
-        "blocktofudried": {
+        "block_tofu_dried": {
             "textures": "textures/blocks/blocktofudried"
         },
-        "blocktofudiamond": {
+        "block_tofu_diamond": {
             "textures": "textures/blocks/blocktofudiamond"
         },
         "blocktofuannin": {

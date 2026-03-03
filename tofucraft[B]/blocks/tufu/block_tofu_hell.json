@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "tofucraft:blocktofuhell",
+            "identifier": "tofucraft:tofu_hell",
             "menu_category": {
                 "category": "items"
             }
@@ -10,7 +10,7 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "blocktofuhell"
+                    "texture": "block_tofu_hell"
                 }
             },
             "minecraft:destructible_by_mining": {

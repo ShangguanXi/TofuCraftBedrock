@@ -2,3 +2,5 @@ import { EntityEquippableComponent, EquipmentSlot, world, MolangVariableMap, sys
 import { ItemAPI } from "./lib/ItemAPI";
 import { EventAPI } from "./lib/EventAPI";
 
+// Import custom components to register them
+import "./components/BlockTofuKinuComponent";
