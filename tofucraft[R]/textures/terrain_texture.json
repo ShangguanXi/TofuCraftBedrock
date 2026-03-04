@@ -1074,8 +1074,8 @@
         "block_tofu_hell": {
             "textures": "textures/blocks/blocktofuhell"
         },
-        "block_tofu_grilled": {
-            "textures": "textures/blocks/blocktofugrilled"
+        "grilled_tofu_block": {
+            "textures": "textures/blocks/blockTofuGrilled"
         },
         "blocktofuglow": {
             "textures": "textures/blocks/blocktofuglow"

@@ -1,0 +1,113 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:grilled_tofu_block",
+            "menu_category": {
+                "category": "items"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:facing_direction"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "momen_tofu_block"
+                },
+                "up": {
+                    "texture": "grilled_tofu_block"
+                }
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.4
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.2
+            },
+            "minecraft:map_color": "#C4A050",
+            "minecraft:loot": "loot_tables/blocks/tofu/grilled_tofu_block.json",
+            "tag:minecraft:is_shovel_item_destructible": {}
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('minecraft:facing_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:facing_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            -90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:facing_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            -90
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:facing_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            90
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:facing_direction') == 'up'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            180,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:facing_direction') == 'down'",
+                "components": {
+                   
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

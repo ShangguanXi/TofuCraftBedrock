@@ -17,13 +17,14 @@
                 "seconds_to_destroy": 2.0
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 30.0
+                "explosion_resistance": 60.0
             },
             "minecraft:map_color": "#8B8B8B",
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:loot": "loot_tables/blocks/tofu/ishi_tofu_block.json",
             "tofucraft:ishi_tofu_block": {},
 
+            "tag:minecraft:stone_tier_destructible": {},
             "tag:minecraft:is_pickaxe_item_destructible": {}
         }
     }

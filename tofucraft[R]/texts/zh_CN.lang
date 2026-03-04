@@ -15,6 +15,7 @@ tile.tofucraft:dried_tofu_block.name=冻豆腐块
 tile.tofucraft:momen_tofu_block.name=豆腐块
 tile.tofucraft:ishi_tofu_block.name=石豆腐块
 tile.tofucraft:metal_tofu_block.name=钢豆腐块
+tile.tofucraft:grilled_tofu_block.name=烤豆腐块
 
 
 
@@ -40,8 +41,6 @@ item.tofucraft:adv_tofu_gem.name=強化豆腐宝石
 tile.tofucraft:blockSoybeans.name=大豆
 tile.tofucraft:blockSoybeansHell.name=地狱大豆
 tile.tofucraft:blockTofuTerrain.name=豆腐块
-tile.tofucraft:blockTofuMomen.name=豆腐块
-tile.tofucraft:blockTofuGrilled.name=烤豆腐块
 tile.tofucraft:blockTofuFriedPouch.name=炸豆腐块
 tile.tofucraft:blockTofuFried.name=炸油豆腐块
 tile.tofucraft:blockTofuEgg.name=日本豆腐块
