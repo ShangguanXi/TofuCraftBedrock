@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:tofumomen",
+            "identifier": "tofucraft:momen_tofu",
             "menu_category": {
                 "category": "equipment",
                 "group": "tofucraft:itemGroup.name.tofu"
@@ -20,11 +20,11 @@
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
-                    "default": "tofumomen"
+                    "default": "momen_tofu"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:tofumomen.name"
+                "value": "item.tofucraft:momen_tofu.name"
             }
         }
     }

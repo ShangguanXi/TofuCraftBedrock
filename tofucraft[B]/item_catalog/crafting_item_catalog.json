@@ -7,7 +7,7 @@
             "groups": [
                {
                   "group_identifier": {
-                     "icon": "tofucraft:tofukinu",
+                     "icon": "tofucraft:kinu_tofu",
                      "name": "tofucraft:itemGroup.name.tofu"
                   },
                   "items": []

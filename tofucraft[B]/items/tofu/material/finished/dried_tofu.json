@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:tofumetal",
+            "identifier": "tofucraft:dried_tofu",
             "menu_category": {
                 "category": "equipment",
                 "group": "tofucraft:itemGroup.name.tofu"
@@ -11,11 +11,11 @@
         "components": {
             "minecraft:icon": {
                 "textures": {
-                    "default": "tofumetal"
+                    "default": "dried_tofu"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:tofumetal.name"
+                "value": "item.tofucraft:dried_tofu.name"
             }
         }
     }

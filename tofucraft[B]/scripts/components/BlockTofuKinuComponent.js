@@ -86,12 +86,12 @@ let BlockTofuKinuComponent = class BlockTofuKinuComponent {
             // Plus 7 steps to transform, so we use lower probability
             // Approximate: 20% * (1/7) ≈ 2.86% per tick
             if (Math.random() < 0.0286) {
-                block.setType("tofucraft:tofu_dried");
+                block.setType("tofucraft:dried_tofu_block");
             }
         }
     }
 };
 BlockTofuKinuComponent = __decorate([
-    blockComponent("tofucraft:tofu_kinu")
+    blockComponent("tofucraft:kinu_tofu_block")
 ], BlockTofuKinuComponent);
 export { BlockTofuKinuComponent };

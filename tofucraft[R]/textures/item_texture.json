@@ -292,8 +292,8 @@
         "tofunian_banner_pattern": {
             "textures": "textures/items/tofunian_banner_pattern"
         },
-        "tofumomen": {
-            "textures": "textures/items/tofumomen"
+        "momen_tofu": {
+            "textures": "textures/items/tofuMomen"
         },
         "tofumiso": {
             "textures": "textures/items/tofumiso"
@@ -301,14 +301,14 @@
         "tofuminced": {
             "textures": "textures/items/tofuminced"
         },
-        "tofumetal": {
-            "textures": "textures/items/tofumetal"
+        "metal_tofu": {
+            "textures": "textures/items/tofuMetal"
         },
-        "tofukinu": {
-            "textures": "textures/items/tofukinu"
+        "kinu_tofu": {
+            "textures": "textures/items/tofuKinu"
         },
-        "tofuishi": {
-            "textures": "textures/items/tofuishi"
+        "ishi_tofu": {
+            "textures": "textures/items/tofuIshi"
         },
         "tofuhoe": {
             "textures": "textures/items/tofuhoe"
@@ -361,8 +361,8 @@
         "tofuegg": {
             "textures": "textures/items/tofuegg"
         },
-        "tofudried": {
-            "textures": "textures/items/tofudried"
+        "dried_tofu": {
+            "textures": "textures/items/tofuDried"
         },
         "tofudoor_zunda": {
             "textures": "textures/items/tofudoor_zunda"

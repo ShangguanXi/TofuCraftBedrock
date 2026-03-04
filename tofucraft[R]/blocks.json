@@ -1,0 +1,13 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "tofucraft:kinu_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:momen_tofu_block": {
+        "sound": "snow"
+    }
+}

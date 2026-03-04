@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:tofuishi",
+            "identifier": "tofucraft:kinu_tofu",
             "menu_category": {
                 "category": "equipment",
                 "group": "tofucraft:itemGroup.name.tofu"
@@ -13,18 +13,18 @@
                 "use_duration": 1.6
             },
             "minecraft:food": {
-                "nutrition": 3,
-                "saturation_modifier": 0.4,
+                "nutrition": 2,
+                "saturation_modifier": 0.1,
                 "can_always_eat": false
             },
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
-                    "default": "tofuishi"
+                    "default": "kinu_tofu"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:tofuishi.name"
+                "value": "item.tofucraft:kinu_tofu.name"
             }
         }
     }

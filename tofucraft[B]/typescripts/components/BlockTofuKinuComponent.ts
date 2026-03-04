@@ -14,7 +14,7 @@ import { blockComponent } from "../lib/CustomComponentAPI";
  * 1. Fragile - When an entity falls on it, there's a 40% chance the block breaks
  * 2. Freezable - In cold biomes, can slowly transform into dried tofu
  */
-@blockComponent("tofucraft:tofu_kinu")
+@blockComponent("tofucraft:kinu_tofu_block")
 export class BlockTofuKinuComponent implements BlockCustomComponent {
     /**
      * Triggered when an entity steps on the block
@@ -93,7 +93,7 @@ export class BlockTofuKinuComponent implements BlockCustomComponent {
             // Plus 7 steps to transform, so we use lower probability
             // Approximate: 20% * (1/7) ≈ 2.86% per tick
             if (Math.random() < 0.0286) {
-                block.setType("tofucraft:tofu_dried");
+                block.setType("tofucraft:dried_tofu_block");
             }
         }
     }
