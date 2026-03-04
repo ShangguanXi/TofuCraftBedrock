@@ -2,20 +2,20 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:advtofugem",
+            "identifier": "tofucraft:diamond_tofu",
             "menu_category": {
-                "category": "items",
-                "group": "tofucraft:itemGroup.name.miscellaneous"
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.tofu"
             }
         },
         "components": {
             "minecraft:icon": {
                 "textures": {
-                    "default": "adv_tofugem"
+                    "default": "diamond_tofu"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:advtofugem.name"
+                "value": "item.tofucraft:diamond_tofu.name"
             }
         }
     }

@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:tofuannin",
+            "identifier": "tofucraft:annin_tofu",
             "menu_category": {
                 "category": "equipment",
                 "group": "tofucraft:itemGroup.name.tofu"
@@ -20,11 +20,11 @@
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
-                    "default": "tofuannin"
+                    "default": "annin_tofu"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:tofuannin.name"
+                "value": "item.tofucraft:annin_tofu.name"
             }
         }
     }

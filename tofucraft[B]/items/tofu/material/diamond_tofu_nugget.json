@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:tofugem",
+            "identifier": "tofucraft:diamond_tofu_nugget",
             "menu_category": {
                 "category": "items",
                 "group": "tofucraft:itemGroup.name.miscellaneous"
@@ -11,11 +11,11 @@
         "components": {
             "minecraft:icon": {
                 "textures": {
-                    "default": "tofugem"
+                    "default": "diamond_tofu_nugget"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:tofugem.name"
+                "value": "item.tofucraft:diamond_tofu_nugget.name"
             }
         }
     }

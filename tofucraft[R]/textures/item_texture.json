@@ -328,14 +328,14 @@
         "tofuhamburg": {
             "textures": "textures/items/tofuhamburg"
         },
-        "tofugrilled": {
-            "textures": "textures/items/tofugrilled"
+        "grilled_tofu": {
+            "textures": "textures/items/tofuGrilled"
         },
         "tofuglow": {
             "textures": "textures/items/tofuglow"
         },
-        "tofugem": {
-            "textures": "textures/items/tofugem"
+        "tofu_gem": {
+            "textures": "textures/items/tofuGem"
         },
         "tofugauntlet": {
             "textures": "textures/items/tofugauntlet"
@@ -418,11 +418,11 @@
         "tofudoor_annin": {
             "textures": "textures/items/tofudoor_annin"
         },
-        "tofudiamondnugget": {
-            "textures": "textures/items/tofudiamondnugget"
+        "diamond_tofu_nugget": {
+            "textures": "textures/items/tofuDiamondNugget"
         },
-        "tofudiamond": {
-            "textures": "textures/items/tofudiamond"
+        "diamond_tofu": {
+            "textures": "textures/items/tofuDiamond"
         },
         "tofucore": {
             "textures": "textures/items/tofucore"
@@ -961,8 +961,8 @@
         "agedashi_tofu": {
             "textures": "textures/items/agedashi_tofu"
         },
-        "adv_tofugem": {
-            "textures": "textures/items/adv_tofugem"
+        "adv_tofu_gem": {
+            "textures": "textures/items/advTofuGem"
         },
         "activatedtofugem": {
             "textures": "textures/items/activatedtofugem"

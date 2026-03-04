@@ -27,11 +27,12 @@ item.tofucraft:dried_tofu.name=冻豆腐
 item.tofucraft:momen_tofu.name=豆腐
 item.tofucraft:ishi_tofu.name=石豆腐
 item.tofucraft:metal_tofu.name=钢豆腐
+item.tofucraft:diamond_tofu.name=钻石豆腐
+item.tofucraft:grilled_tofu.name=烤豆腐
 
-
-
-
-
+item.tofucraft:tofu_gem.name=豆腐宝石
+item.tofucraft:diamond_tofu_nugget.name=钻石豆腐粒
+item.tofucraft:adv_tofu_gem.name=強化豆腐宝石
 
 
 
@@ -143,7 +144,6 @@ tile.tofucraft:tofuWall.name=%s墙
 
 item.tofucraft:seeds_soybeans.name=大豆
 item.tofucraft:seeds_soybeansHell.name=地狱大豆
-item.tofucraft:tofuGrilled.name=烤豆腐
 item.tofucraft:tofuFriedPouch.name=炸豆腐
 item.tofucraft:tofuFried.name=炸油豆腐
 item.tofucraft:tofuEgg.name=日本豆腐
@@ -154,7 +154,6 @@ item.tofucraft:tofuStrawberry.name=草莓豆腐
 item.tofucraft:tofuMiso.name=味噌豆腐
 item.tofucraft:tofuHell.name=地狱豆腐
 item.tofucraft:tofuGlow.name=萤豆腐
-item.tofucraft:tofuDiamond.name=钻石豆腐
 item.tofucraft:tofuMinced.name=碎豆腐
 item.tofucraft:bucketSoymilk.name=豆浆桶
 item.tofucraft:bucketSoymilkHell.name=地狱豆浆桶
@@ -230,8 +229,6 @@ item.tofucraft:tofuRadar.name=豆腐史莱姆雷达
 item.tofucraft:yuba.name=腐竹
 item.tofucraft:barrelMisoTofu.name=味噌豆腐桶
 item.tofucraft:barrelGlowtofu.name=萤豆腐桶
-item.tofucraft:tofuGem.name=豆腐宝石
-item.tofucraft:tofuDiamondNugget.name=钻石豆腐粒
 item.tofucraft:tofuHamburgRaw.name=未煮熟的豆腐汉堡肉
 item.tofucraft:tfCapacitor.name=豆腐能电容
 item.tofucraft:tofuChikuwa.name=豆腐竹轮
@@ -262,7 +259,6 @@ item.tofucraft:tofuSomenBowl_glass.name=豆腐拉面
 item.tofucraft:tfCircuit.name=豆腐能电路板
 item.tofucraft:tfCoil.name=豆腐能线圈
 item.tofucraft:tfOscillator.name=豆腐能振荡器
-item.tofucraft:advTofuGem.name=強化豆腐宝石
 item.tofucraft:activatedTofuGem.name=充能的豆腐宝石
 item.tofucraft:activatedHellTofu.name=充能的地狱豆腐
 item.tofucraft:mineralSoymilk.name=矿物豆浆
