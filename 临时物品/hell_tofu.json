@@ -2,7 +2,7 @@
   "format_version": "1.26.0",
   "minecraft:item": {
     "description": {
-      "identifier": "tofucraft:tofu_glow",
+      "identifier": "tofucraft:hell_tofu",
       "menu_category": {
         "category": "equipment",
         "group": "tofucraft:itemGroup.name.tofu"
@@ -20,11 +20,11 @@
       "minecraft:use_animation": "eat",
       "minecraft:icon": {
         "textures": {
-          "default": "tofu_glow"
+          "default": "hell_tofu"
         }
       },
       "minecraft:display_name": {
-        "value": "item.tofucraft:tofu_glow.name"
+        "value": "item.tofucraft:hell_tofu.name"
       }
     }
   }
