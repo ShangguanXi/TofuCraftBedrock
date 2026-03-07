@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tofucraft:tasty_stew",
+      "menu_category": {
+        "category": "items",
+        "group": "tofucraft:itemGroup.name.miscellaneous"
+      }
+    },
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      },
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation_modifier": 1.0,
+        "using_converts_to": "minecraft:bowl",
+        "can_always_eat": false
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:icon": {
+        "textures": {
+          "default": "tasty_stew"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.tofucraft:tasty_stew.name"
+      }
+    }
+  }
+}

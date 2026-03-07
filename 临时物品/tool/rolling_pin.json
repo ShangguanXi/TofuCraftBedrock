@@ -1,0 +1,22 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tofucraft:rolling_pin",
+      "menu_category": {
+        "category": "items",
+        "group": "tofucraft:itemGroup.name.miscellaneous"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "rolling_pin"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.tofucraft:rolling_pin.name"
+      }
+    }
+  }
+}

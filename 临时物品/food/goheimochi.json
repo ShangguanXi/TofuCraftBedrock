@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tofucraft:goheimochi",
+      "menu_category": {
+        "category": "items",
+        "group": "tofucraft:itemGroup.name.miscellaneous"
+      }
+    },
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": 0.8,
+        "using_converts_to": "minecraft:stick",
+        "can_always_eat": false
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:icon": {
+        "textures": {
+          "default": "goheimochi"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.tofucraft:goheimochi.name"
+      }
+    }
+  }
+}

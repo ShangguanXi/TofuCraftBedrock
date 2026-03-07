@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tofucraft:tofu_somen_glass",
+      "menu_category": {
+        "category": "items",
+        "group": "tofucraft:itemGroup.name.miscellaneous"
+      }
+    },
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      },
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation_modifier": 0.3,
+        "using_converts_to": "tofucraft:glass_bowl",
+        "can_always_eat": true
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:icon": {
+        "textures": {
+          "default": "tofu_somen_glass"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.tofucraft:tofu_somen_glass.name"
+      }
+    }
+  }
+}

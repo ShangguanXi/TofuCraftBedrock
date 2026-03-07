@@ -1,0 +1,22 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:kouji_base",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "kouji_base"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:kouji_base.name"
+            }
+        }
+    }
+}

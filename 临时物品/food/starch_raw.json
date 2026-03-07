@@ -1,0 +1,22 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:starch_raw",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "starch_raw"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:starch_raw.name"
+            }
+        }
+    }
+}
