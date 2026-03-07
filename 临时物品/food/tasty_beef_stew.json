@@ -2,7 +2,7 @@
   "format_version": "1.26.0",
   "minecraft:item": {
     "description": {
-      "identifier": "tofucraft:apricot",
+      "identifier": "tofucraft:tasty_beef_stew",
       "menu_category": {
         "category": "items",
         "group": "tofucraft:itemGroup.name.miscellaneous"
@@ -13,18 +13,19 @@
         "use_duration": 1.6
       },
       "minecraft:food": {
-        "nutrition": 3,
-        "saturation_modifier": 0.3,
+        "nutrition": 20,
+        "saturation_modifier": 1.0,
+        "using_converts_to": "minecraft:bowl",
         "can_always_eat": false
       },
       "minecraft:use_animation": "eat",
       "minecraft:icon": {
         "textures": {
-          "default": "apricot"
+          "default": "tastybeefstew"
         }
       },
       "minecraft:display_name": {
-        "value": "item.tofucraft:apricot.name"
+        "value": "item.tofucraft:tasty_beef_stew.name"
       }
     }
   }

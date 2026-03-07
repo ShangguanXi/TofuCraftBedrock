@@ -4,20 +4,11 @@
         "description": {
             "identifier": "tofucraft:edamame",
             "menu_category": {
-                "category": "nature",
-                "group": "tofucraft:itemGroup.name.crop"
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
-            "minecraft:use_modifiers": {
-                "use_duration": 1.6
-            },
-            "minecraft:food": {
-                "nutrition": 1,
-                "saturation_modifier": 0.1,
-                "can_always_eat": false
-            },
-            "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
                     "default": "edamame"

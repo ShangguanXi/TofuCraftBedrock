@@ -2,7 +2,7 @@
   "format_version": "1.26.0",
   "minecraft:item": {
     "description": {
-      "identifier": "tofucraft:apricot",
+      "identifier": "tofucraft:tofu_somen_glass",
       "menu_category": {
         "category": "items",
         "group": "tofucraft:itemGroup.name.miscellaneous"
@@ -15,16 +15,17 @@
       "minecraft:food": {
         "nutrition": 3,
         "saturation_modifier": 0.3,
-        "can_always_eat": false
+        "using_converts_to": "tofucraft:somen_tsuyu_bowl",
+        "can_always_eat": true
       },
       "minecraft:use_animation": "eat",
       "minecraft:icon": {
         "textures": {
-          "default": "apricot"
+          "default": "tofu_somen_glass"
         }
       },
       "minecraft:display_name": {
-        "value": "item.tofucraft:apricot.name"
+        "value": "item.tofucraft:tofu_somen_glass.name"
       }
     }
   }

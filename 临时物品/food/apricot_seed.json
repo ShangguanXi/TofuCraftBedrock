@@ -2,20 +2,20 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:soybeans_parched",
+            "identifier": "tofucraft:apricot_seed",
             "menu_category": {
-                "category": "items",
-                "group": "tofucraft:itemGroup.name.miscellaneous"
+                "category": "nature",
+                "group": "tofucraft:itemGroup.name.crop"
             }
         },
         "components": {
             "minecraft:icon": {
                 "textures": {
-                    "default": "soybeans_parched"
+                    "default": "apricot_seed"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:soybeans_parched.name"
+                "value": "item.tofucraft:apricot_seed.name"
             }
         }
     }

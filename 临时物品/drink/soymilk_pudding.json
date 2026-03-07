@@ -2,10 +2,10 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:annin_tofu",
+            "identifier": "tofucraft:soymilk_pudding",
             "menu_category": {
-                "category": "equipment",
-                "group": "tofucraft:itemGroup.name.tofu"
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
@@ -13,18 +13,18 @@
                 "use_duration": 1.6
             },
             "minecraft:food": {
-                "nutrition": 5,
-                "saturation_modifier": 0.5,
+                "nutrition": 4,
+                "saturation_modifier": 0.6,
                 "can_always_eat": false
             },
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
-                    "default": "annin_tofu"
+                    "default": "soymilk_pudding"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:annin_tofu.name"
+                "value": "item.tofucraft:pudding_soymilk.name"
             }
         }
     }

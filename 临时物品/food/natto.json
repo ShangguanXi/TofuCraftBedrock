@@ -9,15 +9,6 @@
             }
         },
         "components": {
-            "minecraft:use_modifiers": {
-                "use_duration": 1.6
-            },
-            "minecraft:food": {
-                "nutrition": 3,
-                "saturation_modifier": 0.3,
-                "can_always_eat": false
-            },
-            "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
                     "default": "natto"

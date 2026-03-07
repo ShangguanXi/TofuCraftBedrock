@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:soybeans_parched",
+            "identifier": "tofucraft:starch_raw",
             "menu_category": {
                 "category": "items",
                 "group": "tofucraft:itemGroup.name.miscellaneous"
@@ -11,11 +11,11 @@
         "components": {
             "minecraft:icon": {
                 "textures": {
-                    "default": "soybeans_parched"
+                    "default": "starch_raw"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:soybeans_parched.name"
+                "value": "item.tofucraft:starch_raw.name"
             }
         }
     }

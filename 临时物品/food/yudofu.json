@@ -2,7 +2,7 @@
   "format_version": "1.26.0",
   "minecraft:item": {
     "description": {
-      "identifier": "tofucraft:apricot",
+      "identifier": "tofucraft:yudofu",
       "menu_category": {
         "category": "items",
         "group": "tofucraft:itemGroup.name.miscellaneous"
@@ -15,16 +15,17 @@
       "minecraft:food": {
         "nutrition": 3,
         "saturation_modifier": 0.3,
+        "using_converts_to": "minecraft:bowl",
         "can_always_eat": false
       },
       "minecraft:use_animation": "eat",
       "minecraft:icon": {
         "textures": {
-          "default": "apricot"
+          "default": "yudofu"
         }
       },
       "minecraft:display_name": {
-        "value": "item.tofucraft:apricot.name"
+        "value": "item.tofucraft:yudofu.name"
       }
     }
   }

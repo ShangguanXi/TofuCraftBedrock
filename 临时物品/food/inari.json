@@ -1,31 +1,31 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "tofucraft:inari",
-            "menu_category": {
-                "category": "items",
-                "group": "tofucraft:itemGroup.name.miscellaneous"
-            }
-        },
-        "components": {
-            "minecraft:use_modifiers": {
-                "use_duration": 1.6
-            },
-            "minecraft:food": {
-                "nutrition": 5,
-                "saturation_modifier": 0.5,
-                "can_always_eat": false
-            },
-            "minecraft:use_animation": "eat",
-            "minecraft:icon": {
-                "textures": {
-                    "default": "inari"
-                }
-            },
-            "minecraft:display_name": {
-                "value": "item.tofucraft:inari.name"
-            }
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tofucraft:inari",
+      "menu_category": {
+        "category": "items",
+        "group": "tofucraft:itemGroup.name.miscellaneous"
+      }
+    },
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      },
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation_modifier": 0.6,
+        "can_always_eat": false
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:icon": {
+        "textures": {
+          "default": "inari"
         }
+      },
+      "minecraft:display_name": {
+        "value": "item.tofucraft:inari.name"
+      }
     }
+  }
 }
