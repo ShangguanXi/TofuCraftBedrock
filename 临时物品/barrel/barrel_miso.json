@@ -2,20 +2,21 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:sprouts",
+            "identifier": "tofucraft:barrel_miso",
             "menu_category": {
-                "category": "nature",
-                "group": "tofucraft:itemGroup.name.crop"
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
+            "minecraft:max_stack_size": 64,
             "minecraft:icon": {
                 "textures": {
-                    "default": "sprouts"
+                    "default": "barrel_miso"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:sprouts.name"
+                "value": "item.tofucraft:barrel_miso.name"
             }
         }
     }

@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:misosoup",
+            "identifier": "tofucraft:miso_soup",
             "menu_category": {
                 "category": "items",
                 "group": "tofucraft:itemGroup.name.miscellaneous"
@@ -21,11 +21,11 @@
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
-                    "default": "misosoup"
+                    "default": "miso_soup"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:misosoup.name"
+                "value": "item.tofucraft:miso_soup.name"
             }
         }
     }

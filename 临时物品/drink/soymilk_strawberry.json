@@ -24,7 +24,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:soymilk_strawberry.name"
+                "value": "item.tofucraft:bottle_soymilk_strawberry.name"
             }
         }
     }

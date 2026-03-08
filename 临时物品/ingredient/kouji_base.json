@@ -2,20 +2,20 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:sprouts",
+            "identifier": "tofucraft:kouji_base",
             "menu_category": {
-                "category": "nature",
-                "group": "tofucraft:itemGroup.name.crop"
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
             "minecraft:icon": {
                 "textures": {
-                    "default": "sprouts"
+                    "default": "kouji_base"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:sprouts.name"
+                "value": "item.tofucraft:kouji_base.name"
             }
         }
     }

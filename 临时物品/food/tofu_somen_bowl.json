@@ -2,7 +2,7 @@
   "format_version": "1.26.0",
   "minecraft:item": {
     "description": {
-      "identifier": "tofucraft:tofu_somen",
+      "identifier": "tofucraft:tofu_somen_bowl",
       "menu_category": {
         "category": "items",
         "group": "tofucraft:itemGroup.name.miscellaneous"
@@ -11,11 +11,11 @@
     "components": {
       "minecraft:icon": {
         "textures": {
-          "default": "tofu_somen"
+          "default": "tofu_somen_bowl"
         }
       },
       "minecraft:display_name": {
-        "value": "item.tofucraft:tofu_somen.name"
+        "value": "item.tofucraft:tofu_somen_bowl.name"
       }
     }
   }

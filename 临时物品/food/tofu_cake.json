@@ -2,20 +2,21 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:sprouts",
+            "identifier": "tofucraft:tofu_cake",
             "menu_category": {
-                "category": "nature",
-                "group": "tofucraft:itemGroup.name.crop"
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
+            "minecraft:max_stack_size": 64,
             "minecraft:icon": {
                 "textures": {
-                    "default": "sprouts"
+                    "default": "tofu_cake"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:sprouts.name"
+                "value": "item.tofucraft:tofu_cake.name"
             }
         }
     }

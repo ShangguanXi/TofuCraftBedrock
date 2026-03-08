@@ -2,7 +2,7 @@
   "format_version": "1.26.0",
   "minecraft:item": {
     "description": {
-      "identifier": "tofucraft:ricenatto",
+      "identifier": "tofucraft:cooked_tofu_fish",
       "menu_category": {
         "category": "items",
         "group": "tofucraft:itemGroup.name.miscellaneous"
@@ -15,17 +15,16 @@
       "minecraft:food": {
         "nutrition": 6,
         "saturation_modifier": 0.6,
-        "using_converts_to": "minecraft:bowl",
         "can_always_eat": false
       },
       "minecraft:use_animation": "eat",
       "minecraft:icon": {
         "textures": {
-          "default": "ricenatto"
+          "default": "cooked_tofu_fish"
         }
       },
       "minecraft:display_name": {
-        "value": "item.tofucraft:ricenatto.name"
+        "value": "item.tofucraft:cooked_tofu_fish.name"
       }
     }
   }

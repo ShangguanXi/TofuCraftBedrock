@@ -2,9 +2,9 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:kinakomanju",
+            "identifier": "tofucraft:rice_tofu",
             "menu_category": {
-                "category": "items",
+                "category": "equipment",
                 "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
@@ -13,18 +13,18 @@
                 "use_duration": 1.6
             },
             "minecraft:food": {
-                "nutrition": 4,
-                "saturation_modifier": 0.5,
-                "can_always_eat": true
+                "nutrition": 10,
+                "saturation_modifier": 0.2,
+                "can_always_eat": false
             },
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
-                    "default": "kinakomanju"
+                    "default": "rice_tofu"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:kinakomanju.name"
+                "value": "item.tofucraft:rice_tofu.name"
             }
         }
     }

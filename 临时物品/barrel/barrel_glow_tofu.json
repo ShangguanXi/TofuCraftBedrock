@@ -2,20 +2,21 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:strawberryjam",
+            "identifier": "tofucraft:barrel_glow_tofu",
             "menu_category": {
                 "category": "items",
                 "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
+            "minecraft:max_stack_size": 64,
             "minecraft:icon": {
                 "textures": {
-                    "default": "strawberryjam"
+                    "default": "barrel_glow_tofu"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:strawberryjam.name"
+                "value": "item.tofucraft:barrel_glow_tofu.name"
             }
         }
     }

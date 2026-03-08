@@ -2,9 +2,9 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:okarastick",
+            "identifier": "tofucraft:soboro_tofu_saute",
             "menu_category": {
-                "category": "items",
+                "category": "equipment",
                 "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
@@ -13,18 +13,19 @@
                 "use_duration": 1.6
             },
             "minecraft:food": {
-                "nutrition": 5,
+                "nutrition": 7,
                 "saturation_modifier": 0.6,
+                "using_converts_to": "minecraft:bowl",
                 "can_always_eat": false
             },
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
                 "textures": {
-                    "default": "okarastick"
+                    "default": "soboro_tofu_saute"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:okarastick.name"
+                "value": "item.tofucraft:soboro_tofu_saute.name"
             }
         }
     }

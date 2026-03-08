@@ -24,7 +24,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:soymilk_kinako.name"
+                "value": "item.tofucraft:bottle_soymilk_kinako.name"
             }
         }
     }

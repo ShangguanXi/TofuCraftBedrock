@@ -2,20 +2,20 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:sprouts",
+            "identifier": "tofucraft:soy_oil",
             "menu_category": {
-                "category": "nature",
-                "group": "tofucraft:itemGroup.name.crop"
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
             "minecraft:icon": {
                 "textures": {
-                    "default": "sprouts"
+                    "default": "soy_oil"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:sprouts.name"
+                "value": "item.tofucraft:soy_oil.name"
             }
         }
     }
