@@ -46,10 +46,10 @@
         "yuba": {
             "textures": "textures/items/yuba"
         },
-        "yakionigiri_shoyu": {
+        "shoyu_yaki_onigiri": {
             "textures": "textures/items/yakionigiri_shoyu"
         },
-        "yakionigiri_miso": {
+        "miso_yaki_onigiri": {
             "textures": "textures/items/yakionigiri_miso"
         },
         "warped_fluid_bottle": {
@@ -132,9 +132,6 @@
         },
         "tofu_metal_sword": {
             "textures": "textures/items/tofu_metal_sword"
-        },
-        "tofu_metal_soul_lantern": {
-            "textures": "textures/items/tofu_metal_soul_lantern"
         },
         "tofu_metal_shovel": {
             "textures": "textures/items/tofu_metal_shovel"
@@ -262,9 +259,6 @@
         "tofu_steak": {
             "textures": "textures/items/tofusteak"
         },
-        "tofusoul": {
-            "textures": "textures/items/tofusoul"
-        },
         "tofu_somen_glass": {
             "textures": "textures/items/tofusomenbowl_glass"
         },
@@ -274,7 +268,7 @@
         "sesame_tofu": {
             "textures": "textures/items/tofusesame"
         },
-        "tofuscoop": {
+        "tofu_scoop": {
             "textures": "textures/items/tofuscoop"
         },
         "tofuradar_ok": {
@@ -367,14 +361,11 @@
         "tofudoor_zunda": {
             "textures": "textures/items/tofudoor_zunda"
         },
-        "tofuDoor_strawberry": {
-            "textures": "textures/items/tofuDoor_strawberry"
+        "tofudoor_strawberry": {
+            "textures": "textures/items/tofudoor_strawberry"
         },
-        "tofudoor_soul": {
-            "textures": "textures/items/tofudoor_soul"
-        },
-        "tofuDoor_sesame": {
-            "textures": "textures/items/tofuDoor_sesame"
+        "tofudoor_sesame": {
+            "textures": "textures/items/tofudoor_sesame"
         },
         "tofudoor_momen": {
             "textures": "textures/items/tofudoor_momen"
@@ -484,18 +475,6 @@
         "sprouts": {
             "textures": "textures/items/sprouts"
         },
-        "soy_yogurt": {
-            "textures": "textures/items/soy_yogurt"
-        },
-        "soy_soul_cheese": {
-            "textures": "textures/items/soy_soul_cheese"
-        },
-        "soy_sculk_bone": {
-            "textures": "textures/items/soy_sculk_bone"
-        },
-        "soy_nether_cheese": {
-            "textures": "textures/items/soy_nether_cheese"
-        },
         "soy_karaage": {
             "textures": "textures/items/soy_karaage"
         },
@@ -511,46 +490,46 @@
         "soysause_ramen": {
             "textures": "textures/items/soysause_ramen"
         },
-        "soymilk_zunda": {
+        "zunda_soymilk": {
             "textures": "textures/items/soymilk_zunda"
         },
-        "soymilk_tea": {
+        "tea_soymilk": {
             "textures": "textures/items/soymilk_tea"
         },
-        "soymilk_strawberry": {
+        "strawberry_soymilk": {
             "textures": "textures/items/soymilk_strawberry"
         },
-        "soymilk_sakura": {
+        "sakura_soymilk": {
             "textures": "textures/items/soymilk_sakura"
         },
-        "soymilk_ramune": {
+        "ramune_soymilk": {
             "textures": "textures/items/soymilk_ramune"
         },
-        "soymilk_pumpkin": {
+        "pumpkin_soymilk": {
             "textures": "textures/items/soymilk_pumpkin"
         },
-        "soymilk_pudding": {
+        "pudding_soymilk": {
             "textures": "textures/items/soymilk_pudding"
         },
-        "soymilk_kinako": {
+        "kinako_soymilk": {
             "textures": "textures/items/soymilk_kinako"
         },
-        "soymilk_honey": {
+        "honey_soymilk": {
             "textures": "textures/items/soymilk_honey"
         },
-        "soymilk_hell": {
+        "hell_soymilk": {
             "textures": "textures/items/soymilk_hell_bottle"
         },
-        "soymilk_fruits": {
+        "fruits_soymilk": {
             "textures": "textures/items/soymilk_fruits"
         },
-        "soymilk_cocoa": {
+        "cocoa_soymilk": {
             "textures": "textures/items/soymilk_cocoa"
         },
-        "soymilk_apple": {
+        "apple_soymilk": {
             "textures": "textures/items/soymilk_apple"
         },
-        "soymilk_annin": {
+        "annin_soymilk": {
             "textures": "textures/items/soymilk_annin"
         },
         "soymilk": {
@@ -568,12 +547,6 @@
         "soybeans_parched": {
             "textures": "textures/items/soybeans_parched"
         },
-        "soul_fukumame": {
-            "textures": "textures/items/soul_fukumame"
-        },
-        "soulmanju": {
-            "textures": "textures/items/soulmanju"
-        },
         "soboro_tofu_saute": {
             "textures": "textures/items/soborotofusaute"
         },
@@ -589,10 +562,7 @@
         "sesame": {
             "textures": "textures/items/sesame"
         },
-        "seeds_soybeans_soul": {
-            "textures": "textures/items/seeds_soybeans_soul"
-        },
-        "seeds_soybeans_nether": {
+        "seeds_hell_soybeans": {
             "textures": "textures/items/seeds_soybeans_nether"
         },
         "seeds_soybeans": {
@@ -600,9 +570,6 @@
         },
         "seeds_rice": {
             "textures": "textures/items/seeds_rice"
-        },
-        "seeds_chili": {
-            "textures": "textures/items/seeds_chili"
         },
         "sculk_bone_leggings": {
             "textures": "textures/items/sculk_bone_leggings"
@@ -657,9 +624,6 @@
         },
         "raw_tofu_fish_raw": {
             "textures": "textures/items/raw_tofufish"
-        },
-        "pudding_soymilk": {
-            "textures": "textures/items/pudding_soymilk"
         },
         "pudding": {
             "textures": "textures/items/pudding"
@@ -885,12 +849,6 @@
         },
         "cooked_tofu_fish": {
             "textures": "textures/items/cooked_tofufish"
-        },
-        "chilistick": {
-            "textures": "textures/items/chilistick"
-        },
-        "chili": {
-            "textures": "textures/items/chili"
         },
         "chikuwa": {
             "textures": "textures/items/chikuwa"

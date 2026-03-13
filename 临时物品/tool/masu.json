@@ -2,21 +2,20 @@
   "format_version": "1.26.0",
   "minecraft:item": {
     "description": {
-      "identifier": "tofucraft:tofu_somen_bowl",
+      "identifier": "tofucraft:masu",
       "menu_category": {
-        "category": "items",
-        "group": "tofucraft:itemGroup.name.miscellaneous"
+        "category": "none"
       }
     },
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:icon": {
         "textures": {
-          "default": "tofu_somen_bowl"
+          "default": "masu"
         }
       },
       "minecraft:display_name": {
-        "value": "item.tofucraft:tofu_somen_bowl.name"
+        "value": "item.tofucraft:fukumame.name"
       }
     }
   }

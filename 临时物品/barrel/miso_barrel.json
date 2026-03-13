@@ -2,21 +2,20 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "tofucraft:strawberry_jam",
+            "identifier": "tofucraft:miso_barrel",
             "menu_category": {
                 "category": "items",
                 "group": "tofucraft:itemGroup.name.miscellaneous"
             }
         },
         "components": {
-            "minecraft:max_stack_size": 1,
             "minecraft:icon": {
                 "textures": {
-                    "default": "strawberryjam"
+                    "default": "miso_barrel"
                 }
             },
             "minecraft:display_name": {
-                "value": "item.tofucraft:strawberry_jam.name"
+                "value": "item.tofucraft:miso_barrel.name"
             }
         }
     }
