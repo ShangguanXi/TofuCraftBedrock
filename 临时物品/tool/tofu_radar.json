@@ -13,6 +13,16 @@
             "minecraft:durability": {
                 "max_durability": 87
             },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "tofucraft:tofu_radar"
+                        ],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            },
             "minecraft:icon": {
                 "textures": {
                     "default": "tofu_radar"

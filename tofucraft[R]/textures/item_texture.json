@@ -61,7 +61,7 @@
         "ttt_burger": {
             "textures": "textures/items/tttburger"
         },
-        "tsuyubowl_glass": {
+        "tsuyu_bowl_glass": {
             "textures": "textures/items/tsuyubowl_glass"
         },
         "tomato_soybean_stew": {
@@ -76,149 +76,149 @@
         "tofu_stem_boat": {
             "textures": "textures/items/tofu_stem_boat"
         },
-        "tofu_solid_sword": {
-            "textures": "textures/items/tofu_solid_sword"
+        "solid_tofu_sword": {
+            "textures": "textures/items/solid_tofu_sword"
         },
-        "tofu_solid_shovel": {
-            "textures": "textures/items/tofu_solid_shovel"
+        "solid_tofu_shovel": {
+            "textures": "textures/items/solid_tofu_shovel"
         },
-        "tofu_solid_pickaxe": {
-            "textures": "textures/items/tofu_solid_pickaxe"
+        "solid_tofu_pickaxe": {
+            "textures": "textures/items/solid_tofu_pickaxe"
         },
-        "tofu_solid_leggings": {
-            "textures": "textures/items/tofu_solid_leggings"
+        "solid_tofu_leggings": {
+            "textures": "textures/items/solid_tofu_leggings"
         },
-        "tofu_solid_hoe": {
-            "textures": "textures/items/tofu_solid_hoe"
+        "solid_tofu_hoe": {
+            "textures": "textures/items/solid_tofu_hoe"
         },
-        "tofu_solid_helmet": {
-            "textures": "textures/items/tofu_solid_helmet"
+        "solid_tofu_helmet": {
+            "textures": "textures/items/solid_tofu_helmet"
         },
-        "tofu_solid_chestplate": {
-            "textures": "textures/items/tofu_solid_chestplate"
+        "solid_tofu_chestplate": {
+            "textures": "textures/items/solid_tofu_chestplate"
         },
-        "tofu_solid_boots": {
-            "textures": "textures/items/tofu_solid_boots"
+        "solid_tofu_boots": {
+            "textures": "textures/items/solid_tofu_boots"
         },
-        "tofu_solid_axe": {
-            "textures": "textures/items/tofu_solid_axe"
+        "solid_tofu_axe": {
+            "textures": "textures/items/solid_tofu_axe"
         },
-        "tofu_momen_sword": {
-            "textures": "textures/items/tofu_momen_sword"
+        "momen_tofu_sword": {
+            "textures": "textures/items/momen_tofu_sword"
         },
-        "tofu_momen_shovel": {
-            "textures": "textures/items/tofu_momen_shovel"
+        "momen_tofu_shovel": {
+            "textures": "textures/items/momen_tofu_shovel"
         },
-        "tofu_momen_pickaxe": {
-            "textures": "textures/items/tofu_momen_pickaxe"
+        "momen_tofu_pickaxe": {
+            "textures": "textures/items/momen_tofu_pickaxe"
         },
-        "tofu_momen_leggings": {
-            "textures": "textures/items/tofu_momen_leggings"
+        "momen_tofu_leggings": {
+            "textures": "textures/items/momen_tofu_leggings"
         },
-        "tofu_momen_hoe": {
-            "textures": "textures/items/tofu_momen_hoe"
+        "momen_tofu_hoe": {
+            "textures": "textures/items/momen_tofu_hoe"
         },
-        "tofu_momen_helmet": {
-            "textures": "textures/items/tofu_momen_helmet"
+        "momen_tofu_helmet": {
+            "textures": "textures/items/momen_tofu_helmet"
         },
-        "tofu_momen_chestplate": {
-            "textures": "textures/items/tofu_momen_chestplate"
+        "momen_tofu_chestplate": {
+            "textures": "textures/items/momen_tofu_chestplate"
         },
-        "tofu_momen_boots": {
-            "textures": "textures/items/tofu_momen_boots"
+        "momen_tofu_boots": {
+            "textures": "textures/items/momen_tofu_boots"
         },
-        "tofu_momen_axe": {
-            "textures": "textures/items/tofu_momen_axe"
+        "momen_tofu_axe": {
+            "textures": "textures/items/momen_tofu_axe"
         },
-        "tofu_metal_sword": {
-            "textures": "textures/items/tofu_metal_sword"
+        "metal_tofu_sword": {
+            "textures": "textures/items/metal_tofu_sword"
         },
-        "tofu_metal_shovel": {
-            "textures": "textures/items/tofu_metal_shovel"
+        "metal_tofu_shovel": {
+            "textures": "textures/items/metal_tofu_shovel"
         },
-        "tofu_metal_shears": {
-            "textures": "textures/items/tofu_metal_shears"
+        "metal_tofu_shears": {
+            "textures": "textures/items/metal_tofu_shears"
         },
-        "tofu_metal_pickaxe": {
-            "textures": "textures/items/tofu_metal_pickaxe"
+        "metal_tofu_pickaxe": {
+            "textures": "textures/items/metal_tofu_pickaxe"
         },
-        "tofu_metal_leggings": {
-            "textures": "textures/items/tofu_metal_leggings"
+        "metal_tofu_leggings": {
+            "textures": "textures/items/metal_tofu_leggings"
         },
         "tofu_metal_lantern": {
             "textures": "textures/items/tofu_metal_lantern"
         },
-        "tofu_metal_hoe": {
-            "textures": "textures/items/tofu_metal_hoe"
+        "metal_tofu_hoe": {
+            "textures": "textures/items/metal_tofu_hoe"
         },
-        "tofu_metal_helmet": {
-            "textures": "textures/items/tofu_metal_helmet"
+        "metal_tofu_helmet": {
+            "textures": "textures/items/metal_tofu_helmet"
         },
-        "tofu_metal_chestplate": {
-            "textures": "textures/items/tofu_metal_chestplate"
+        "metal_tofu_chestplate": {
+            "textures": "textures/items/metal_tofu_chestplate"
         },
         "tofu_metal_chain": {
             "textures": "textures/items/tofu_metal_chain"
         },
-        "tofu_metal_boots": {
-            "textures": "textures/items/tofu_metal_boots"
+        "metal_tofu_boots": {
+            "textures": "textures/items/metal_tofu_boots"
         },
-        "tofu_metal_axe": {
-            "textures": "textures/items/tofu_metal_axe"
+        "metal_tofu_axe": {
+            "textures": "textures/items/metal_tofu_axe"
         },
-        "tofu_kinu_sword": {
-            "textures": "textures/items/tofu_kinu_sword"
+        "kinu_tofu_sword": {
+            "textures": "textures/items/kinu_tofu_sword"
         },
-        "tofu_kinu_shovel": {
-            "textures": "textures/items/tofu_kinu_shovel"
+        "kinu_tofu_shovel": {
+            "textures": "textures/items/kinu_tofu_shovel"
         },
-        "tofu_kinu_pickaxe": {
-            "textures": "textures/items/tofu_kinu_pickaxe"
+        "kinu_tofu_pickaxe": {
+            "textures": "textures/items/kinu_tofu_pickaxe"
         },
-        "tofu_kinu_leggings": {
-            "textures": "textures/items/tofu_kinu_leggings"
+        "kinu_tofu_leggings": {
+            "textures": "textures/items/kinu_tofu_leggings"
         },
-        "tofu_kinu_hoe": {
-            "textures": "textures/items/tofu_kinu_hoe"
+        "kinu_tofu_hoe": {
+            "textures": "textures/items/kinu_tofu_hoe"
         },
-        "tofu_kinu_helmet": {
-            "textures": "textures/items/tofu_kinu_helmet"
+        "kinu_tofu_helmet": {
+            "textures": "textures/items/kinu_tofu_helmet"
         },
-        "tofu_kinu_chestplate": {
-            "textures": "textures/items/tofu_kinu_chestplate"
+        "kinu_tofu_chestplate": {
+            "textures": "textures/items/kinu_tofu_chestplate"
         },
-        "tofu_kinu_boots": {
-            "textures": "textures/items/tofu_kinu_boots"
+        "kinu_tofu_boots": {
+            "textures": "textures/items/kinu_tofu_boots"
         },
-        "tofu_kinu_axe": {
-            "textures": "textures/items/tofu_kinu_axe"
+        "kinu_tofu_axe": {
+            "textures": "textures/items/kinu_tofu_axe"
         },
-        "tofu_diamond_sword": {
-            "textures": "textures/items/tofu_diamond_sword"
+        "diamond_tofu_sword": {
+            "textures": "textures/items/diamond_tofu_sword"
         },
-        "tofu_diamond_shovel": {
-            "textures": "textures/items/tofu_diamond_shovel"
+        "diamond_tofu_shovel": {
+            "textures": "textures/items/diamond_tofu_shovel"
         },
-        "tofu_diamond_pickaxe": {
-            "textures": "textures/items/tofu_diamond_pickaxe"
+        "diamond_tofu_pickaxe": {
+            "textures": "textures/items/diamond_tofu_pickaxe"
         },
-        "tofu_diamond_leggings": {
-            "textures": "textures/items/tofu_diamond_leggings"
+        "diamond_tofu_leggings": {
+            "textures": "textures/items/diamond_tofu_leggings"
         },
-        "tofu_diamond_hoe": {
-            "textures": "textures/items/tofu_diamond_hoe"
+        "diamond_tofu_hoe": {
+            "textures": "textures/items/diamond_tofu_hoe"
         },
-        "tofu_diamond_helmet": {
-            "textures": "textures/items/tofu_diamond_helmet"
+        "diamond_tofu_helmet": {
+            "textures": "textures/items/diamond_tofu_helmet"
         },
-        "tofu_diamond_chestplate": {
-            "textures": "textures/items/tofu_diamond_chestplate"
+        "diamond_tofu_chestplate": {
+            "textures": "textures/items/diamond_tofu_chestplate"
         },
-        "tofu_diamond_boots": {
-            "textures": "textures/items/tofu_diamond_boots"
+        "diamond_tofu_boots": {
+            "textures": "textures/items/diamond_tofu_boots"
         },
-        "tofu_diamond_axe": {
-            "textures": "textures/items/tofu_diamond_axe"
+        "diamond_tofu_axe": {
+            "textures": "textures/items/diamond_tofu_axe"
         },
         "tofu_creeper_core": {
             "textures": "textures/items/tofu_creeper_core"
@@ -259,10 +259,10 @@
         "tofu_steak": {
             "textures": "textures/items/tofusteak"
         },
-        "tofu_somen_glass": {
+        "tofu_somen_bowl_glass": {
             "textures": "textures/items/tofusomenbowl_glass"
         },
-        "tofu_somen_bowl": {
+        "tofu_somen": {
             "textures": "textures/items/tofusomen"
         },
         "sesame_tofu": {
@@ -304,7 +304,7 @@
         "ishi_tofu": {
             "textures": "textures/items/tofuIshi"
         },
-        "tofuhoe": {
+        "tofu_hoe": {
             "textures": "textures/items/tofuhoe"
         },
         "hell_tofu": {
@@ -832,7 +832,7 @@
         "doubanjiang": {
             "textures": "textures/items/doubanjiang"
         },
-        "crying_tofu_diamond_pickaxe": {
+        "diamond_crying_tofu_pickaxe": {
             "textures": "textures/items/crying_tofu_diamond_pickaxe"
         },
         "crying_tofumetal": {

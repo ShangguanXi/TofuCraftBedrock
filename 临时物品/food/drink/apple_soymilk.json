@@ -15,6 +15,7 @@
             "minecraft:food": {
                 "nutrition": 4,
                 "saturation_modifier": 0.6,
+                "using_converts_to": "glass_bottle",
                 "can_always_eat": true
             },
             "minecraft:use_animation": "drink",
@@ -22,6 +23,11 @@
                 "textures": {
                     "default": "apple_soymilk"
                 }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "tofucraft:is_soymilk"
+                ]
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:apple_soymilk_bottle.name"

@@ -1,0 +1,65 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:kinu_tofu_axe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "minecraft:itemGroup.name.axe"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:durability": {
+                "max_durability": 2
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "kinu_tofu_axe"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:kinu_tofu_axe.name"
+            },
+            "minecraft:enchantable": {
+                "value": 50,
+                "slot": "axe"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_axe",
+                    "minecraft:is_tool",
+                    "minecraft:digger",
+                    "minecraft:wooden_tier"
+                ]
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "tofucraft:kinu_tofu"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    },
+                    {
+                        "items": [
+                            "tofucraft:kinu_tofu_axe"
+                        ],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('minecraft:is_axe_item_destructible')"
+                        },
+                        "speed": 1.0
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:kinu_tofu_helmet",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.helmet"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "kinu_tofu_helmet"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:kinu_tofu_helmet.name"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head",
+                "protection": 1
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_armor",
+                    "minecraft:trimmable_armors",
+                    "minecraft:wooden_tier"
+                ]
+            }
+        }
+    }
+}

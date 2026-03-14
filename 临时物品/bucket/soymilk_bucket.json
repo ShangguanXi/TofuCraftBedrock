@@ -16,6 +16,7 @@
             "minecraft:food": {
                 "nutrition": 1,
                 "saturation_modifier": 0.1,
+                "using_converts_to": "minecraft:bucket",
                 "can_always_eat": true
             },
             "minecraft:use_animation": "drink",

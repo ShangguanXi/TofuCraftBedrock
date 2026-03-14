@@ -1,0 +1,33 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:kinu_tofu_boots",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.boots"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "kinu_tofu_boots"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:kinu_tofu_boots.name"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.feet",
+                "protection": 1
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_armor",
+                    "minecraft:trimmable_armors",
+                    "minecraft:wooden_tier"
+                ]
+            }
+        }
+    }
+}
