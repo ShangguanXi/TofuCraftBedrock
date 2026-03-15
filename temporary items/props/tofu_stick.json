@@ -1,0 +1,22 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tofu_stick",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.props"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tofu_stick"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tofu_stick.name"
+            }
+        }
+    }
+}

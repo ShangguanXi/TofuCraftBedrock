@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tf_superwave_antenna",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.equipment"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "tofucraft:tf_superwave_antenna",
+                "replace_block_item": true
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tf_superwave_antenna"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tf_superwave_antenna.name"
+            }
+        }
+    }
+}

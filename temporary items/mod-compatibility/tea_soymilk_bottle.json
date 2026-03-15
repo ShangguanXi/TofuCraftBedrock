@@ -1,0 +1,37 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tea_soymilk_bottle",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.soymilk_bottle"
+            }
+        },
+        "components": {
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6
+            },
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation_modifier": 0.6,
+                "using_converts_to": "glass_bottle",
+                "can_always_eat": true
+            },
+            "minecraft:use_animation": "drink",
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tea_soymilk_bottle"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "tofucraft:is_soymilk"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tea_soymilk_bottle.name"
+            }
+        }
+    }
+}

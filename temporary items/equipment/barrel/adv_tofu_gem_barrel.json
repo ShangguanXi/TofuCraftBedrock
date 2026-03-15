@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:adv_tofu_gem_barrel",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.equipment"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "tofucraft:adv_tofu_gem_barrel",
+                "replace_block_item": true
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "adv_tofu_gem_barrel"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:adv_tofu_gem_barrel.name"
+            }
+        }
+    }
+}

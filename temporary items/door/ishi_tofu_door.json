@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:ishi_tofu_door",
+            "menu_category": {
+                "category": "construction",
+                "group": "tofucraft:itemGroup.name.door"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "tofucraft:ishi_tofu_door",
+                "replace_block_item": true
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:door"
+                ]
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "ishi_tofu_door"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:ishi_tofu_door.name"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:filter_cloth",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.materials"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "filter_cloth"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:filter_cloth.name"
+            }
+        }
+    }
+}

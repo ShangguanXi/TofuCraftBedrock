@@ -253,9 +253,6 @@
         "tofustem_hanging_sign": {
             "textures": "textures/items/tofustem_hanging_sign"
         },
-        "tofustem_door": {
-            "textures": "textures/items/tofustem_door"
-        },
         "tofu_steak": {
             "textures": "textures/items/tofusteak"
         },
@@ -358,55 +355,55 @@
         "dried_tofu": {
             "textures": "textures/items/tofuDried"
         },
-        "tofudoor_zunda": {
+        "zunda_tofu_door": {
             "textures": "textures/items/tofudoor_zunda"
         },
-        "tofudoor_strawberry": {
+        "strawberry_tofu_door": {
             "textures": "textures/items/tofudoor_strawberry"
         },
-        "tofudoor_sesame": {
+        "sesame_tofu_door": {
             "textures": "textures/items/tofudoor_sesame"
         },
-        "tofudoor_momen": {
+        "momen_tofu_door": {
             "textures": "textures/items/tofudoor_momen"
         },
-        "tofudoor_miso": {
+        "miso_tofu_door": {
             "textures": "textures/items/tofudoor_miso"
         },
-        "tofudoor_metal": {
+        "metal_tofu_door": {
             "textures": "textures/items/tofudoor_metal"
         },
-        "tofudoor_kinu": {
+        "kinu_tofu_door": {
             "textures": "textures/items/tofudoor_kinu"
         },
-        "tofudoor_ishi": {
+        "ishi_tofu_door": {
             "textures": "textures/items/tofudoor_ishi"
         },
-        "tofudoor_hell": {
+        "hell_tofu_door": {
             "textures": "textures/items/tofudoor_hell"
         },
-        "tofudoor_grilled": {
+        "grilled_tofu_door": {
             "textures": "textures/items/tofudoor_grilled"
         },
-        "tofudoor_glow": {
+        "glow_tofu_door": {
             "textures": "textures/items/tofudoor_glow"
         },
-        "tofudoor_friedpouch": {
+        "fried_tofu_pouch_door": {
             "textures": "textures/items/tofudoor_friedpouch"
         },
-        "tofudoor_fried": {
+        "fried_tofu_door": {
             "textures": "textures/items/tofudoor_fried"
         },
-        "tofudoor_egg": {
+        "egg_tofu_door": {
             "textures": "textures/items/tofudoor_egg"
         },
-        "tofudoor_dried": {
+        "dried_tofu_door": {
             "textures": "textures/items/tofudoor_dried"
         },
-        "tofudoor_diamond": {
+        "diamond_tofu_door": {
             "textures": "textures/items/tofudoor_diamond"
         },
-        "tofudoor_annin": {
+        "annin_tofu_door": {
             "textures": "textures/items/tofudoor_annin"
         },
         "diamond_tofu_nugget": {
@@ -562,26 +559,11 @@
         "sesame": {
             "textures": "textures/items/sesame"
         },
-        "seeds_hell_soybeans": {
+        "hell_soybeans": {
             "textures": "textures/items/seeds_soybeans_nether"
         },
-        "seeds_soybeans": {
+        "soybeans": {
             "textures": "textures/items/seeds_soybeans"
-        },
-        "seeds_rice": {
-            "textures": "textures/items/seeds_rice"
-        },
-        "sculk_bone_leggings": {
-            "textures": "textures/items/sculk_bone_leggings"
-        },
-        "sculk_bone_helmet": {
-            "textures": "textures/items/sculk_bone_helmet"
-        },
-        "sculk_bone_chestplate": {
-            "textures": "textures/items/sculk_bone_chestplate"
-        },
-        "sculk_bone_boots": {
-            "textures": "textures/items/sculk_bone_boots"
         },
         "salty_melon": {
             "textures": "textures/items/saltymelon"
@@ -832,21 +814,6 @@
         "doubanjiang": {
             "textures": "textures/items/doubanjiang"
         },
-        "diamond_crying_tofu_pickaxe": {
-            "textures": "textures/items/crying_tofu_diamond_pickaxe"
-        },
-        "crying_tofumetal": {
-            "textures": "textures/items/crying_tofumetal"
-        },
-        "crying_tofu": {
-            "textures": "textures/items/crying_tofu"
-        },
-        "crimson_soup": {
-            "textures": "textures/items/crimson_soup"
-        },
-        "crimson_fluid_bottle": {
-            "textures": "textures/items/crimson_fluid_bottle"
-        },
         "cooked_tofu_fish": {
             "textures": "textures/items/cooked_tofufish"
         },
@@ -856,22 +823,19 @@
         "bugle": {
             "textures": "textures/items/bugle"
         },
-        "bucket_soymilk_hell": {
+        "soymilk_hell_bucket": {
             "textures": "textures/items/bucket_soymilk_nether"
         },
-        "bucket_soymilk": {
+        "soymilk_bucket": {
             "textures": "textures/items/bucket_soymilk"
         },
-        "bucket_bittern": {
-            "textures": "textures/items/bucket_bittern"
-        },
-        "bucket_soysauce": {
+        "soysauce_bucket": {
             "textures": "textures/items/bucket_soysauce"
         },
-        "bottle_soysause": {
-            "textures": "textures/items/bottle_soysause"
+        "bottle_soysauce": {
+            "textures": "textures/items/bottle_soysauce"
         },
-        "soy_oil": {
+        "soyoil": {
             "textures": "textures/items/bottle_soyoil"
         },
         "bottle_defatting": {

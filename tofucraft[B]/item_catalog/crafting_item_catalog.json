@@ -14,68 +14,181 @@
                },
                {
                   "group_identifier": {
-                     "icon": "tofucraft:tofu_diamond_helmet",
+                     "icon": "tofucraft:diamond_tofu_helmet",
                      "name": "tofucraft:itemGroup.name.helmet"
                   },
                   "items": [
-                     "tofucraft:tofu_kinu_helmet",
-                     "tofucraft:tofu_momen_helmet",
-                     "tofucraft:tofu_solid_helmet",
-                     "tofucraft:tofu_metal_helmet",
-                     "tofucraft:tofu_diamond_helmet"
+                     "tofucraft:kinu_tofu_helmet",
+                     "tofucraft:momen_tofu_helmet",
+                     "tofucraft:solid_tofu_helmet",
+                     "tofucraft:metal_tofu_helmet",
+                     "tofucraft:diamond_tofu_helmet"
                   ]
                },
                {
                   "group_identifier": {
-                     "icon": "tofucraft:tofu_diamond_chestplate",
+                     "icon": "tofucraft:diamond_tofu_chestplate",
                      "name": "tofucraft:itemGroup.name.chestplate"
                   },
                   "items": [
-                     "tofucraft:tofu_kinu_chestplate",
-                     "tofucraft:tofu_momen_chestplate",
-                     "tofucraft:tofu_solid_chestplate",
-                     "tofucraft:tofu_metal_chestplate",
-                     "tofucraft:tofu_diamond_chestplate"
+                     "tofucraft:kinu_tofu_chestplate",
+                     "tofucraft:momen_tofu_chestplate",
+                     "tofucraft:solid_tofu_chestplate",
+                     "tofucraft:metal_tofu_chestplate",
+                     "tofucraft:diamond_tofu_chestplate"
                   ]
                },
                {
                   "group_identifier": {
-                     "icon": "tofucraft:tofu_diamond_leggings",
+                     "icon": "tofucraft:diamond_tofu_leggings",
                      "name": "tofucraft:itemGroup.name.leggings"
                   },
                   "items": [
-                     "tofucraft:tofu_kinu_leggings",
-                     "tofucraft:tofu_momen_leggings",
-                     "tofucraft:tofu_solid_leggings",
-                     "tofucraft:tofu_metal_leggings",
-                     "tofucraft:tofu_diamond_leggings"
+                     "tofucraft:kinu_tofu_leggings",
+                     "tofucraft:momen_tofu_leggings",
+                     "tofucraft:solid_tofu_leggings",
+                     "tofucraft:metal_tofu_leggings",
+                     "tofucraft:diamond_tofu_leggings"
                   ]
                },
                {
                   "group_identifier": {
-                     "icon": "tofucraft:tofu_diamond_boots",
+                     "icon": "tofucraft:diamond_tofu_boots",
                      "name": "tofucraft:itemGroup.name.boots"
                   },
                   "items": [
-                     "tofucraft:tofu_kinu_boots",
-                     "tofucraft:tofu_momen_boots",
-                     "tofucraft:tofu_solid_boots",
-                     "tofucraft:tofu_metal_boots",
-                     "tofucraft:tofu_diamond_boots"
+                     "tofucraft:kinu_tofu_boots",
+                     "tofucraft:momen_tofu_boots",
+                     "tofucraft:solid_tofu_boots",
+                     "tofucraft:metal_tofu_boots",
+                     "tofucraft:diamond_tofu_boots"
                   ]
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:diamond_tofu_pickaxe",
+                     "name": "tofucraft:itemGroup.name.pickaxe"
+                  },
+                  "items": [
+                     "tofucraft:kinu_tofu_pickaxe",
+                     "tofucraft:momen_tofu_pickaxe",
+                     "tofucraft:solid_tofu_pickaxe",
+                     "tofucraft:metal_tofu_pickaxe",
+                     "tofucraft:diamond_tofu_pickaxe"
+                  ]
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:diamond_tofu_axe",
+                     "name": "tofucraft:itemGroup.name.axe"
+                  },
+                  "items": [
+                     "tofucraft:kinu_tofu_axe",
+                     "tofucraft:momen_tofu_axe",
+                     "tofucraft:solid_tofu_axe",
+                     "tofucraft:metal_tofu_axe",
+                     "tofucraft:diamond_tofu_axe"
+                  ]
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinako_manju",
+                     "name": "tofucraft:itemGroup.name.miscFood"
+                  },
+                  "items": []
                }
             ]
          },
          {
             "category_name": "nature",
             "groups": [
-              
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:soybeans",
+                     "name": "tofucraft:itemGroup.name.crop"
+                  },
+                  "items": []
+               }
+            ]
+         },
+         {
+            "category_name": "construction",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_door",
+                     "name": "tofucraft:itemGroup.name.door"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_ladder",
+                     "name": "tofucraft:itemGroup.name.ladder"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_trapdoor",
+                     "name": "tofucraft:itemGroup.name.trapdoor"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_wall",
+                     "name": "tofucraft:itemGroup.name.wall"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_fence_gate",
+                     "name": "tofucraft:itemGroup.name.fence_gate"
+                  },
+                  "items": []
+               }
             ]
          },
          {
             "category_name": "items",
             "groups": [
-               
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:soymilk_bucket",
+                     "name": "tofucraft:itemGroup.name.bucket"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:activated_hell_tofu",
+                     "name": "tofucraft:itemGroup.name.materials"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:bugle",
+                     "name": "tofucraft:itemGroup.name.props"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_torch",
+                     "name": "tofucraft:itemGroup.name.torch"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:miso_barrel",
+                     "name": "tofucraft:itemGroup.name.equipment"
+                  },
+                  "items": []
+               }
             ]
          }
       ]

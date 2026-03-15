@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:miso_barrel",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.equipment"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "tofucraft:miso_barrel",
+                "replace_block_item": true
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "miso_barrel"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:miso_barrel.name"
+            }
+        }
+    }
+}

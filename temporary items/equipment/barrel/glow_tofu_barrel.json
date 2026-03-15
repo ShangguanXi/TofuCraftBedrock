@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:glow_tofu_barrel",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.equipment"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "tofucraft:glow_tofu_barrel",
+                "replace_block_item": true
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "glow_tofu_barrel"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:glow_tofu_barrel.name"
+            }
+        }
+    }
+}
