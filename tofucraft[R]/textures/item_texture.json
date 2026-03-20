@@ -1,894 +1,624 @@
 {
-    "resource_pack_name": "vanilla",
-    "texture_data": {
-        "zunda_upgrade_smithing_template": {
-            "textures": "textures/items/zunda_upgrade_smithing_template"
-        },
-        "zunda_mochi": {
-            "textures": "textures/items/zunda_mochi"
-        },
-        "zunda_bow_pulling_2": {
-            "textures": "textures/items/zunda_bow_pulling_2"
-        },
-        "zunda_bow_pulling_1": {
-            "textures": "textures/items/zunda_bow_pulling_1"
-        },
-        "zunda_bow_pulling_0": {
-            "textures": "textures/items/zunda_bow_pulling_0"
-        },
-        "zunda_bow": {
-            "textures": "textures/items/zunda_bow"
-        },
-        "zunda_arrow": {
-            "textures": "textures/items/zunda_arrow"
-        },
-        "zundatofucake": {
-            "textures": "textures/items/zundatofucake"
-        },
-        "zundaruby": {
-            "textures": "textures/items/zundaruby"
-        },
-        "zundamushroom_on_a_stick": {
-            "textures": "textures/items/zundamushroom_on_a_stick"
-        },
-        "zunda_manju": {
-            "textures": "textures/items/zundamanju"
-        },
-        "zundama": {
-            "textures": "textures/items/zundama"
-        },
-        "zunda": {
-            "textures": "textures/items/zunda"
-        },
-        "yudofu": {
-            "textures": "textures/items/yudofu"
-        },
-        "yuba": {
-            "textures": "textures/items/yuba"
-        },
-        "shoyu_yaki_onigiri": {
-            "textures": "textures/items/yakionigiri_shoyu"
-        },
-        "miso_yaki_onigiri": {
-            "textures": "textures/items/yakionigiri_miso"
-        },
-        "warped_fluid_bottle": {
-            "textures": "textures/items/warped_fluid_bottle"
-        },
-        "warabimochi": {
-            "textures": "textures/items/warabimochi"
-        },
-        "ttt_burger": {
-            "textures": "textures/items/tttburger"
-        },
-        "tsuyu_bowl_glass": {
-            "textures": "textures/items/tsuyubowl_glass"
-        },
-        "tomato_soybean_stew": {
-            "textures": "textures/items/tomato_soybean_stew"
-        },
-        "tofu_upgrade_smithing_template": {
-            "textures": "textures/items/tofu_upgrade_smithing_template"
-        },
-        "tofu_stem_chest_boat": {
-            "textures": "textures/items/tofu_stem_chest_boat"
-        },
-        "tofu_stem_boat": {
-            "textures": "textures/items/tofu_stem_boat"
-        },
-        "solid_tofu_sword": {
-            "textures": "textures/items/solid_tofu_sword"
-        },
-        "solid_tofu_shovel": {
-            "textures": "textures/items/solid_tofu_shovel"
-        },
-        "solid_tofu_pickaxe": {
-            "textures": "textures/items/solid_tofu_pickaxe"
-        },
-        "solid_tofu_leggings": {
-            "textures": "textures/items/solid_tofu_leggings"
-        },
-        "solid_tofu_hoe": {
-            "textures": "textures/items/solid_tofu_hoe"
-        },
-        "solid_tofu_helmet": {
-            "textures": "textures/items/solid_tofu_helmet"
-        },
-        "solid_tofu_chestplate": {
-            "textures": "textures/items/solid_tofu_chestplate"
-        },
-        "solid_tofu_boots": {
-            "textures": "textures/items/solid_tofu_boots"
-        },
-        "solid_tofu_axe": {
-            "textures": "textures/items/solid_tofu_axe"
-        },
-        "momen_tofu_sword": {
-            "textures": "textures/items/momen_tofu_sword"
-        },
-        "momen_tofu_shovel": {
-            "textures": "textures/items/momen_tofu_shovel"
-        },
-        "momen_tofu_pickaxe": {
-            "textures": "textures/items/momen_tofu_pickaxe"
-        },
-        "momen_tofu_leggings": {
-            "textures": "textures/items/momen_tofu_leggings"
-        },
-        "momen_tofu_hoe": {
-            "textures": "textures/items/momen_tofu_hoe"
-        },
-        "momen_tofu_helmet": {
-            "textures": "textures/items/momen_tofu_helmet"
-        },
-        "momen_tofu_chestplate": {
-            "textures": "textures/items/momen_tofu_chestplate"
-        },
-        "momen_tofu_boots": {
-            "textures": "textures/items/momen_tofu_boots"
-        },
-        "momen_tofu_axe": {
-            "textures": "textures/items/momen_tofu_axe"
-        },
-        "metal_tofu_sword": {
-            "textures": "textures/items/metal_tofu_sword"
-        },
-        "metal_tofu_shovel": {
-            "textures": "textures/items/metal_tofu_shovel"
-        },
-        "metal_tofu_shears": {
-            "textures": "textures/items/metal_tofu_shears"
-        },
-        "metal_tofu_pickaxe": {
-            "textures": "textures/items/metal_tofu_pickaxe"
-        },
-        "metal_tofu_leggings": {
-            "textures": "textures/items/metal_tofu_leggings"
-        },
-        "tofu_metal_lantern": {
-            "textures": "textures/items/tofu_metal_lantern"
-        },
-        "metal_tofu_hoe": {
-            "textures": "textures/items/metal_tofu_hoe"
-        },
-        "metal_tofu_helmet": {
-            "textures": "textures/items/metal_tofu_helmet"
-        },
-        "metal_tofu_chestplate": {
-            "textures": "textures/items/metal_tofu_chestplate"
-        },
-        "tofu_metal_chain": {
-            "textures": "textures/items/tofu_metal_chain"
-        },
-        "metal_tofu_boots": {
-            "textures": "textures/items/metal_tofu_boots"
-        },
-        "metal_tofu_axe": {
-            "textures": "textures/items/metal_tofu_axe"
-        },
-        "kinu_tofu_sword": {
-            "textures": "textures/items/kinu_tofu_sword"
-        },
-        "kinu_tofu_shovel": {
-            "textures": "textures/items/kinu_tofu_shovel"
-        },
-        "kinu_tofu_pickaxe": {
-            "textures": "textures/items/kinu_tofu_pickaxe"
-        },
-        "kinu_tofu_leggings": {
-            "textures": "textures/items/kinu_tofu_leggings"
-        },
-        "kinu_tofu_hoe": {
-            "textures": "textures/items/kinu_tofu_hoe"
-        },
-        "kinu_tofu_helmet": {
-            "textures": "textures/items/kinu_tofu_helmet"
-        },
-        "kinu_tofu_chestplate": {
-            "textures": "textures/items/kinu_tofu_chestplate"
-        },
-        "kinu_tofu_boots": {
-            "textures": "textures/items/kinu_tofu_boots"
-        },
-        "kinu_tofu_axe": {
-            "textures": "textures/items/kinu_tofu_axe"
-        },
-        "diamond_tofu_sword": {
-            "textures": "textures/items/diamond_tofu_sword"
-        },
-        "diamond_tofu_shovel": {
-            "textures": "textures/items/diamond_tofu_shovel"
-        },
-        "diamond_tofu_pickaxe": {
-            "textures": "textures/items/diamond_tofu_pickaxe"
-        },
-        "diamond_tofu_leggings": {
-            "textures": "textures/items/diamond_tofu_leggings"
-        },
-        "diamond_tofu_hoe": {
-            "textures": "textures/items/diamond_tofu_hoe"
-        },
-        "diamond_tofu_helmet": {
-            "textures": "textures/items/diamond_tofu_helmet"
-        },
-        "diamond_tofu_chestplate": {
-            "textures": "textures/items/diamond_tofu_chestplate"
-        },
-        "diamond_tofu_boots": {
-            "textures": "textures/items/diamond_tofu_boots"
-        },
-        "diamond_tofu_axe": {
-            "textures": "textures/items/diamond_tofu_axe"
-        },
-        "tofu_creeper_core": {
-            "textures": "textures/items/tofu_creeper_core"
-        },
-        "tofu_core": {
-            "textures": "textures/items/tofu_core"
-        },
-        "tofu_chikuwa": {
-            "textures": "textures/items/tofu_chikuwa"
-        },
-        "tofu_buns_burger": {
-            "textures": "textures/items/tofu_buns_burger"
-        },
-        "tofu_book": {
-            "textures": "textures/items/tofu_book"
-        },
-        "zunda_tofu": {
-            "textures": "textures/items/tofuzunda"
-        },
-        "tofuwood_stick": {
-            "textures": "textures/items/tofuwood_stick"
-        },
-        "strawberry_tofu": {
-            "textures": "textures/items/tofustrawberry"
-        },
-        "tofu_stick": {
-            "textures": "textures/items/tofustick"
-        },
-        "tofustem_sign": {
-            "textures": "textures/items/tofustem_sign"
-        },
-        "tofustem_hanging_sign": {
-            "textures": "textures/items/tofustem_hanging_sign"
-        },
-        "tofu_steak": {
-            "textures": "textures/items/tofusteak"
-        },
-        "tofu_somen_bowl_glass": {
-            "textures": "textures/items/tofusomenbowl_glass"
-        },
-        "tofu_somen": {
-            "textures": "textures/items/tofusomen"
-        },
-        "sesame_tofu": {
-            "textures": "textures/items/tofusesame"
-        },
-        "tofu_scoop": {
-            "textures": "textures/items/tofuscoop"
-        },
-        "tofuradar_ok": {
-            "textures": "textures/items/tofuradar_ok"
-        },
-        "tofuradar_fail": {
-            "textures": "textures/items/tofuradar_fail"
-        },
-        "tofu_radar": {
-            "textures": "textures/items/tofuradar"
-        },
-        "tofunian_soy_chocolate": {
-            "textures": "textures/items/tofunian_soy_chocolate"
-        },
-        "tofunian_banner_pattern": {
-            "textures": "textures/items/tofunian_banner_pattern"
-        },
-        "momen_tofu": {
-            "textures": "textures/items/tofuMomen"
-        },
-        "miso_tofu": {
-            "textures": "textures/items/tofumiso"
-        },
-        "minced_tofu": {
-            "textures": "textures/items/tofuminced"
-        },
-        "metal_tofu": {
-            "textures": "textures/items/tofuMetal"
-        },
-        "kinu_tofu": {
-            "textures": "textures/items/tofuKinu"
-        },
-        "ishi_tofu": {
-            "textures": "textures/items/tofuIshi"
-        },
-        "tofu_hoe": {
-            "textures": "textures/items/tofuhoe"
-        },
-        "hell_tofu": {
-            "textures": "textures/items/tofuhell"
-        },
-        "raw_tofu_hamburg": {
-            "textures": "textures/items/tofuhamburg_raw"
-        },
-        "tofu_hamburg_tempra_ankake": {
-            "textures": "textures/items/tofuhamburgta"
-        },
-        "tofu_hamburg_tempra": {
-            "textures": "textures/items/tofuhamburgt"
-        },
-        "tofu_hamburg": {
-            "textures": "textures/items/tofuhamburg"
-        },
-        "grilled_tofu": {
-            "textures": "textures/items/tofuGrilled"
-        },
-        "glow_tofu": {
-            "textures": "textures/items/tofuglow"
-        },
-        "tofu_gem": {
-            "textures": "textures/items/tofuGem"
-        },
-        "tofugauntlet": {
-            "textures": "textures/items/tofugauntlet"
-        },
-        "fried_tofu_pouch": {
-            "textures": "textures/items/tofufried_pouch"
-        },
-        "fried_tofu": {
-            "textures": "textures/items/tofufried"
-        },
-        "tofuforce_core_broken": {
-            "textures": "textures/items/tofuforce_core_broken"
-        },
-        "tofuforce_core": {
-            "textures": "textures/items/tofuforce_core"
-        },
-        "tofufish_soymilk_bucket": {
-            "textures": "textures/items/tofufish_soymilk_bucket"
-        },
-        "tofufish_bucket": {
-            "textures": "textures/items/tofufish_bucket"
-        },
-        "egg_tofu": {
-            "textures": "textures/items/tofuegg"
-        },
-        "dried_tofu": {
-            "textures": "textures/items/tofuDried"
-        },
-        "zunda_tofu_door": {
-            "textures": "textures/items/tofudoor_zunda"
-        },
-        "strawberry_tofu_door": {
-            "textures": "textures/items/tofudoor_strawberry"
-        },
-        "sesame_tofu_door": {
-            "textures": "textures/items/tofudoor_sesame"
-        },
-        "momen_tofu_door": {
-            "textures": "textures/items/tofudoor_momen"
-        },
-        "miso_tofu_door": {
-            "textures": "textures/items/tofudoor_miso"
-        },
-        "metal_tofu_door": {
-            "textures": "textures/items/tofudoor_metal"
-        },
-        "kinu_tofu_door": {
-            "textures": "textures/items/tofudoor_kinu"
-        },
-        "ishi_tofu_door": {
-            "textures": "textures/items/tofudoor_ishi"
-        },
-        "hell_tofu_door": {
-            "textures": "textures/items/tofudoor_hell"
-        },
-        "grilled_tofu_door": {
-            "textures": "textures/items/tofudoor_grilled"
-        },
-        "glow_tofu_door": {
-            "textures": "textures/items/tofudoor_glow"
-        },
-        "fried_tofu_pouch_door": {
-            "textures": "textures/items/tofudoor_friedpouch"
-        },
-        "fried_tofu_door": {
-            "textures": "textures/items/tofudoor_fried"
-        },
-        "egg_tofu_door": {
-            "textures": "textures/items/tofudoor_egg"
-        },
-        "dried_tofu_door": {
-            "textures": "textures/items/tofudoor_dried"
-        },
-        "diamond_tofu_door": {
-            "textures": "textures/items/tofudoor_diamond"
-        },
-        "annin_tofu_door": {
-            "textures": "textures/items/tofudoor_annin"
-        },
-        "diamond_tofu_nugget": {
-            "textures": "textures/items/tofuDiamondNugget"
-        },
-        "diamond_tofu": {
-            "textures": "textures/items/tofuDiamond"
-        },
-        "tofucore": {
-            "textures": "textures/items/tofucore"
-        },
-        "tofu_cookie": {
-            "textures": "textures/items/tofucookie"
-        },
-        "tofuchinger_tootharrow": {
-            "textures": "textures/items/tofuchinger_tootharrow"
-        },
-        "tofuchinger_tooth": {
-            "textures": "textures/items/tofuchinger_tooth"
-        },
-        "tofu_cake": {
-            "textures": "textures/items/tofucake"
-        },
-        "annin_tofu": {
-            "textures": "textures/items/tofuannin"
-        },
-        "tf_oscillator": {
-            "textures": "textures/items/tf_oscillator"
-        },
-        "tf_mining_turret": {
-            "textures": "textures/items/tf_mining_turret"
-        },
-        "tf_coil": {
-            "textures": "textures/items/tf_coil"
-        },
-        "tf_circuit": {
-            "textures": "textures/items/tf_circuit"
-        },
-        "tf_capacitor": {
-            "textures": "textures/items/tf_capacitor"
-        },
-        "tasty_stew": {
-            "textures": "textures/items/tastystew"
-        },
-        "tasty_beef_stew": {
-            "textures": "textures/items/tastybeefstew"
-        },
-        "sukiyaki": {
-            "textures": "textures/items/sukiyaki"
-        },
-        "strawberry_jam": {
-            "textures": "textures/items/strawberryjam"
-        },
-        "steamed_bread_cocoa": {
-            "textures": "textures/items/steamed_bread_cocoa"
-        },
-        "steamed_bread": {
-            "textures": "textures/items/steamed_bread"
-        },
-        "raw_starch": {
-            "textures": "textures/items/starch_raw"
-        },
-        "starch": {
-            "textures": "textures/items/starch"
-        },
-        "sprouts": {
-            "textures": "textures/items/sprouts"
-        },
-        "soy_karaage": {
-            "textures": "textures/items/soy_karaage"
-        },
-        "soy_chocolate": {
-            "textures": "textures/items/soy_chocolate"
-        },
-        "soy_cheese": {
-            "textures": "textures/items/soy_cheese"
-        },
-        "soy_stick": {
-            "textures": "textures/items/soystick"
-        },
-        "soysause_ramen": {
-            "textures": "textures/items/soysause_ramen"
-        },
-        "zunda_soymilk": {
-            "textures": "textures/items/soymilk_zunda"
-        },
-        "tea_soymilk": {
-            "textures": "textures/items/soymilk_tea"
-        },
-        "strawberry_soymilk": {
-            "textures": "textures/items/soymilk_strawberry"
-        },
-        "sakura_soymilk": {
-            "textures": "textures/items/soymilk_sakura"
-        },
-        "ramune_soymilk": {
-            "textures": "textures/items/soymilk_ramune"
-        },
-        "pumpkin_soymilk": {
-            "textures": "textures/items/soymilk_pumpkin"
-        },
-        "pudding_soymilk": {
-            "textures": "textures/items/soymilk_pudding"
-        },
-        "kinako_soymilk": {
-            "textures": "textures/items/soymilk_kinako"
-        },
-        "honey_soymilk": {
-            "textures": "textures/items/soymilk_honey"
-        },
-        "hell_soymilk": {
-            "textures": "textures/items/soymilk_hell_bottle"
-        },
-        "fruits_soymilk": {
-            "textures": "textures/items/soymilk_fruits"
-        },
-        "cocoa_soymilk": {
-            "textures": "textures/items/soymilk_cocoa"
-        },
-        "apple_soymilk": {
-            "textures": "textures/items/soymilk_apple"
-        },
-        "annin_soymilk": {
-            "textures": "textures/items/soymilk_annin"
-        },
-        "soymilk": {
-            "textures": "textures/items/soymilk"
-        },
-        "soymeatdon": {
-            "textures": "textures/items/soymeatdon"
-        },
-        "soymeat": {
-            "textures": "textures/items/soymeat"
-        },
-        "soycheese_tart": {
-            "textures": "textures/items/soycheese_tart"
-        },
-        "soybeans_parched": {
-            "textures": "textures/items/soybeans_parched"
-        },
-        "soboro_tofu_saute": {
-            "textures": "textures/items/soborotofusaute"
-        },
-        "smoketofu": {
-            "textures": "textures/items/smoketofu"
-        },
-        "shudofu": {
-            "textures": "textures/items/shudofu"
-        },
-        "shroom_bottle": {
-            "textures": "textures/items/shroom_bottle"
-        },
-        "sesame": {
-            "textures": "textures/items/sesame"
-        },
-        "hell_soybeans": {
-            "textures": "textures/items/seeds_soybeans_nether"
-        },
-        "soybeans": {
-            "textures": "textures/items/seeds_soybeans"
-        },
-        "salty_melon": {
-            "textures": "textures/items/saltymelon"
-        },
-        "golden_salt": {
-            "textures": "textures/items/saltgolden"
-        },
-        "salt": {
-            "textures": "textures/items/salt"
-        },
-        "rolling_pin": {
-            "textures": "textures/items/rollingpin"
-        },
-        "rice_nether_natto_leek": {
-            "textures": "textures/items/rice_nether_natto_leek"
-        },
-        "rice_nether_natto": {
-            "textures": "textures/items/rice_nether_natto"
-        },
-        "rice_tofu": {
-            "textures": "textures/items/ricetofu"
-        },
-        "rice_soboro_tofu": {
-            "textures": "textures/items/ricesoborotofu"
-        },
-        "rice_natto_leek": {
-            "textures": "textures/items/ricenattoleek"
-        },
-        "rice_natto": {
-            "textures": "textures/items/ricenatto"
-        },
-        "riceburger": {
-            "textures": "textures/items/riceburger"
-        },
-        "rice": {
-            "textures": "textures/items/rice"
-        },
-        "red_soup": {
-            "textures": "textures/items/red_soup"
-        },
-        "raw_tofu_fish_raw": {
-            "textures": "textures/items/raw_tofufish"
-        },
-        "pudding": {
-            "textures": "textures/items/pudding"
-        },
-        "onigiri_salt": {
-            "textures": "textures/items/onigiri_salt"
-        },
-        "onigiri": {
-            "textures": "textures/items/onigiri"
-        },
-        "okara_donut": {
-            "textures": "textures/items/okara_donut"
-        },
-        "okara_stick": {
-            "textures": "textures/items/okarastick"
-        },
-        "okara": {
-            "textures": "textures/items/okara"
-        },
-        "oage": {
-            "textures": "textures/items/oage"
-        },
-        "nikujaga": {
-            "textures": "textures/items/nikujaga"
-        },
-        "nether_natto": {
-            "textures": "textures/items/nether_natto"
-        },
-        "nether_fukumame": {
-            "textures": "textures/items/nether_fukumame"
-        },
-        "nethermanju": {
-            "textures": "textures/items/nethermanju"
-        },
-        "negima": {
-            "textures": "textures/items/negima"
-        },
-        "natto_cobweb": {
-            "textures": "textures/items/natto_cobweb"
-        },
-        "natto_hiyayakko": {
-            "textures": "textures/items/nattohiyayakko"
-        },
-        "natto": {
-            "textures": "textures/items/natto"
-        },
-        "nanbantofu": {
-            "textures": "textures/items/nanbantofu"
-        },
-        "nanban": {
-            "textures": "textures/items/nanban"
-        },
-        "moyashi_ohitashi": {
-            "textures": "textures/items/moyashiohitashi"
-        },
-        "moyashi_itame": {
-            "textures": "textures/items/moyashiitame"
-        },
-        "morijio": {
-            "textures": "textures/items/morijio"
-        },
-        "miso_soup": {
-            "textures": "textures/items/misosoup"
-        },
-        "miso_dengaku": {
-            "textures": "textures/items/misodengaku"
-        },
-        "miso": {
-            "textures": "textures/items/miso"
-        },
-        "minced_potato": {
-            "textures": "textures/items/mincedpotato"
-        },
-        "meatwrapped_yuba": {
-            "textures": "textures/items/meatwrapped_yuba"
-        },
-        "mayonnaise": {
-            "textures": "textures/items/mayonnaise"
-        },
-        "masu": {
-            "textures": "textures/items/masu"
-        },
-        "mabodofu": {
-            "textures": "textures/items/mabodofu"
-        },
-        "lemon": {
-            "textures": "textures/items/lemon"
-        },
-        "leek_sign": {
-            "textures": "textures/items/leek_sign"
-        },
-        "leek_hanging_sign": {
-            "textures": "textures/items/leek_hanging_sign"
-        },
-        "leek_green_sign": {
-            "textures": "textures/items/leek_green_sign"
-        },
-        "leek_green_hanging_sign": {
-            "textures": "textures/items/leek_green_hanging_sign"
-        },
-        "leek_green_door": {
-            "textures": "textures/items/leek_green_door"
-        },
-        "leek_green_chest_boat": {
-            "textures": "textures/items/leek_green_chest_boat"
-        },
-        "leek_green_boat": {
-            "textures": "textures/items/leek_green_boat"
-        },
-        "leek_chest_boat": {
-            "textures": "textures/items/leek_chest_boat"
-        },
-        "leek_boat": {
-            "textures": "textures/items/leek_boat"
-        },
-        "leek": {
-            "textures": "textures/items/leek"
-        },
-        "kyoninso": {
-            "textures": "textures/items/kyoninso"
-        },
-        "koya_tofu_stew": {
-            "textures": "textures/items/koyadofustew"
-        },
-        "kouji_base": {
-            "textures": "textures/items/koujibase"
-        },
-        "kouji": {
-            "textures": "textures/items/kouji"
-        },
-        "kinako_mochi": {
-            "textures": "textures/items/kinako_mochi"
-        },
-        "kinako_bread": {
-            "textures": "textures/items/kinako_bread"
-        },
-        "kinako_manju": {
-            "textures": "textures/items/kinakomanju"
-        },
-        "kinako": {
-            "textures": "textures/items/kinako"
-        },
-        "inferno_nether_fukumame": {
-            "textures": "textures/items/inferno_nether_fukumame"
-        },
-        "inari": {
-            "textures": "textures/items/inari"
-        },
-        "hiyayakko": {
-            "textures": "textures/items/hiyayakko"
-        },
-        "hell_red_soup": {
-            "textures": "textures/items/hell_red_soup"
-        },
-        "hell_mabou": {
-            "textures": "textures/items/hell_mabou"
-        },
-        "goheimochi": {
-            "textures": "textures/items/goheimochi"
-        },
-        "glass_bowl": {
-            "textures": "textures/items/glassbowl"
-        },
-        "raw_gelatin": {
-            "textures": "textures/items/gelatinraw"
-        },
-        "gelatin": {
-            "textures": "textures/items/gelatin"
-        },
-        "gandlem_armor": {
-            "textures": "textures/items/gandlem_armor"
-        },
-        "fulintlock": {
-            "textures": "textures/items/fulintlock"
-        },
-        "fukumeni": {
-            "textures": "textures/items/fukumeni"
-        },
-        "fukumame": {
-            "textures": "textures/items/fukumame"
-        },
-        "filtercloth": {
-            "textures": "textures/items/filtercloth"
-        },
-        "fermented_bittern_bottle": {
-            "textures": "textures/items/fermented_bittern_bottle"
-        },
-        "empty_slot_zundama": {
-            "textures": "textures/items/empty_slot_zundama"
-        },
-        "empty_slot_bow": {
-            "textures": "textures/items/empty_slot_bow"
-        },
-        "edamame_templa": {
-            "textures": "textures/items/edamame_templa"
-        },
-        "edamame_rice": {
-            "textures": "textures/items/edamame_rice"
-        },
-        "edamame_boiled": {
-            "textures": "textures/items/edamame_boild"
-        },
-        "edamame": {
-            "textures": "textures/items/edamame"
-        },
-        "doubanjiang": {
-            "textures": "textures/items/doubanjiang"
-        },
-        "cooked_tofu_fish": {
-            "textures": "textures/items/cooked_tofufish"
-        },
-        "chikuwa": {
-            "textures": "textures/items/chikuwa"
-        },
-        "bugle": {
-            "textures": "textures/items/bugle"
-        },
-        "soymilk_hell_bucket": {
-            "textures": "textures/items/bucket_soymilk_nether"
-        },
-        "soymilk_bucket": {
-            "textures": "textures/items/bucket_soymilk"
-        },
-        "soysauce_bucket": {
-            "textures": "textures/items/bucket_soysauce"
-        },
-        "bottle_soysauce": {
-            "textures": "textures/items/bottle_soysauce"
-        },
-        "soyoil": {
-            "textures": "textures/items/bottle_soyoil"
-        },
-        "bottle_defatting": {
-            "textures": "textures/items/bottle_defatting"
-        },
-        "dashi": {
-            "textures": "textures/items/bottle_dashi"
-        },
-        "bittern_bottle": {
-            "textures": "textures/items/bittern_bottle"
-        },
-        "barrelmisotofu": {
-            "textures": "textures/items/barrelmisotofu"
-        },
-        "barrelmiso": {
-            "textures": "textures/items/barrelmiso"
-        },
-        "barrelglowtofu": {
-            "textures": "textures/items/barrelglowtofu"
-        },
-        "barrelempty": {
-            "textures": "textures/items/barrelempty"
-        },
-        "barreladvtofugem": {
-            "textures": "textures/items/barreladvtofugem"
-        },
-        "apricot_seed": {
-            "textures": "textures/items/apricotseed"
-        },
-        "apricotjerry_bread": {
-            "textures": "textures/items/apricotjerry_bread"
-        },
-        "apricotjerry_bottle": {
-            "textures": "textures/items/apricotjerry_bottle"
-        },
-        "apricot": {
-            "textures": "textures/items/apricot"
-        },
-        "ancient_leek": {
-            "textures": "textures/items/ancient_leek"
-        },
-        "agedashi_tofu": {
-            "textures": "textures/items/agedashi_tofu"
-        },
-        "adv_tofu_gem": {
-            "textures": "textures/items/advTofuGem"
-        },
-        "activatedtofugem": {
-            "textures": "textures/items/activatedtofugem"
-        },
-        "activatedhelltofu": {
-            "textures": "textures/items/activatedhelltofu"
-        }
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "activated_hell_tofu": {
+      "textures": "textures/items/activated_hell_tofu"
     },
-    "texture_name": "atlas.items"
+    "activated_tofu_gem": {
+      "textures": "textures/items/activated_tofu_gem"
+    },
+    "adv_tofu_gem": {
+      "textures": "textures/items/adv_tofu_gem"
+    },
+    "adv_tofu_gem_barrel": {
+      "textures": "textures/items/adv_tofu_gem_barrel"
+    },
+    "agedashi_tofu": {
+      "textures": "textures/items/agedashi_tofu"
+    },
+    "annin_soy_milk": {
+      "textures": "textures/items/annin_soy_milk"
+    },
+    "annin_tofu": {
+      "textures": "textures/items/annin_tofu"
+    },
+    "annin_tofu_door": {
+      "textures": "textures/items/annin_tofu_door"
+    },
+    "apple_soy_milk": {
+      "textures": "textures/items/apple_soy_milk"
+    },
+    "apricot": {
+      "textures": "textures/items/apricot"
+    },
+    "apricot_sapling": {
+      "textures": "textures/items/apricot_sapling"
+    },
+    "apricot_seed": {
+      "textures": "textures/items/apricot_seed"
+    },
+    "bugle": {
+      "textures": "textures/items/bugle"
+    },
+    "chikuwa": {
+      "textures": "textures/items/chikuwa"
+    },
+    "cocoa_soy_milk": {
+      "textures": "textures/items/cocoa_soy_milk"
+    },
+    "cooked_tofu_fish": {
+      "textures": "textures/items/cooked_tofu_fish"
+    },
+    "dashi": {
+      "textures": "textures/items/dashi"
+    },
+    "defatting_potion": {
+      "textures": "textures/items/defatting_potion"
+    },
+    "diamond_tofu": {
+      "textures": "textures/items/diamond_tofu"
+    },
+    "diamond_tofu_axe": {
+      "textures": "textures/items/diamond_tofu_axe"
+    },
+    "diamond_tofu_boots": {
+      "textures": "textures/items/diamond_tofu_boots"
+    },
+    "diamond_tofu_chestplate": {
+      "textures": "textures/items/diamond_tofu_chestplate"
+    },
+    "diamond_tofu_door": {
+      "textures": "textures/items/diamond_tofu_door"
+    },
+    "diamond_tofu_helmet": {
+      "textures": "textures/items/diamond_tofu_helmet"
+    },
+    "diamond_tofu_leggings": {
+      "textures": "textures/items/diamond_tofu_leggings"
+    },
+    "diamond_tofu_nugget": {
+      "textures": "textures/items/diamond_tofu_nugget"
+    },
+    "diamond_tofu_pickaxe": {
+      "textures": "textures/items/diamond_tofu_pickaxe"
+    },
+    "diamond_tofu_shovel": {
+      "textures": "textures/items/diamond_tofu_shovel"
+    },
+    "diamond_tofu_sword": {
+      "textures": "textures/items/diamond_tofu_sword"
+    },
+    "doubanjiang": {
+      "textures": "textures/items/doubanjiang"
+    },
+    "dried_tofu": {
+      "textures": "textures/items/dried_tofu"
+    },
+    "dried_tofu_door": {
+      "textures": "textures/items/dried_tofu_door"
+    },
+    "edamame": {
+      "textures": "textures/items/edamame"
+    },
+    "edamame_boiled": {
+      "textures": "textures/items/edamame_boiled"
+    },
+    "egg_tofu": {
+      "textures": "textures/items/egg_tofu"
+    },
+    "egg_tofu_door": {
+      "textures": "textures/items/egg_tofu_door"
+    },
+    "empty_barrel": {
+      "textures": "textures/items/empty_barrel"
+    },
+    "filter_cloth": {
+      "textures": "textures/items/filter_cloth"
+    },
+    "fried_tofu": {
+      "textures": "textures/items/fried_tofu"
+    },
+    "fried_tofu_door": {
+      "textures": "textures/items/fried_tofu_door"
+    },
+    "fried_tofu_pouch": {
+      "textures": "textures/items/fried_tofu_pouch"
+    },
+    "fried_tofu_pouch_door": {
+      "textures": "textures/items/fried_tofu_pouch_door"
+    },
+    "fukumame": {
+      "textures": "textures/items/fukumame"
+    },
+    "fukumeni": {
+      "textures": "textures/items/fukumeni"
+    },
+    "gelatin": {
+      "textures": "textures/items/gelatin"
+    },
+    "glass_bowl": {
+      "textures": "textures/items/glass_bowl"
+    },
+    "glow_tofu": {
+      "textures": "textures/items/glow_tofu"
+    },
+    "glow_tofu_barrel": {
+      "textures": "textures/items/glow_tofu_barrel"
+    },
+    "glow_tofu_door": {
+      "textures": "textures/items/glow_tofu_door"
+    },
+    "goheimochi": {
+      "textures": "textures/items/goheimochi"
+    },
+    "golden_salt": {
+      "textures": "textures/items/golden_salt"
+    },
+    "grilled_tofu": {
+      "textures": "textures/items/grilled_tofu"
+    },
+    "grilled_tofu_door": {
+      "textures": "textures/items/grilled_tofu_door"
+    },
+    "hell_soy_milk_bucket": {
+      "textures": "textures/items/hell_soy_milk_bucket"
+    },
+    "hell_soybeans": {
+      "textures": "textures/items/hell_soybeans"
+    },
+    "hell_tofu": {
+      "textures": "textures/items/hell_tofu"
+    },
+    "hell_tofu_door": {
+      "textures": "textures/items/hell_tofu_door"
+    },
+    "hiyayakko": {
+      "textures": "textures/items/hiyayakko"
+    },
+    "hiyayakko_glass": {
+      "textures": "textures/items/hiyayakko_glass"
+    },
+    "inari": {
+      "textures": "textures/items/inari"
+    },
+    "ishi_tofu": {
+      "textures": "textures/items/ishi_tofu"
+    },
+    "ishi_tofu_door": {
+      "textures": "textures/items/ishi_tofu_door"
+    },
+    "kinako": {
+      "textures": "textures/items/kinako"
+    },
+    "kinako_manju": {
+      "textures": "textures/items/kinako_manju"
+    },
+    "kinako_mochi": {
+      "textures": "textures/items/kinako_mochi"
+    },
+    "kinako_soy_milk": {
+      "textures": "textures/items/kinako_soy_milk"
+    },
+    "kinu_tofu": {
+      "textures": "textures/items/kinu_tofu"
+    },
+    "kinu_tofu_axe": {
+      "textures": "textures/items/kinu_tofu_axe"
+    },
+    "kinu_tofu_boots": {
+      "textures": "textures/items/kinu_tofu_boots"
+    },
+    "kinu_tofu_chestplate": {
+      "textures": "textures/items/kinu_tofu_chestplate"
+    },
+    "kinu_tofu_door": {
+      "textures": "textures/items/kinu_tofu_door"
+    },
+    "kinu_tofu_helmet": {
+      "textures": "textures/items/kinu_tofu_helmet"
+    },
+    "kinu_tofu_leggings": {
+      "textures": "textures/items/kinu_tofu_leggings"
+    },
+    "kinu_tofu_pickaxe": {
+      "textures": "textures/items/kinu_tofu_pickaxe"
+    },
+    "kinu_tofu_shovel": {
+      "textures": "textures/items/kinu_tofu_shovel"
+    },
+    "kinu_tofu_sword": {
+      "textures": "textures/items/kinu_tofu_sword"
+    },
+    "kouji": {
+      "textures": "textures/items/kouji"
+    },
+    "kouji_base": {
+      "textures": "textures/items/kouji_base"
+    },
+    "koya_tofu_stew": {
+      "textures": "textures/items/koya_tofu_stew"
+    },
+    "kyoninso": {
+      "textures": "textures/items/kyoninso"
+    },
+    "leek": {
+      "textures": "textures/items/leek"
+    },
+    "mabodofu": {
+      "textures": "textures/items/mabodofu"
+    },
+    "masu": {
+      "textures": "textures/items/masu"
+    },
+    "metal_tofu": {
+      "textures": "textures/items/metal_tofu"
+    },
+    "metal_tofu_axe": {
+      "textures": "textures/items/metal_tofu_axe"
+    },
+    "metal_tofu_boots": {
+      "textures": "textures/items/metal_tofu_boots"
+    },
+    "metal_tofu_chestplate": {
+      "textures": "textures/items/metal_tofu_chestplate"
+    },
+    "metal_tofu_door": {
+      "textures": "textures/items/metal_tofu_door"
+    },
+    "metal_tofu_helmet": {
+      "textures": "textures/items/metal_tofu_helmet"
+    },
+    "metal_tofu_leggings": {
+      "textures": "textures/items/metal_tofu_leggings"
+    },
+    "metal_tofu_pickaxe": {
+      "textures": "textures/items/metal_tofu_pickaxe"
+    },
+    "metal_tofu_shovel": {
+      "textures": "textures/items/metal_tofu_shovel"
+    },
+    "metal_tofu_sword": {
+      "textures": "textures/items/metal_tofu_sword"
+    },
+    "minced_potato": {
+      "textures": "textures/items/minced_potato"
+    },
+    "minced_tofu": {
+      "textures": "textures/items/minced_tofu"
+    },
+    "mineral_soy_milk": {
+      "textures": "textures/items/mineral_soy_milk"
+    },
+    "miso": {
+      "textures": "textures/items/miso"
+    },
+    "miso_barrel": {
+      "textures": "textures/items/miso_barrel"
+    },
+    "miso_dengaku": {
+      "textures": "textures/items/miso_dengaku"
+    },
+    "miso_soup": {
+      "textures": "textures/items/miso_soup"
+    },
+    "miso_tofu": {
+      "textures": "textures/items/miso_tofu"
+    },
+    "miso_tofu_barrel": {
+      "textures": "textures/items/miso_tofu_barrel"
+    },
+    "miso_tofu_door": {
+      "textures": "textures/items/miso_tofu_door"
+    },
+    "miso_yaki_onigiri": {
+      "textures": "textures/items/miso_yaki_onigiri"
+    },
+    "momen_tofu": {
+      "textures": "textures/items/momen_tofu"
+    },
+    "momen_tofu_axe": {
+      "textures": "textures/items/momen_tofu_axe"
+    },
+    "momen_tofu_boots": {
+      "textures": "textures/items/momen_tofu_boots"
+    },
+    "momen_tofu_chestplate": {
+      "textures": "textures/items/momen_tofu_chestplate"
+    },
+    "momen_tofu_door": {
+      "textures": "textures/items/momen_tofu_door"
+    },
+    "momen_tofu_helmet": {
+      "textures": "textures/items/momen_tofu_helmet"
+    },
+    "momen_tofu_leggings": {
+      "textures": "textures/items/momen_tofu_leggings"
+    },
+    "momen_tofu_pickaxe": {
+      "textures": "textures/items/momen_tofu_pickaxe"
+    },
+    "momen_tofu_shovel": {
+      "textures": "textures/items/momen_tofu_shovel"
+    },
+    "momen_tofu_sword": {
+      "textures": "textures/items/momen_tofu_sword"
+    },
+    "morijio": {
+      "textures": "textures/items/morijio"
+    },
+    "moyashi_itame": {
+      "textures": "textures/items/moyashi_itame"
+    },
+    "moyashi_ohitashi": {
+      "textures": "textures/items/moyashi_ohitashi"
+    },
+    "natto": {
+      "textures": "textures/items/natto"
+    },
+    "natto_hiyayakko": {
+      "textures": "textures/items/natto_hiyayakko"
+    },
+    "natto_hiyayakko_glass": {
+      "textures": "textures/items/natto_hiyayakko_glass"
+    },
+    "nigari": {
+      "textures": "textures/items/nigari"
+    },
+    "nikujaga": {
+      "textures": "textures/items/nikujaga"
+    },
+    "oage": {
+      "textures": "textures/items/oage"
+    },
+    "okara": {
+      "textures": "textures/items/okara"
+    },
+    "okara_stick": {
+      "textures": "textures/items/okara_stick"
+    },
+    "onigiri": {
+      "textures": "textures/items/onigiri"
+    },
+    "onigiri_salt": {
+      "textures": "textures/items/onigiri_salt"
+    },
+    "pudding_soy_milk": {
+      "textures": "textures/items/pudding_soy_milk"
+    },
+    "pumpkin_soy_milk": {
+      "textures": "textures/items/pumpkin_soy_milk"
+    },
+    "ramune_soy_milk": {
+      "textures": "textures/items/ramune_soy_milk"
+    },
+    "raw_gelatin": {
+      "textures": "textures/items/raw_gelatin"
+    },
+    "raw_starch": {
+      "textures": "textures/items/raw_starch"
+    },
+    "raw_tofu_fish": {
+      "textures": "textures/items/raw_tofu_fish"
+    },
+    "raw_tofu_hamburg": {
+      "textures": "textures/items/raw_tofu_hamburg"
+    },
+    "rice_natto": {
+      "textures": "textures/items/rice_natto"
+    },
+    "rice_natto_leek": {
+      "textures": "textures/items/rice_natto_leek"
+    },
+    "rice_soboro_tofu": {
+      "textures": "textures/items/rice_soboro_tofu"
+    },
+    "rice_tofu": {
+      "textures": "textures/items/rice_tofu"
+    },
+    "rolling_pin": {
+      "textures": "textures/items/rolling_pin"
+    },
+    "sakura_soy_milk": {
+      "textures": "textures/items/sakura_soy_milk"
+    },
+    "salt": {
+      "textures": "textures/items/salt"
+    },
+    "salty_melon": {
+      "textures": "textures/items/salty_melon"
+    },
+    "sesame": {
+      "textures": "textures/items/sesame"
+    },
+    "sesame_tofu": {
+      "textures": "textures/items/sesame_tofu"
+    },
+    "sesame_tofu_door": {
+      "textures": "textures/items/sesame_tofu_door"
+    },
+    "shoyu_yaki_onigiri": {
+      "textures": "textures/items/shoyu_yaki_onigiri"
+    },
+    "soboro_tofu_saute": {
+      "textures": "textures/items/soboro_tofu_saute"
+    },
+    "solid_tofu_axe": {
+      "textures": "textures/items/solid_tofu_axe"
+    },
+    "solid_tofu_boots": {
+      "textures": "textures/items/solid_tofu_boots"
+    },
+    "solid_tofu_chestplate": {
+      "textures": "textures/items/solid_tofu_chestplate"
+    },
+    "solid_tofu_helmet": {
+      "textures": "textures/items/solid_tofu_helmet"
+    },
+    "solid_tofu_leggings": {
+      "textures": "textures/items/solid_tofu_leggings"
+    },
+    "solid_tofu_pickaxe": {
+      "textures": "textures/items/solid_tofu_pickaxe"
+    },
+    "solid_tofu_shovel": {
+      "textures": "textures/items/solid_tofu_shovel"
+    },
+    "solid_tofu_sword": {
+      "textures": "textures/items/solid_tofu_sword"
+    },
+    "soy_milk": {
+      "textures": "textures/items/soy_milk"
+    },
+    "soy_milk_bucket": {
+      "textures": "textures/items/soy_milk_bucket"
+    },
+    "soy_oil": {
+      "textures": "textures/items/soy_oil"
+    },
+    "soy_sauce_bottle": {
+      "textures": "textures/items/soy_sauce_bottle"
+    },
+    "soy_sauce_bucket": {
+      "textures": "textures/items/soy_sauce_bucket"
+    },
+    "soybeans": {
+      "textures": "textures/items/soybeans"
+    },
+    "soybeans_parched": {
+      "textures": "textures/items/soybeans_parched"
+    },
+    "sprouts": {
+      "textures": "textures/items/sprouts"
+    },
+    "starch": {
+      "textures": "textures/items/starch"
+    },
+    "strawberry_jam": {
+      "textures": "textures/items/strawberry_jam"
+    },
+    "strawberry_soy_milk": {
+      "textures": "textures/items/strawberry_soy_milk"
+    },
+    "strawberry_tofu": {
+      "textures": "textures/items/strawberry_tofu"
+    },
+    "strawberry_tofu_door": {
+      "textures": "textures/items/strawberry_tofu_door"
+    },
+    "tasty_beef_stew": {
+      "textures": "textures/items/tasty_beef_stew"
+    },
+    "tasty_stew": {
+      "textures": "textures/items/tasty_stew"
+    },
+    "tea_soy_milk": {
+      "textures": "textures/items/tea_soy_milk"
+    },
+    "tf_antenna": {
+      "textures": "textures/items/tf_antenna"
+    },
+    "tf_capacitor": {
+      "textures": "textures/items/tf_capacitor"
+    },
+    "tf_circuit": {
+      "textures": "textures/items/tf_circuit"
+    },
+    "tf_coil": {
+      "textures": "textures/items/tf_coil"
+    },
+    "tf_oscillator": {
+      "textures": "textures/items/tf_oscillator"
+    },
+    "tf_superwave_antenna": {
+      "textures": "textures/items/tf_superwave_antenna"
+    },
+    "tf_ultrawave_antenna": {
+      "textures": "textures/items/tf_ultrawave_antenna"
+    },
+    "tofu_cake": {
+      "textures": "textures/items/tofu_cake"
+    },
+    "tofu_chikuwa": {
+      "textures": "textures/items/tofu_chikuwa"
+    },
+    "tofu_cookie": {
+      "textures": "textures/items/tofu_cookie"
+    },
+    "tofu_gem": {
+      "textures": "textures/items/tofu_gem"
+    },
+    "tofu_hamburg": {
+      "textures": "textures/items/tofu_hamburg"
+    },
+    "tofu_hamburg_tempra": {
+      "textures": "textures/items/tofu_hamburg_tempra"
+    },
+    "tofu_hamburg_tempra_ankake": {
+      "textures": "textures/items/tofu_hamburg_tempra_ankake"
+    },
+    "tofu_hoe": {
+      "textures": "textures/items/tofu_hoe"
+    },
+    "tofu_radar": {
+      "textures": "textures/items/tofu_radar"
+    },
+    "tofu_sapling": {
+      "textures": "textures/items/tofu_sapling"
+    },
+    "tofu_scoop": {
+      "textures": "textures/items/tofu_scoop"
+    },
+    "tofu_somen": {
+      "textures": "textures/items/tofu_somen"
+    },
+    "tofu_somen_bowl_glass": {
+      "textures": "textures/items/tofu_somen_bowl_glass"
+    },
+    "tofu_steak": {
+      "textures": "textures/items/tofu_steak"
+    },
+    "tofu_stick": {
+      "textures": "textures/items/tofu_stick"
+    },
+    "tsuyu_bowl_glass": {
+      "textures": "textures/items/tsuyu_bowl_glass"
+    },
+    "ttt_burger": {
+      "textures": "textures/items/ttt_burger"
+    },
+    "yuba": {
+      "textures": "textures/items/yuba"
+    },
+    "yudofu": {
+      "textures": "textures/items/yudofu"
+    },
+    "zunda": {
+      "textures": "textures/items/zunda"
+    },
+    "zunda_arrow": {
+      "textures": "textures/items/zunda_arrow"
+    },
+    "zunda_bow": {
+      "textures": "textures/items/zunda_bow"
+    },
+    "zunda_manju": {
+      "textures": "textures/items/zunda_manju"
+    },
+    "zunda_mochi": {
+      "textures": "textures/items/zunda_mochi"
+    },
+    "zunda_soy_milk": {
+      "textures": "textures/items/zunda_soy_milk"
+    },
+    "zunda_tofu": {
+      "textures": "textures/items/zunda_tofu"
+    },
+    "zunda_tofu_door": {
+      "textures": "textures/items/zunda_tofu_door"
+    },
+    "zundama": {
+      "textures": "textures/items/zundama"
+    }
+  }
 }

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:zunda_arrow",
+            "menu_category": {
+                "category": "equipment",
+                "group": "minecraft:itemGroup.name.arrow"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "zunda_arrow"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:zunda_arrow.name"
+            }
+        }
+    }
+}

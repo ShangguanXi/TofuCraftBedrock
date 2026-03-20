@@ -1,0 +1,69 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:solid_tofu_pickaxe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "tofucraft:itemGroup.name.pickaxe"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:damage": {
+                "value": 1
+            },
+            "minecraft:durability": {
+                "max_durability": 184
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "solid_tofu_pickaxe"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:solid_tofu_pickaxe.name"
+            },
+            "minecraft:enchantable": {
+                "value": 6,
+                "slot": "pickaxe"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_pickaxe",
+                    "minecraft:is_tool",
+                    "minecraft:digger",
+                    "minecraft:stone_tier"
+                ]
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "tofucraft:ishi_tofu"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    },
+                    {
+                        "items": [
+                            "tofucraft:solid_tofu_pickaxe"
+                        ],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('minecraft:is_pickaxe_item_destructible') && !q.any_tag('minecraft:iron_tier_destructible')"
+                        },
+                        "speed": 3
+                    }
+                ]
+            }
+        }
+    }
+}

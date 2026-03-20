@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:tofu_sapling",
+            "menu_category": {
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.sapling"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "tofucraft:tofu_sapling",
+                "replace_block_item": true
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tofu_sapling"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:tofu_sapling.name"
+            }
+        }
+    }
+}

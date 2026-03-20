@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tofucraft:dashi",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.materials"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "dashi"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.tofucraft:dashi.name"
+            }
+        }
+    }
+}

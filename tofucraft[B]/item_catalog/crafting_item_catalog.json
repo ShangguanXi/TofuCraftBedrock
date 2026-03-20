@@ -14,6 +14,20 @@
                },
                {
                   "group_identifier": {
+                     "icon": "tofucraft:kinako_soy_milk",
+                     "name": "tofucraft:itemGroup.name.soy_milk_bottle"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:bugle",
+                     "name": "tofucraft:itemGroup.name.props"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
                      "icon": "tofucraft:diamond_tofu_helmet",
                      "name": "tofucraft:itemGroup.name.helmet"
                   },
@@ -92,6 +106,32 @@
                },
                {
                   "group_identifier": {
+                     "icon": "tofucraft:diamond_tofu_sword",
+                     "name": "tofucraft:itemGroup.name.sword"
+                  },
+                  "items": [
+                     "tofucraft:kinu_tofu_sword",
+                     "tofucraft:momen_tofu_sword",
+                     "tofucraft:solid_tofu_sword",
+                     "tofucraft:metal_tofu_sword",
+                     "tofucraft:diamond_tofu_sword"
+                  ]
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:diamond_tofu_shovel",
+                     "name": "tofucraft:itemGroup.name.shovel"
+                  },
+                  "items": [
+                     "tofucraft:kinu_tofu_shovel",
+                     "tofucraft:momen_tofu_shovel",
+                     "tofucraft:solid_tofu_shovel",
+                     "tofucraft:metal_tofu_shovel",
+                     "tofucraft:diamond_tofu_shovel"
+                  ]
+               },
+               {
+                  "group_identifier": {
                      "icon": "tofucraft:kinako_manju",
                      "name": "tofucraft:itemGroup.name.miscFood"
                   },
@@ -156,7 +196,7 @@
             "groups": [
                {
                   "group_identifier": {
-                     "icon": "tofucraft:soymilk_bucket",
+                     "icon": "tofucraft:soy_milk_bucket",
                      "name": "tofucraft:itemGroup.name.bucket"
                   },
                   "items": []
@@ -165,13 +205,6 @@
                   "group_identifier": {
                      "icon": "tofucraft:activated_hell_tofu",
                      "name": "tofucraft:itemGroup.name.materials"
-                  },
-                  "items": []
-               },
-               {
-                  "group_identifier": {
-                     "icon": "tofucraft:bugle",
-                     "name": "tofucraft:itemGroup.name.props"
                   },
                   "items": []
                },
