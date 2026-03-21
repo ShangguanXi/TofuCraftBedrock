@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:golden_salt"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:salt"
+            },
+            {
+                "item": "minecraft:gold_nugget"
+            },
+            {
+                "item": "minecraft:gold_nugget"
+            },
+            {
+                "item": "minecraft:gold_nugget"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:golden_salt",
+                "count": 1
+            }
+        ]
+    }
+}

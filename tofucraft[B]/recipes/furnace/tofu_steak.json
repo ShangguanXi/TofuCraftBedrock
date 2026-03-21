@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "tofucraft:tofu_steak"
+        },
+        "tags": [
+            "furnace",
+            "campfire",
+            "smoker",
+            "soul_campfire"
+        ],
+        "input": {
+            "item": "tofucraft:ishi_tofu"
+        },
+        "output": "tofucraft:tofu_steak"
+    }
+}

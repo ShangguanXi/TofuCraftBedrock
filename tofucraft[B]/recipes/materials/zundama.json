@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:zundama"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " Z ",
+            "ZGZ",
+            " Z "
+        ],
+        "key": {
+            "Z": {
+                "item": "tofucraft:zunda"
+            },
+            "G": {
+                "item": "minecraft:glowstone_dust"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:zundama",
+                "count": 1
+            }
+        ]
+    }
+}

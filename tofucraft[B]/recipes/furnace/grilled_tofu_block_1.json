@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "tofucraft:grilled_tofu_block"
+        },
+        "tags": [
+            "furnace",
+            "campfire",
+            "smoker",
+            "soul_campfire"
+        ],
+        "input": {
+            "item": "tofucraft:kinu_tofu_block"
+        },
+        "output": "tofucraft:grilled_tofu_block"
+    }
+}

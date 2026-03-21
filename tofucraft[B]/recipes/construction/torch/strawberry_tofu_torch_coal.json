@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:strawberry_tofu_torch_coal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "C",
+            "T",
+            "T"
+        ],
+        "key": {
+            "C": {
+                "item": "minecraft:coal"
+            },
+            "T": {
+                "item": "tofucraft:strawberry_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:strawberry_tofu_torch",
+                "count": 4
+            }
+        ]
+    }
+}

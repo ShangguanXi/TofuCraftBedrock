@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:koya_tofu_stew"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:dried_tofu"
+            },
+            {
+                "item": "tofucraft:dashi"
+            },
+            {
+                "item": "minecraft:brown_mushroom"
+            },
+            {
+                "item": "tofucraft:soy_sauce_bottle"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:koya_tofu_stew",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 2
+            }
+        ]
+    }
+}

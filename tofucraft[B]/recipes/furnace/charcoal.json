@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "tofucraft:charcoal"
+        },
+        "tags": [
+            "furnace",
+            "campfire",
+            "smoker",
+            "soul_campfire"
+        ],
+        "input": {
+            "item": "tofucraft:apricot_log"
+        },
+        "output": "minecraft:charcoal"
+    }
+}

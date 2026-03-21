@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:strawberry_tofu_fence_gate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BIB",
+            "BIB"
+        ],
+        "key": {
+            "B": {
+                "item": "tofucraft:strawberry_tofu_block"
+            },
+            "I": {
+                "item": "tofucraft:strawberry_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:strawberry_tofu_fence_gate",
+                "count": 1
+            }
+        ]
+    }
+}

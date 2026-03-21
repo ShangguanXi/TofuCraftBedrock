@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:tofu_hamburg_tempra_ankake"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:tofu_hamburg_tempra"
+            },
+            {
+                "item": "tofucraft:starch"
+            },
+            {
+                "item": "tofucraft:soy_sauce_bottle"
+            },
+            {
+                "item": "tofucraft:dashi"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:tofu_hamburg_tempra_ankake",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 2
+            }
+        ]
+    }
+}

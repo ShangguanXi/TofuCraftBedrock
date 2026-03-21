@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_saturator"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TTT",
+            "TGT",
+            "TMT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:dried_tofu_block"
+            },
+            "G": {
+                "item": "tofucraft:adv_tofu_gem"
+            },
+            "M": {
+                "item": "tofucraft:tf_machine_case"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_saturator",
+                "count": 1
+            }
+        ]
+    }
+}

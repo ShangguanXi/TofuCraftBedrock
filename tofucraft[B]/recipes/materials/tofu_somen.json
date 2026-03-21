@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:tofu_somen"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:rolling_pin"
+            },
+            {
+                "item": "tofucraft:kinu_tofu"
+            },
+            {
+                "item": "tofucraft:starch"
+            },
+            {
+                "item": "tofucraft:salt"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:tofu_somen",
+                "count": 4
+            },
+            {
+                "item": "tofucraft:rolling_pin",
+                "count": 1
+            }
+        ]
+    }
+}

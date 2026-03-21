@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:annin_tofu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:gelatin"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:milk_bucket"
+            },
+            {
+                "item": "tofucraft:kyoninso"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:annin_tofu",
+                "count": 4
+            },
+            {
+                "item": "minecraft:bucket",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:tofu_radar_charge"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:tofu_radar"
+            },
+            {
+                "item": "tofucraft:tofu_gem"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:tofu_radar",
+                "count": 1
+            }
+        ]
+    }
+}

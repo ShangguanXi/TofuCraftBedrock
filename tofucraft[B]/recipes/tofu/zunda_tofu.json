@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:zunda_tofu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:starch"
+            },
+            {
+                "item": "tofucraft:zunda"
+            },
+            {
+                "item": "tofucraft:dashi"
+            },
+            {
+                "item": "tofucraft:salt"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:zunda_tofu",
+                "count": 4
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_ultrawave_antenna"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " D ",
+            "GYG"
+        ],
+        "key": {
+            "Y": {
+                "item": "tofucraft:tf_antenna"
+            },
+            "G": {
+                "item": "tofucraft:adv_tofu_gem"
+            },
+            "D": {
+                "item": "tofucraft:diamond_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_ultrawave_antenna",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:cocoa_soy_milk"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "tofucraft:soy_milk_bucket"
+            },
+            {
+                "item": "minecraft:dye",
+                "data": 3
+            },
+            {
+                "item": "minecraft:sugar"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:cocoa_soy_milk",
+                "count": 1
+            },
+            {
+                "item": "minecraft:bucket",
+                "count": 1
+            }
+        ]
+    }
+}

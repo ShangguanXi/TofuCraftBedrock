@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:adv_gem_tofu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "GGG",
+            "GGG",
+            "GGG"
+        ],
+        "key": {
+            "G": {
+                "item": "tofucraft:adv_tofu_gem"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:adv_gem_tofu",
+                "count": 1
+            }
+        ]
+    }
+}

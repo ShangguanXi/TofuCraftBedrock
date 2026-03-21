@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:momen_tofu_leggings"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TTT",
+            "T T",
+            "T T"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:momen_tofu_block"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:momen_tofu_leggings",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:kyoninso"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:apricot_seed"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:kyoninso",
+                "count": 1
+            }
+        ]
+    }
+}

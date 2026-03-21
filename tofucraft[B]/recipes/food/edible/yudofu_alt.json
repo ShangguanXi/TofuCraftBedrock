@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:yudofu_alt"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:momen_tofu"
+            },
+            {
+                "item": "minecraft:potion"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:yudofu",
+                "count": 1
+            }
+        ]
+    }
+}

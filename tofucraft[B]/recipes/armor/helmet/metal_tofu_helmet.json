@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:metal_tofu_helmet"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TTT",
+            "T T"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:metal_tofu_block"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:metal_tofu_helmet",
+                "count": 1
+            }
+        ]
+    }
+}

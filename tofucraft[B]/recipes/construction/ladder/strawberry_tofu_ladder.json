@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:strawberry_tofu_ladder"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "T T",
+            "TTT",
+            "T T"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:strawberry_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:strawberry_tofu_ladder",
+                "count": 3
+            }
+        ]
+    }
+}

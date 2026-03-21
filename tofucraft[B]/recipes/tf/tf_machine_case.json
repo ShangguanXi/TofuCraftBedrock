@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_machine_case"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TTT",
+            "T T",
+            "TTT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:metal_tofu_block"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_machine_case",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:minced_tofu_from_item"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "T",
+            "R"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:momen_tofu"
+            },
+            "R": {
+                "item": "tofucraft:rolling_pin"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:minced_tofu",
+                "count": 1
+            },
+            {
+                "item": "tofucraft:rolling_pin",
+                "count": 1
+            }
+        ]
+    }
+}

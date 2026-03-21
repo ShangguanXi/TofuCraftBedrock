@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:kouji_base"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "tofucraft:soybeans"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:kouji_base",
+                "count": 1
+            }
+        ]
+    }
+}

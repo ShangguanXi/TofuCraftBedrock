@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:chikuwa_alt"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " F ",
+            "TES",
+            " F "
+        ],
+        "key": {
+            "F": {
+                "item": "minecraft:cooked_fish"
+            },
+            "S": {
+                "item": "tofucraft:salt"
+            },
+            "E": {
+                "tag": "minecraft:egg"
+            },
+            "T": {
+                "item": "tofucraft:starch"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:chikuwa",
+                "count": 4
+            }
+        ]
+    }
+}

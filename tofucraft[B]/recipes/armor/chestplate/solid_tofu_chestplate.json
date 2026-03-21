@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:solid_tofu_chestplate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "T T",
+            "TTT",
+            "TTT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:ishi_tofu_block"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:solid_tofu_chestplate",
+                "count": 1
+            }
+        ]
+    }
+}

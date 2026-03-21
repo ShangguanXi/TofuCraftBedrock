@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:diamond_tofu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "NNN",
+            "NNN",
+            "NNN"
+        ],
+        "key": {
+            "N": {
+                "item": "tofucraft:diamond_tofu_nugget"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:diamond_tofu",
+                "count": 1
+            }
+        ]
+    }
+}

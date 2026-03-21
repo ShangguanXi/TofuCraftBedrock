@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_mix_reformer"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " H ",
+            "GTG",
+            " M "
+        ],
+        "key": {
+            "H": {
+                "item": "minecraft:hopper"
+            },
+            "T": {
+                "item": "minecraft:crafting_table"
+            },
+            "G": {
+                "item": "tofucraft:adv_tofu_gem"
+            },
+            "M": {
+                "item": "tofucraft:tf_simple_reformer"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_mix_reformer",
+                "count": 1
+            }
+        ]
+    }
+}

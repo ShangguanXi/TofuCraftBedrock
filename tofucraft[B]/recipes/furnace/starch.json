@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "tofucraft:starch"
+        },
+        "tags": [
+            "furnace",
+            "campfire",
+            "smoker",
+            "soul_campfire"
+        ],
+        "input": {
+            "item": "tofucraft:raw_starch"
+        },
+        "output": "tofucraft:starch"
+    }
+}

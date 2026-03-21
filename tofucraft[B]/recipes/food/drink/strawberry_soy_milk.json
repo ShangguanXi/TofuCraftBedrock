@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:strawberry_soy_milk"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "tofucraft:soy_milk_bucket"
+            },
+            {
+                "item": "tofucraft:strawberry_jam"
+            },
+            {
+                "item": "minecraft:sugar"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:strawberry_soy_milk",
+                "count": 1
+            },
+            {
+                "item": "minecraft:bucket",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

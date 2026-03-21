@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:morijio"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "D",
+            "S",
+            "B"
+        ],
+        "key": {
+            "D": {
+                "item": "minecraft:diamond"
+            },
+            "S": {
+                "item": "tofucraft:salt"
+            },
+            "B": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:morijio",
+                "count": 4
+            }
+        ]
+    }
+}

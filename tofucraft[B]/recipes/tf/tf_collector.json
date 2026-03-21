@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_collector"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "H H",
+            "GBG",
+            " M "
+        ],
+        "key": {
+            "H": {
+                "item": "minecraft:hopper"
+            },
+            "G": {
+                "item": "tofucraft:activated_tofu_gem"
+            },
+            "B": {
+                "item": "tofucraft:tf_circuit"
+            },
+            "M": {
+                "item": "tofucraft:tf_machine_case"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_collector",
+                "count": 1
+            }
+        ]
+    }
+}

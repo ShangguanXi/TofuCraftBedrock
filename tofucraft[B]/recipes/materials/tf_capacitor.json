@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_capacitor"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " T ",
+            "RGR",
+            " T "
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:metal_tofu"
+            },
+            "G": {
+                "item": "tofucraft:tofu_gem"
+            },
+            "R": {
+                "item": "minecraft:redstone"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_capacitor",
+                "count": 1
+            }
+        ]
+    }
+}

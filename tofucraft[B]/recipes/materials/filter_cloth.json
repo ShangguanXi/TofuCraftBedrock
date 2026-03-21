@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:filter_cloth"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "minecraft:wool"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:filter_cloth",
+                "count": 32
+            }
+        ]
+    }
+}

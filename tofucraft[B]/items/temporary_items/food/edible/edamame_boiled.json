@@ -10,7 +10,7 @@
         },
         "components": {
             "minecraft:use_modifiers": {
-                "use_duration": 0.8
+                "use_duration": 1.6
             },
             "minecraft:food": {
                 "nutrition": 1,

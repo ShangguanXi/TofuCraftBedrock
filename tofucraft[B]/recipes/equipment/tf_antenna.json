@@ -1,0 +1,42 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_antenna"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " Y ",
+            "CXA",
+            "_B_"
+        ],
+        "key": {
+            "Y": {
+                "item": "tofucraft:leek"
+            },
+            "C": {
+                "item": "tofucraft:tf_coil"
+            },
+            "X": {
+                "item": "tofucraft:tf_oscillator"
+            },
+            "A": {
+                "item": "tofucraft:tf_capacitor"
+            },
+            "B": {
+                "item": "tofucraft:tf_circuit"
+            },
+            "_": {
+                "item": "tofucraft:metal_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_antenna",
+                "count": 1
+            }
+        ]
+    }
+}

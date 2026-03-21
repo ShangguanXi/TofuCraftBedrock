@@ -1,0 +1,42 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_oven"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XHA",
+            "CGC",
+            " M "
+        ],
+        "key": {
+            "H": {
+                "item": "tofucraft:activated_hell_tofu"
+            },
+            "X": {
+                "item": "tofucraft:tf_oscillator"
+            },
+            "A": {
+                "item": "tofucraft:tf_capacitor"
+            },
+            "C": {
+                "item": "minecraft:hardened_clay"
+            },
+            "G": {
+                "item": "minecraft:glass"
+            },
+            "M": {
+                "item": "tofucraft:tf_machine_case"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_oven",
+                "count": 1
+            }
+        ]
+    }
+}

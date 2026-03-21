@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:metal_tofu_shovel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "T",
+            "|",
+            "|"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:metal_tofu_block"
+            },
+            "|": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:metal_tofu_shovel",
+                "count": 1
+            }
+        ]
+    }
+}

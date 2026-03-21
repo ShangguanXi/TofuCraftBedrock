@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:glow_tofu_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "GGG",
+            "TTT",
+            " B "
+        ],
+        "key": {
+            "G": {
+                "item": "minecraft:glowstone_dust"
+            },
+            "T": {
+                "item": "tofucraft:momen_tofu"
+            },
+            "B": {
+                "item": "tofucraft:empty_barrel"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:glow_tofu_barrel",
+                "count": 1
+            }
+        ]
+    }
+}

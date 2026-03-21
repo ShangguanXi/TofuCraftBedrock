@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tofu_chikuwa_platform"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " C ",
+            "C C",
+            " C "
+        ],
+        "key": {
+            "C": {
+                "item": "tofucraft:tofu_chikuwa"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tofu_chikuwa_platform",
+                "count": 1
+            }
+        ]
+    }
+}

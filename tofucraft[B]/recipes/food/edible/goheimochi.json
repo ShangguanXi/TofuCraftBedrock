@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:goheimochi"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "M",
+            "O",
+            "S"
+        ],
+        "key": {
+            "M": {
+                "item": "tofucraft:miso"
+            },
+            "O": {
+                "item": "tofucraft:onigiri"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:goheimochi",
+                "count": 1
+            }
+        ]
+    }
+}

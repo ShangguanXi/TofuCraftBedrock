@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:rice_tofu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:kinu_tofu"
+            },
+            {
+                "item": "tofucraft:leek"
+            },
+            {
+                "item": "tofucraft:soy_sauce_bottle"
+            },
+            {
+                "tag": "farmersdelight:is_dough"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:rice_tofu",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

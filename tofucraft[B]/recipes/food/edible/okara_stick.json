@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:okara_stick"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "O",
+            "E",
+            "W"
+        ],
+        "key": {
+            "O": {
+                "item": "tofucraft:okara"
+            },
+            "E": {
+                "tag": "minecraft:egg"
+            },
+            "W": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:okara_stick",
+                "count": 3
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:soy_milk_bucket_with_okara"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "S",
+            "F",
+            "B"
+        ],
+        "key": {
+            "S": {
+                "item": "tofucraft:soybeans"
+            },
+            "F": {
+                "item": "tofucraft:filter_cloth"
+            },
+            "B": {
+                "item": "minecraft:bucket"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:soy_milk_bucket",
+                "count": 1
+            },
+            {
+                "item": "tofucraft:okara",
+                "count": 1
+            }
+        ]
+    }
+}

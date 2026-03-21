@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:zunda_arrow"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:zunda"
+            },
+            {
+                "item": "minecraft:arrow"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:zunda_arrow",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:egg_tofu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "tag": "minecraft:egg"
+            },
+            {
+                "item": "tofucraft:dashi"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:egg_tofu",
+                "count": 4
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

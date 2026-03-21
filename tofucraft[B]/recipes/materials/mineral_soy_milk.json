@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:mineral_soy_milk"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:tofu_gem"
+            },
+            {
+                "item": "tofucraft:tofu_gem"
+            },
+            {
+                "item": "tofucraft:tofu_gem"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:mineral_soy_milk",
+                "count": 1
+            }
+        ]
+    }
+}

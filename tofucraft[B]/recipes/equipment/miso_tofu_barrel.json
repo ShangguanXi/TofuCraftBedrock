@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:miso_tofu_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "MMM",
+            "TTT",
+            " B "
+        ],
+        "key": {
+            "M": {
+                "item": "tofucraft:miso"
+            },
+            "T": {
+                "item": "tofucraft:momen_tofu"
+            },
+            "B": {
+                "item": "tofucraft:empty_barrel"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:miso_tofu_barrel",
+                "count": 1
+            }
+        ]
+    }
+}

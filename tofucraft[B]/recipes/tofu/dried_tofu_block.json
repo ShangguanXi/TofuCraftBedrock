@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:dried_tofu_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TT",
+            "TT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:dried_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:dried_tofu_block",
+                "count": 1
+            }
+        ]
+    }
+}

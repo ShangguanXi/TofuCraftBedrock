@@ -1,0 +1,43 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:rice_soboro_tofu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " Y ",
+            "STs",
+            " R "
+        ],
+        "key": {
+            "Y": {
+                "item": "tofucraft:leek"
+            },
+            "S": {
+                "item": "tofucraft:soy_sauce_bottle"
+            },
+            "T": {
+                "item": "tofucraft:minced_tofu"
+            },
+            "s": {
+                "item": "tofucraft:salt"
+            },
+            "R": {
+                "tag": "farmersdelight:is_dough"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:rice_soboro_tofu",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

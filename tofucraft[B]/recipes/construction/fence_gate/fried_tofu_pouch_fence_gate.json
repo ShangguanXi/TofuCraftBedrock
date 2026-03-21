@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:fried_tofu_pouch_fence_gate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BIB",
+            "BIB"
+        ],
+        "key": {
+            "B": {
+                "item": "tofucraft:fried_tofu_pouch_block"
+            },
+            "I": {
+                "item": "tofucraft:fried_tofu_pouch"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:fried_tofu_pouch_fence_gate",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:miso_tofu_fence_gate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BIB",
+            "BIB"
+        ],
+        "key": {
+            "B": {
+                "item": "tofucraft:miso_tofu_block"
+            },
+            "I": {
+                "item": "tofucraft:miso_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:miso_tofu_fence_gate",
+                "count": 1
+            }
+        ]
+    }
+}

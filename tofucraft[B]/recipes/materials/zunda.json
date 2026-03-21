@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:zunda"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "EEE",
+            "ESE",
+            "EEE"
+        ],
+        "key": {
+            "E": {
+                "item": "tofucraft:edamame_boiled"
+            },
+            "S": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:zunda",
+                "count": 1
+            }
+        ]
+    }
+}

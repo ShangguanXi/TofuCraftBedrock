@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:fukumame_refill_masu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "sss",
+            "sss",
+            " M "
+        ],
+        "key": {
+            "s": {
+                "item": "tofucraft:soybeans_parched"
+            },
+            "M": {
+                "item": "tofucraft:masu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:fukumame",
+                "count": 1
+            }
+        ]
+    }
+}

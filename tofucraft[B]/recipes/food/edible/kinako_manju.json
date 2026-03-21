@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:kinako_manju"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " K ",
+            "WWW"
+        ],
+        "key": {
+            "K": {
+                "item": "tofucraft:kinako"
+            },
+            "W": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:kinako_manju",
+                "count": 2
+            }
+        ]
+    }
+}

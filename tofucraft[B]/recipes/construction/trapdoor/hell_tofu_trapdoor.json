@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:hell_tofu_trapdoor"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TTT",
+            "TTT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:hell_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:hell_tofu_trapdoor",
+                "count": 2
+            }
+        ]
+    }
+}

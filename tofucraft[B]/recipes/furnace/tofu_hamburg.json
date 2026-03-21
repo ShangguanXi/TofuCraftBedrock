@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "tofucraft:tofu_hamburg"
+        },
+        "tags": [
+            "furnace",
+            "campfire",
+            "smoker",
+            "soul_campfire"
+        ],
+        "input": {
+            "item": "tofucraft:raw_tofu_hamburg"
+        },
+        "output": "tofucraft:tofu_hamburg"
+    }
+}

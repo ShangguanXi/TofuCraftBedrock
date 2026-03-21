@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:miso_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SSS",
+            "MMM",
+            " B "
+        ],
+        "key": {
+            "S": {
+                "item": "tofucraft:salt"
+            },
+            "M": {
+                "item": "tofucraft:kouji"
+            },
+            "B": {
+                "item": "tofucraft:empty_barrel"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:miso_barrel",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:zunda_bow"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "O O",
+            " B ",
+            "O O"
+        ],
+        "key": {
+            "O": {
+                "item": "tofucraft:zundama"
+            },
+            "B": {
+                "item": "minecraft:bow"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:zunda_bow",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:tofu_hamburg_tempra"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:raw_tofu_hamburg"
+            },
+            {
+                "item": "tofucraft:soy_oil"
+            },
+            {
+                "item": "minecraft:wheat"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:tofu_hamburg_tempra",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

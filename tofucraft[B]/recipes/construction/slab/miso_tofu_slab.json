@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:miso_tofu_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:miso_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:miso_tofu_slab",
+                "count": 6
+            }
+        ]
+    }
+}

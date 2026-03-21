@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:onigiri"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " W ",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:onigiri",
+                "count": 2
+            }
+        ]
+    }
+}

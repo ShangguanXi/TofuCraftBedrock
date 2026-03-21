@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tofu_creeper_egg"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " G ",
+            "GTG",
+            " G "
+        ],
+        "key": {
+            "G": {
+                "item": "tofucraft:tofu_gem"
+            },
+            "T": {
+                "item": "minecraft:tnt"
+            }
+        },
+        "result": [
+            {
+                "item": "minecraft:spawn_egg",
+                "data": 0,
+                "count": 1
+            }
+        ]
+    }
+}

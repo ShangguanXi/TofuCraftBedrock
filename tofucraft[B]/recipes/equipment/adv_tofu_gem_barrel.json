@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:adv_tofu_gem_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "RRR",
+            "GGG",
+            " B "
+        ],
+        "key": {
+            "R": {
+                "item": "minecraft:redstone"
+            },
+            "G": {
+                "item": "tofucraft:tofu_gem"
+            },
+            "B": {
+                "item": "tofucraft:empty_barrel"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:adv_tofu_gem_barrel",
+                "count": 1
+            }
+        ]
+    }
+}

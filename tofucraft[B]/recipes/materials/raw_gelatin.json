@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:raw_gelatin"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:leather"
+            },
+            {
+                "item": "minecraft:bone"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:raw_gelatin",
+                "count": 1
+            }
+        ]
+    }
+}

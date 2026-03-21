@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:hell_soy_milk_bucket"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "S",
+            "B"
+        ],
+        "key": {
+            "S": {
+                "item": "tofucraft:hell_soybeans"
+            },
+            "B": {
+                "item": "minecraft:bucket"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:hell_soy_milk_bucket",
+                "count": 1
+            }
+        ]
+    }
+}

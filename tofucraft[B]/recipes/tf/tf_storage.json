@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_storage"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CCC",
+            "GMG"
+        ],
+        "key": {
+            "C": {
+                "item": "tofucraft:tf_capacitor"
+            },
+            "M": {
+                "item": "tofucraft:tf_machine_case"
+            },
+            "G": {
+                "item": "minecraft:glass"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_storage",
+                "count": 1
+            }
+        ]
+    }
+}

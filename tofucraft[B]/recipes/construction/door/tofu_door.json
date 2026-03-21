@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tofu_door"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TT",
+            "TT",
+            "TT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:kinu_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:kinu_tofu_door",
+                "count": 3
+            }
+        ]
+    }
+}

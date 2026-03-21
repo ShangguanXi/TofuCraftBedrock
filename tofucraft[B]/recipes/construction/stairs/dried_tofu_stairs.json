@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:dried_tofu_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "  T",
+            " TT",
+            "TTT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:dried_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:dried_tofu_stairs",
+                "count": 4
+            }
+        ]
+    }
+}

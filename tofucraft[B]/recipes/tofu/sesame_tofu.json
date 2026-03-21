@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:sesame_tofu"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:starch"
+            },
+            {
+                "item": "tofucraft:sesame"
+            },
+            {
+                "item": "tofucraft:dashi"
+            },
+            {
+                "item": "tofucraft:salt"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:sesame_tofu",
+                "count": 4
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

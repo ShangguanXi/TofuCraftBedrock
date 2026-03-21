@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:inari"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#O*",
+            " R "
+        ],
+        "key": {
+            "#": {
+                "item": "tofucraft:soy_sauce_bottle"
+            },
+            "*": {
+                "item": "minecraft:sugar"
+            },
+            "O": {
+                "item": "tofucraft:oage"
+            },
+            "R": {
+                "item": "tofucraft:onigiri"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:inari",
+                "count": 2
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

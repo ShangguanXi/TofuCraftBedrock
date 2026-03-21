@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:rolling_pin"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "  /",
+            " P ",
+            "/  "
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:stick"
+            },
+            "P": {
+                "item": "minecraft:planks"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:rolling_pin",
+                "count": 1
+            }
+        ]
+    }
+}

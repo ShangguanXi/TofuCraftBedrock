@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:grilled_tofu_wall"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TTT",
+            "TTT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:grilled_tofu_block"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:grilled_tofu_wall",
+                "count": 6
+            }
+        ]
+    }
+}

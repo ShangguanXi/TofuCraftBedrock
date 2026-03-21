@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:kinu_tofu_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "  T",
+            " TT",
+            "TTT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:kinu_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:kinu_tofu_stairs",
+                "count": 4
+            }
+        ]
+    }
+}

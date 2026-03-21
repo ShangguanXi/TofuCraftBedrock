@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:fried_tofu_pouch_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "  T",
+            " TT",
+            "TTT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:fried_tofu_pouch"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:fried_tofu_pouch_stairs",
+                "count": 4
+            }
+        ]
+    }
+}

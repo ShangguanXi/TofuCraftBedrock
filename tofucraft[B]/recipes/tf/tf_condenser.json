@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_condenser"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "PHP",
+            "SDR"
+        ],
+        "key": {
+            "H": {
+                "item": "minecraft:hopper"
+            },
+            "P": {
+                "item": "minecraft:piston"
+            },
+            "S": {
+                "item": "tofucraft:tf_storage"
+            },
+            "D": {
+                "item": "tofucraft:adv_gem_tofu"
+            },
+            "R": {
+                "item": "tofucraft:tf_simple_reformer"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_condenser",
+                "count": 1
+            }
+        ]
+    }
+}

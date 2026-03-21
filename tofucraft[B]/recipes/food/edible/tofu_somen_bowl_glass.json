@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:tofu_somen_bowl_glass"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:tofu_somen"
+            },
+            {
+                "item": "tofucraft:dashi"
+            },
+            {
+                "item": "tofucraft:soy_sauce_bottle"
+            },
+            {
+                "item": "tofucraft:glass_bowl"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:tofu_somen_bowl_glass",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 2
+            }
+        ]
+    }
+}

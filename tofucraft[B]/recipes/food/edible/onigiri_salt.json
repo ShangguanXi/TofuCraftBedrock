@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:onigiri_salt"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:salt"
+            },
+            {
+                "item": "tofucraft:onigiri"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:onigiri_salt",
+                "count": 1
+            }
+        ]
+    }
+}

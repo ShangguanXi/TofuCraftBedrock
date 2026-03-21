@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:zunda_manju"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " Z ",
+            "WWW"
+        ],
+        "key": {
+            "Z": {
+                "item": "tofucraft:zunda"
+            },
+            "W": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:zunda_manju",
+                "count": 2
+            }
+        ]
+    }
+}

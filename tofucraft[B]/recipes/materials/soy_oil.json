@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:soy_oil"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:defatting_potion"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "tofucraft:soybeans"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:soy_oil",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

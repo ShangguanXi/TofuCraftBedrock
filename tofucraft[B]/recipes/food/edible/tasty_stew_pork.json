@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:tasty_stew_pork"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:brown_mushroom"
+            },
+            {
+                "item": "minecraft:red_mushroom"
+            },
+            {
+                "item": "minecraft:cooked_porkchop"
+            },
+            {
+                "item": "tofucraft:salt"
+            },
+            {
+                "item": "minecraft:milk_bucket"
+            },
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:tasty_stew",
+                "count": 1
+            }
+        ]
+    }
+}

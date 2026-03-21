@@ -1,0 +1,34 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:strawberry_tofu_torch_oil"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "O",
+            "T",
+            "T"
+        ],
+        "key": {
+            "O": {
+                "item": "tofucraft:soy_oil"
+            },
+            "T": {
+                "item": "tofucraft:strawberry_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:strawberry_tofu_torch",
+                "count": 4
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

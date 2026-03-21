@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:fried_tofu_pouch_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TT",
+            "TT"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:fried_tofu_pouch"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:fried_tofu_pouch_block",
+                "count": 1
+            }
+        ]
+    }
+}

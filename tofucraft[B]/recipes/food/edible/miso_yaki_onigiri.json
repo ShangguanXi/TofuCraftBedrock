@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:miso_yaki_onigiri"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:miso"
+            },
+            {
+                "item": "tofucraft:onigiri"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:miso_yaki_onigiri",
+                "count": 1
+            }
+        ]
+    }
+}

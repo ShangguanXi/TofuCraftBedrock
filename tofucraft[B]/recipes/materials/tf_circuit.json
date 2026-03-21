@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_circuit"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "RTR",
+            "___"
+        ],
+        "key": {
+            "R": {
+                "item": "minecraft:redstone"
+            },
+            "T": {
+                "item": "tofucraft:kinu_tofu"
+            },
+            "_": {
+                "item": "tofucraft:ishi_tofu_block"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_circuit",
+                "count": 1
+            }
+        ]
+    }
+}

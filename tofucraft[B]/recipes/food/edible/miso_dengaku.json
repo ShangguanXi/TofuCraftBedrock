@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:miso_dengaku"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "M",
+            "T",
+            "|"
+        ],
+        "key": {
+            "M": {
+                "item": "tofucraft:miso"
+            },
+            "T": {
+                "item": "tofucraft:momen_tofu"
+            },
+            "|": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:miso_dengaku",
+                "count": 1
+            }
+        ]
+    }
+}

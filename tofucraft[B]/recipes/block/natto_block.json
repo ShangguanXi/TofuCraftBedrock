@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:natto_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "NNN",
+            "NNN",
+            "NNN"
+        ],
+        "key": {
+            "N": {
+                "item": "tofucraft:natto"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:natto_block",
+                "count": 1
+            }
+        ]
+    }
+}

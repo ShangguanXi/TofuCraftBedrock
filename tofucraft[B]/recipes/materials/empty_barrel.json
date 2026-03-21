@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:empty_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W W",
+            "===",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "minecraft:planks"
+            },
+            "=": {
+                "item": "minecraft:reeds"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:empty_barrel",
+                "count": 1
+            }
+        ]
+    }
+}

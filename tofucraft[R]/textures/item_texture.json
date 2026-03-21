@@ -530,9 +530,6 @@
     "tf_oscillator": {
       "textures": "textures/items/tf_oscillator"
     },
-    "tf_superwave_antenna": {
-      "textures": "textures/items/tf_superwave_antenna"
-    },
     "tf_ultrawave_antenna": {
       "textures": "textures/items/tf_ultrawave_antenna"
     },

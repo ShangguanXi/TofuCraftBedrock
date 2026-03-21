@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_oscillator"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TQT",
+            "M M"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:kinu_tofu"
+            },
+            "Q": {
+                "item": "minecraft:quartz"
+            },
+            "M": {
+                "item": "tofucraft:metal_tofu"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_oscillator",
+                "count": 1
+            }
+        ]
+    }
+}

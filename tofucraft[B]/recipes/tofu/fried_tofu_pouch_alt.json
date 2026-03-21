@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:fried_tofu_pouch_alt"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:momen_tofu"
+            },
+            {
+                "item": "tofucraft:starch"
+            },
+            {
+                "item": "tofucraft:soy_oil"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:fried_tofu_pouch",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:apricot_seed"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:apricot"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:apricot_seed",
+                "count": 1
+            }
+        ]
+    }
+}

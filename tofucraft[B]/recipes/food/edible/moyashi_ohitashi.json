@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "tofucraft:moyashi_ohitashi"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "tofucraft:soy_sauce_bottle"
+            },
+            {
+                "item": "tofucraft:dashi"
+            },
+            {
+                "item": "tofucraft:sprouts"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": [
+            {
+                "item": "tofucraft:moyashi_ohitashi",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 2
+            }
+        ]
+    }
+}

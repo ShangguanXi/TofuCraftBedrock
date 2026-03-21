@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:tf_simple_reformer"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CXC",
+            "TBT",
+            " M "
+        ],
+        "key": {
+            "C": {
+                "item": "tofucraft:tf_coil"
+            },
+            "X": {
+                "item": "tofucraft:tf_oscillator"
+            },
+            "B": {
+                "item": "tofucraft:tf_circuit"
+            },
+            "T": {
+                "item": "tofucraft:dried_tofu_block"
+            },
+            "M": {
+                "item": "tofucraft:tf_machine_case"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:tf_simple_reformer",
+                "count": 1
+            }
+        ]
+    }
+}
