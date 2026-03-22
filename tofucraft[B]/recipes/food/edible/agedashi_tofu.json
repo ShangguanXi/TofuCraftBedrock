@@ -1,26 +1,30 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:agedashi_tofu"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "ABC",
+            "D"
+        ],
+        "key": {
+            "A": {
                 "item": "tofucraft:dashi"
             },
-            {
+            "B": {
                 "item": "tofucraft:soy_sauce_bottle"
             },
-            {
+            "C": {
                 "item": "tofucraft:fried_tofu_pouch"
             },
-            {
+            "D": {
                 "item": "minecraft:bowl"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:agedashi_tofu",

@@ -2,25 +2,25 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "tofucraft:tofu_door"
+            "identifier": "tofucraft:adv_tofu_gem_block"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "TT",
-            "TT",
-            "TT"
+            "GGG",
+            "GGG",
+            "GGG"
         ],
         "key": {
-            "T": {
-                "item": "tofucraft:kinu_tofu"
+            "G": {
+                "item": "tofucraft:adv_tofu_gem"
             }
         },
         "result": [
             {
-                "item": "tofucraft:kinu_tofu_door",
-                "count": 3
+                "item": "tofucraft:adv_tofu_gem_block",
+                "count": 1
             }
         ]
     }

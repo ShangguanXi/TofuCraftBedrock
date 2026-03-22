@@ -16,6 +16,7 @@
             "minecraft:durability": {
                 "max_durability": 184
             },
+            "minecraft:can_destroy_in_creative": false,
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
                 "textures": {
@@ -59,7 +60,7 @@
                         "block": {
                             "tags": "q.any_tag('minecraft:is_sword_item_destructible')"
                         },
-                        "speed": 1
+                        "speed": 3
                     },
                     {
                         "block": "minecraft:bamboo",

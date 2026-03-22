@@ -1,20 +1,23 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:soy_sauce_bottle"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
                 "item": "minecraft:glass_bottle"
             },
-            {
+            "B": {
                 "item": "tofucraft:soy_sauce_bucket"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:soy_sauce_bottle",

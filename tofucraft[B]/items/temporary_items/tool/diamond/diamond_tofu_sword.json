@@ -13,6 +13,7 @@
             "minecraft:damage": {
                 "value": 8
             },
+            "minecraft:can_destroy_in_creative": false,
             "minecraft:durability": {
                 "max_durability": 4627
             },
@@ -59,7 +60,7 @@
                         "block": {
                             "tags": "q.any_tag('minecraft:is_sword_item_destructible')"
                         },
-                        "speed": 1
+                        "speed": 9
                     },
                     {
                         "block": "minecraft:bamboo",

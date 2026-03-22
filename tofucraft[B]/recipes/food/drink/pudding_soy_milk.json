@@ -1,26 +1,30 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:pudding_soy_milk"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "BS",
+            "EG"
+        ],
+        "key": {
+            "B": {
                 "item": "minecraft:glass_bottle"
             },
-            {
+            "S": {
                 "item": "tofucraft:soy_milk_bucket"
             },
-            {
+            "E": {
                 "tag": "minecraft:egg"
             },
-            {
+            "G": {
                 "item": "minecraft:sugar"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:pudding_soy_milk",

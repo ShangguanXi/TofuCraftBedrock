@@ -1,20 +1,23 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:oage"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
                 "item": "tofucraft:momen_tofu_slab"
             },
-            {
+            "B": {
                 "item": "tofucraft:soy_oil"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:oage",

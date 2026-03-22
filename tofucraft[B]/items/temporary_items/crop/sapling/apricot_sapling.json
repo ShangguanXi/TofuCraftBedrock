@@ -13,6 +13,9 @@
                 "block": "tofucraft:apricot_sapling",
                 "replace_block_item": true
             },
+            "minecraft:fuel": {
+                "duration": 2.5
+            },
             "minecraft:icon": {
                 "textures": {
                     "default": "apricot_sapling"

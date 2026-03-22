@@ -59,7 +59,7 @@
                         "block": {
                             "tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
                         },
-                        "speed": 8
+                        "speed": 9
                     }
                 ]
             }

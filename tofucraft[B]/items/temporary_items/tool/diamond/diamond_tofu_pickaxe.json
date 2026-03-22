@@ -60,7 +60,7 @@
                         "block": {
                             "tags": "q.any_tag('minecraft:is_pickaxe_item_destructible', 'minecraft:diamond_tier_destructible')"
                         },
-                        "speed": 8
+                        "speed": 9
                     }
                 ]
             }

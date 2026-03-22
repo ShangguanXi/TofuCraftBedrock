@@ -14,7 +14,7 @@
         ],
         "key": {
             "W": {
-                "item": "minecraft:planks"
+                "tag": "minecraft:planks"
             },
             "=": {
                 "item": "minecraft:reeds"

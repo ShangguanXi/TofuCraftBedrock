@@ -1,23 +1,26 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:dashi"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "ABC"
+        ],
+        "key": {
+            "A": {
                 "item": "minecraft:glass_bottle"
             },
-            {
+            "B": {
                 "item": "minecraft:water_bucket"
             },
-            {
+            "C": {
                 "item": "minecraft:cooked_fish"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:dashi",

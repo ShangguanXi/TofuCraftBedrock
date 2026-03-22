@@ -1,29 +1,26 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "tofucraft:tea_soy_milk"
+            "identifier": "tofucraft:soy_milk"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "BS"
+        ],
+        "key": {
+            "B": {
                 "item": "minecraft:glass_bottle"
             },
-            {
+            "S": {
                 "item": "tofucraft:soy_milk_bucket"
-            },
-            {
-                "tag": "farmersdelight:is_tea"
-            },
-            {
-                "item": "minecraft:sugar"
             }
-        ],
+        },
         "result": [
             {
-                "item": "tofucraft:tea_soy_milk",
+                "item": "tofucraft:soy_milk",
                 "count": 1
             },
             {

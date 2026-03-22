@@ -1,23 +1,27 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:kinako_soy_milk"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "BS",
+            "K"
+        ],
+        "key": {
+            "B": {
                 "item": "minecraft:glass_bottle"
             },
-            {
+            "S": {
                 "item": "tofucraft:soy_milk_bucket"
             },
-            {
+            "K": {
                 "item": "tofucraft:kinako"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:kinako_soy_milk",

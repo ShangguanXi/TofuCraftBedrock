@@ -2,24 +2,27 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "tofucraft:adv_gem_tofu"
+            "identifier": "tofucraft:tofu_creeper_spawn_egg"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "GGG",
-            "GGG",
-            "GGG"
+            " G ",
+            "GTG",
+            " G "
         ],
         "key": {
             "G": {
-                "item": "tofucraft:adv_tofu_gem"
+                "item": "tofucraft:tofu_gem"
+            },
+            "T": {
+                "item": "minecraft:tnt"
             }
         },
         "result": [
             {
-                "item": "tofucraft:adv_gem_tofu",
+                "item": "tofucraft:tofu_creeper_spawn_egg",
                 "count": 1
             }
         ]

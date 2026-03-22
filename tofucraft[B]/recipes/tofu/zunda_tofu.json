@@ -1,26 +1,30 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:zunda_tofu"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "ABC",
+            "D"
+        ],
+        "key": {
+            "A": {
                 "item": "tofucraft:starch"
             },
-            {
+            "B": {
                 "item": "tofucraft:zunda"
             },
-            {
+            "C": {
                 "item": "tofucraft:dashi"
             },
-            {
+            "D": {
                 "item": "tofucraft:salt"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:zunda_tofu",

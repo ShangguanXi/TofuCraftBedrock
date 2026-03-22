@@ -1,29 +1,33 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:moyashi_itame"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "ABC",
+            "DE"
+        ],
+        "key": {
+            "A": {
                 "item": "tofucraft:soy_oil"
             },
-            {
+            "B": {
                 "item": "tofucraft:soy_sauce_bottle"
             },
-            {
+            "C": {
                 "item": "tofucraft:salt"
             },
-            {
+            "D": {
                 "item": "tofucraft:sprouts"
             },
-            {
+            "E": {
                 "item": "minecraft:bowl"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:moyashi_itame",

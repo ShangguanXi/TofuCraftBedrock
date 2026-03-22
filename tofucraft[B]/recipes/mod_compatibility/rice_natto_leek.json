@@ -1,26 +1,30 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:rice_natto_leek"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "ABC",
+            "D"
+        ],
+        "key": {
+            "A": {
                 "item": "tofucraft:leek"
             },
-            {
+            "B": {
                 "item": "tofucraft:soy_sauce_bottle"
             },
-            {
+            "C": {
                 "item": "tofucraft:natto"
             },
-            {
+            "D": {
                 "tag": "farmersdelight:is_dough"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:rice_natto_leek",

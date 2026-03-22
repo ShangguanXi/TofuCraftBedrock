@@ -16,6 +16,7 @@
             "minecraft:durability": {
                 "max_durability": 6
             },
+            "minecraft:can_destroy_in_creative": false,
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
                 "textures": {

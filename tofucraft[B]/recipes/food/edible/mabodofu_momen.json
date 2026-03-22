@@ -1,32 +1,36 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:mabodofu_momen"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "ABC",
+            "DEF"
+        ],
+        "key": {
+            "A": {
                 "item": "tofucraft:momen_tofu"
             },
-            {
+            "B": {
                 "item": "tofucraft:starch"
             },
-            {
+            "C": {
                 "item": "minecraft:porkchop"
             },
-            {
+            "D": {
                 "item": "tofucraft:doubanjiang"
             },
-            {
+            "E": {
                 "item": "tofucraft:soy_sauce_bottle"
             },
-            {
+            "F": {
                 "item": "minecraft:bowl"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:mabodofu",

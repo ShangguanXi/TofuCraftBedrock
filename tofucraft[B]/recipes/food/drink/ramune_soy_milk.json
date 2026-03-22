@@ -1,27 +1,31 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:ramune_soy_milk"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "BS",
+            "RG"
+        ],
+        "key": {
+            "B": {
                 "item": "minecraft:glass_bottle"
             },
-            {
+            "S": {
                 "item": "tofucraft:soy_milk_bucket"
             },
-            {
+            "R": {
                 "item": "minecraft:dye",
                 "data": 12
             },
-            {
+            "G": {
                 "item": "minecraft:sugar"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:ramune_soy_milk",

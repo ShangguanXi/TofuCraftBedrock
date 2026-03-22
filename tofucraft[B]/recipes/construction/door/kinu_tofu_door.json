@@ -2,30 +2,25 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "tofucraft:fried_tofu"
+            "identifier": "tofucraft:kinu_tofu_door"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "AB"
+            "TT",
+            "TT",
+            "TT"
         ],
         "key": {
-            "A": {
+            "T": {
                 "item": "tofucraft:kinu_tofu"
-            },
-            "B": {
-                "item": "tofucraft:soy_oil"
             }
         },
         "result": [
             {
-                "item": "tofucraft:fried_tofu",
-                "count": 1
-            },
-            {
-                "item": "minecraft:glass_bottle",
-                "count": 1
+                "item": "tofucraft:kinu_tofu_door",
+                "count": 3
             }
         ]
     }

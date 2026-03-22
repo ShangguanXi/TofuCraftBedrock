@@ -17,7 +17,7 @@
                 "item": "minecraft:stick"
             },
             "P": {
-                "item": "minecraft:planks"
+                "tag": "minecraft:planks"
             }
         },
         "result": [

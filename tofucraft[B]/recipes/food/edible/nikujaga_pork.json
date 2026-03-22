@@ -1,35 +1,40 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:nikujaga_pork"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "ABC",
+            "DEF",
+            "G"
+        ],
+        "key": {
+            "A": {
                 "item": "minecraft:bowl"
             },
-            {
+            "B": {
                 "item": "minecraft:cooked_porkchop"
             },
-            {
+            "C": {
                 "item": "minecraft:potato"
             },
-            {
+            "D": {
                 "item": "minecraft:carrot"
             },
-            {
+            "E": {
                 "item": "tofucraft:soy_sauce_bottle"
             },
-            {
+            "F": {
                 "item": "tofucraft:dashi"
             },
-            {
+            "G": {
                 "item": "minecraft:sugar"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:nikujaga",

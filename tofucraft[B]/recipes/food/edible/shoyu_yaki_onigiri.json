@@ -1,20 +1,23 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:shoyu_yaki_onigiri"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
                 "item": "tofucraft:soy_sauce_bottle"
             },
-            {
+            "B": {
                 "item": "tofucraft:onigiri"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:shoyu_yaki_onigiri",

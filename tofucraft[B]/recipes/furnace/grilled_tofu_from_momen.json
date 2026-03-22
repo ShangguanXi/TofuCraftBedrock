@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_furnace": {
         "description": {
-            "identifier": "tofucraft:edamame_boiled"
+            "identifier": "tofucraft:grilled_tofu_from_momen"
         },
         "tags": [
             "furnace",
@@ -11,11 +11,8 @@
             "soul_campfire"
         ],
         "input": {
-            "item": "tofucraft:edamame"
+            "item": "tofucraft:momen_tofu"
         },
-        "output": {
-            "item": "tofucraft:edamame_boiled",
-            "count": 12
-        }
+        "output": "tofucraft:grilled_tofu"
     }
 }

@@ -1,26 +1,30 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:hiyayakko"
         },
         "tags": [
             "crafting_table"
         ],
-        "ingredients": [
-            {
+        "pattern": [
+            "ABC",
+            "D"
+        ],
+        "key": {
+            "A": {
                 "item": "tofucraft:kinu_tofu"
             },
-            {
+            "B": {
                 "item": "tofucraft:leek"
             },
-            {
+            "C": {
                 "item": "tofucraft:soy_sauce_bottle"
             },
-            {
+            "D": {
                 "item": "minecraft:bowl"
             }
-        ],
+        },
         "result": [
             {
                 "item": "tofucraft:hiyayakko",
