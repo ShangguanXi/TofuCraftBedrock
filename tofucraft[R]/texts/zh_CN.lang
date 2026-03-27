@@ -57,7 +57,7 @@ item.tofucraft:diamond_tofu_nugget.name=钻石豆腐粒
 item.tofucraft:adv_tofu_gem.name=強化豆腐宝石
 
 tile.tofucraft:soybeans.name=大豆
-tile.tofucraft:soybeans_hell.name=地狱大豆
+tile.tofucraft:hell_soybeans.name=地狱大豆
 tile.tofucraft:momen_tofu_block.name=豆腐块
 tile.tofucraft:fried_tofu_pouch_block.name=炸豆腐块
 tile.tofucraft:fried_tofu_block.name=炸油豆腐块
@@ -438,14 +438,6 @@ item.tofucraft:diamond_tofu_shovel.name=钻石豆腐锹
 item.tofucraft:diamond_tofu_pickaxe.name=钻石豆腐镐
 item.tofucraft:diamond_tofu_axe.name=钻石豆腐斧
 
-item.tofucraft:tea_soy_milk.name=豆奶茶
-item.tofucraft:rice_natto.name=纳豆饭
-item.tofucraft:rice_natto_leek.name=葱纳豆拌饭
-item.tofucraft:rice_soboro_tofu.name=碎豆腐丼
-item.tofucraft:rice_tofu.name=豆腐丼
-item.tofucraft:zunda_manju.name=毛豆馒头
-item.tofucraft:kinako_manju.name=大豆馒头
-
 item.tofucraft:annin_tofu_door.name=杏仁豆腐门
 item.tofucraft:diamond_tofu_door.name=钻石豆腐门
 item.tofucraft:dried_tofu_door.name=冻豆腐门
@@ -463,6 +455,14 @@ item.tofucraft:momen_tofu_door.name=豆腐门
 item.tofucraft:sesame_tofu_door.name=芝麻豆腐门
 item.tofucraft:strawberry_tofu_door.name=草莓豆腐门
 item.tofucraft:zunda_tofu_door.name=毛豆泥豆腐门
+
+item.tofucraft:tea_soy_milk.name=豆奶茶
+item.tofucraft:rice_natto.name=纳豆饭
+item.tofucraft:rice_natto_leek.name=葱纳豆拌饭
+item.tofucraft:rice_soboro_tofu.name=碎豆腐丼
+item.tofucraft:rice_tofu.name=豆腐丼
+item.tofucraft:zunda_manju.name=毛豆馒头
+item.tofucraft:kinako_manju.name=大豆馒头
 
 achievement.tofucraft:soybeans=踏上豆腐Craft的旅程吧!
 achievement.tofucraft:soybeans.desc=首先，你要在草丛里找到大豆

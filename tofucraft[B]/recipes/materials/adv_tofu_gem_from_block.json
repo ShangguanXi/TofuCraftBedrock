@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:adv_tofu_gem_from_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "G"
+        ],
+        "key": {
+            "G": {
+                "item": "tofucraft:adv_tofu_gem_block"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:adv_tofu_gem",
+                "count": 9
+            }
+        ]
+    }
+}

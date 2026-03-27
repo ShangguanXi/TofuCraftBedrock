@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_furnace": {
         "description": {
-            "identifier": "tofucraft:grilled_tofu_block"
+            "identifier": "tofucraft:grilled_tofu_block_var"
         },
         "tags": [
             "furnace",
