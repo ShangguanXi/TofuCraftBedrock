@@ -10,7 +10,7 @@
         },
         {
             "module_name": "@minecraft/server",
-            "version": "2.5.0"
+            "version": "beta"
         }
     ],
     "format_version": 2,
