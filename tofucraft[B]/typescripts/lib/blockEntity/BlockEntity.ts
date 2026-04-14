@@ -1,7 +1,6 @@
 import { Dimension, Entity, ItemStack, Vector3, world, Block, ScoreboardObjective, Container, EntityInventoryComponent, system } from "@minecraft/server";
 import ObjectUtil from "../../lib/ObjectUtil";
 
-const scoreboard = world.scoreboard;
 
 export class BlockEntity {
     //获取方块实体数据
@@ -10,8 +9,7 @@ export class BlockEntity {
             const dimension: Dimension = entity?.dimension ?? undefined;
             const blockEntityDataLocation = entity.getDynamicProperty('farmersdelight:blockEntityDataLocation') as Vector3;
             const block = dimension.getBlock(blockEntityDataLocation) as Block;
-            const scoreboardObjective = scoreboard.getObjective(entity.typeId + entity.id) ?? null;
-            const blockEntityData: BlockEntityData = { entity: entity, dimension: dimension, blockEntityDataLocation: blockEntityDataLocation, block: block, scoreboardObjective: scoreboardObjective }
+            const blockEntityData: BlockEntityData = { entity: entity, dimension: dimension, blockEntityDataLocation: blockEntityDataLocation, block: block}
             return blockEntityData;
         } catch (error) {
             return undefined;
@@ -45,9 +43,6 @@ export class BlockEntity {
     };
     //清除方块实体
     public static clearEntity(args: BlockEntityData) {
-        if (args.scoreboardObjective) {
-            scoreboard.removeObjective(args.entity.typeId + args.entity.id);
-        }
         system.runTimeout(() => {
             args.entity.remove();
         });
@@ -58,6 +53,5 @@ export interface BlockEntityData{
     readonly entity: Entity,
     readonly dimension: Dimension, 
     readonly blockEntityDataLocation: Vector3, 
-    readonly block: Block, 
-    readonly scoreboardObjective: ScoreboardObjective | null
+    readonly block: Block
 }

@@ -2,4 +2,5 @@
 import "./components/BlockTofuKinuComponent";
 import "./components/BlockTofuMomenComponent";
 import "./components/BlockTofuIshiComponent";
-import "./components/BlockTofuMetalComponent";
+import { TofuWorld } from "./dimension/TofuWorld";
+new TofuWorld();

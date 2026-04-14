@@ -38,12 +38,6 @@ tile.tofucraft:grilled_tofu_block.name=烤豆腐块
 
 
 
-
-
-
-
-
-
 item.tofucraft:kinu_tofu.name=嫩豆腐
 item.tofucraft:dried_tofu.name=冻豆腐
 item.tofucraft:momen_tofu.name=豆腐
@@ -55,6 +49,8 @@ item.tofucraft:grilled_tofu.name=烤豆腐
 item.tofucraft:tofu_gem.name=豆腐宝石
 item.tofucraft:diamond_tofu_nugget.name=钻石豆腐粒
 item.tofucraft:adv_tofu_gem.name=強化豆腐宝石
+
+
 
 tile.tofucraft:soybeans.name=大豆
 tile.tofucraft:hell_soybeans.name=地狱大豆
