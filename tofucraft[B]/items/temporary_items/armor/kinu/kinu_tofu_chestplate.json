@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.50",
     "minecraft:item": {
         "description": {
             "identifier": "tofucraft:kinu_tofu_chestplate",
@@ -9,6 +9,7 @@
             }
         },
         "components": {
+            "minecraft:max_stack_size": 1,
             "minecraft:icon": {
                 "textures": {
                     "default": "kinu_tofu_chestplate"
@@ -27,6 +28,10 @@
                     "minecraft:trimmable_armors",
                     "minecraft:wooden_tier"
                 ]
+            },
+            "minecraft:enchantable": {
+                "value": 1,
+                "slot": "armor_torso"
             }
         }
     }

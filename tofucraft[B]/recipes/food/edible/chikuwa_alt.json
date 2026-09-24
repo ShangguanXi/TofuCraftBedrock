@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:chikuwa_alt"
@@ -31,6 +31,9 @@
                 "item": "tofucraft:chikuwa",
                 "count": 4
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:okara_stick"
@@ -28,6 +28,9 @@
                 "item": "tofucraft:okara_stick",
                 "count": 3
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

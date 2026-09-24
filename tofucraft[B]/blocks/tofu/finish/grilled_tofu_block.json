@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "tofucraft:grilled_tofu_block",
@@ -32,7 +32,9 @@
             },
             "minecraft:map_color": "#C4A050",
             "minecraft:loot": "loot_tables/blocks/tofu/grilled_tofu_block.json",
-            "tag:minecraft:is_shovel_item_destructible": {}
+            "minecraft:tags": [
+                "minecraft:is_shovel_item_destructible"
+            ]
         },
         "permutations": [
             {

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:filter_cloth"
@@ -12,7 +12,7 @@
         ],
         "key": {
             "W": {
-                "item": "minecraft:wool"
+                "tag": "minecraft:wool"
             }
         },
         "result": [
@@ -20,6 +20,9 @@
                 "item": "tofucraft:filter_cloth",
                 "count": 32
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

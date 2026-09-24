@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "tofucraft:golden_salt"
@@ -26,6 +26,9 @@
                 "item": "tofucraft:golden_salt",
                 "count": 1
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

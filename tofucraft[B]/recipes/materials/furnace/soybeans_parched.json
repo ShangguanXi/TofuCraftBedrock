@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_furnace": {
         "description": {
             "identifier": "tofucraft:soybeans_parched"
@@ -13,6 +13,9 @@
         "input": {
             "item": "tofucraft:soybeans"
         },
-        "output": "tofucraft:soybeans_parched"
+        "output": "tofucraft:soybeans_parched",
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

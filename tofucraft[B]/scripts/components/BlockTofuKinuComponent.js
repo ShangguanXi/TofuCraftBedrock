@@ -4,90 +4,40 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { ItemStack } from "@minecraft/server";
+import { Player, world } from "@minecraft/server";
 import { blockComponent } from "../lib/CustomComponentAPI";
+import { TofuBlockUtil } from "../lib/TofuBlockUtil";
+// Java freezes in 7 steps with a 1/5 chance each, then converts on the next valid tick:
+// 7 * 5 + 1 = 36 valid random ticks on average. The per-step state arrives with the pressing chain (M1).
+const FREEZE_CHANCE = 1 / 36;
 /**
  * Kinu Tofu Block Component
  *
- * Based on Java TofuCraft logic:
- * 1. Fragile - When an entity falls on it, there's a 40% chance the block breaks
- * 2. Freezable - In cold biomes, can slowly transform into dried tofu
+ * Based on Java TofuCraft BlockTofu(kinu).setFragile().setFreeze(5):
+ * 1. Fragile - crushed when pressed under weight, or when an entity falls on it from more than 0.5 blocks
+ *    (mobs only with mobGriefing on). Each of its 4 drops survives with a 40% chance.
+ * 2. Freezable - near the surface of cold places with air above, it slowly turns into dried (koya) tofu.
  */
 let BlockTofuKinuComponent = class BlockTofuKinuComponent {
     /**
-     * Triggered when an entity steps on the block
-     * Simulates the fragile behavior - falling entities can break the block
+     * Needs "minecraft:entity_fall_on" on the block for the event to fire.
      */
-    onStepOn(args) {
-        const { block, entity } = args;
-        const dimension = block.dimension;
-        const location = block.location;
-        if (!entity || !dimension) {
+    onEntityFallOn(args) {
+        const { block, entity, fallDistance } = args;
+        if (!entity || fallDistance <= 0.5)
             return;
-        }
-        // Check if entity is falling (negative Y velocity indicates falling)
-        const velocity = entity.getVelocity();
-        const fallSpeed = Math.abs(velocity.y);
-        // If fall speed is significant (> 0.5 threshold similar to Java version)
-        if (fallSpeed > 0.3) {
-            // 40% chance to break (matching Java version)
-            if (Math.random() < 0.4) {
-                // Drop 1-3 kinu tofu items
-                dimension.spawnItem(new ItemStack("tofucraft:tofukinu", Math.floor(Math.random() * 3) + 1), {
-                    x: location.x + 0.5,
-                    y: location.y + 0.5,
-                    z: location.z + 0.5,
-                });
-                block.setType("minecraft:air");
-            }
-        }
+        if (!(entity instanceof Player) && !world.gameRules.mobGriefing)
+            return;
+        TofuBlockUtil.crushKinu(block);
     }
-    /**
-     * Random tick - handles the freezing/drying transformation
-     * In cold biomes with air above, the tofu slowly dries
-     *
-     * Java version conditions:
-     * - Biome temperature < 0.15F (cold biomes)
-     * - Height > worldHeight - 10 (high altitude)
-     * - Air block above
-     * - Random tick with rate 5 (~20% chance)
-     * - 7 steps to fully transform
-     */
     onRandomTick(args) {
         const { block } = args;
-        const dimension = block.dimension;
-        const location = block.location;
-        const biomeId = dimension.getBiome(location).id;
-        const biomeType = [
-            "minecraft:frozen_ocean",
-            "minecraft:ice_plains",
-            "minecraft:ice_plains_spikes",
-            "minecraft:frozen_river",
-            "minecraft:cold_beach",
-            "minecraft:cold_taiga",
-            "minecraft:snowy_slopes",
-            "minecraft:grove",
-            "minecraft:frozen_peaks",
-            "minecraft:jagged_peaks"
-        ];
-        if (biomeType.includes(biomeId)) {
-            if (location.y - 63 < 10)
-                return;
-            // Check if above block is air
-            const aboveBlock = dimension.getBlock({
-                x: location.x,
-                y: location.y + 1,
-                z: location.z,
-            });
-            if (!aboveBlock || aboveBlock.typeId !== "minecraft:air") {
-                return;
-            }
-            // Java version uses rate of 5: random.nextInt(5) == 0 means 20% chance
-            // Plus 7 steps to transform, so we use lower probability
-            // Approximate: 20% * (1/7) ≈ 2.86% per tick
-            if (Math.random() < 0.0286) {
-                block.setType("tofucraft:dried_tofu_block");
-            }
+        if (TofuBlockUtil.isUnderWeight(block)) {
+            TofuBlockUtil.crushKinu(block);
+            return;
+        }
+        if (TofuBlockUtil.canFreeze(block) && Math.random() < FREEZE_CHANCE) {
+            block.setType("tofucraft:dried_tofu_block");
         }
     }
 };

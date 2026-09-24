@@ -1,0 +1,30 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:salt_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SSS",
+            "SSS",
+            "SSS"
+        ],
+        "key": {
+            "S": {
+                "item": "tofucraft:salt"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:salt_block",
+                "count": 1
+            }
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

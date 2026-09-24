@@ -1,0 +1,32 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:salt_pan"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "/ /",
+            " _ "
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:stick"
+            },
+            "_": {
+                "item": "minecraft:cobblestone_slab"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:salt_pan",
+                "count": 1
+            }
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

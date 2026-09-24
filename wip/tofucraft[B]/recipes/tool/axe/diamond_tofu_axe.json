@@ -1,0 +1,33 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tofucraft:diamond_tofu_axe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TT",
+            "T|",
+            " |"
+        ],
+        "key": {
+            "T": {
+                "item": "tofucraft:diamond_tofu_block"
+            },
+            "|": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+            {
+                "item": "tofucraft:diamond_tofu_axe",
+                "count": 1
+            }
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

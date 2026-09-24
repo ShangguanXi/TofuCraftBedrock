@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.50",
     "minecraft:item": {
         "description": {
             "identifier": "tofucraft:soy_milk_bucket",
@@ -9,11 +9,9 @@
             }
         },
         "components": {
-            "minecraft:block_placer": {
-                "block": "tofucraft:soy_milk"
-            },
             "minecraft:max_stack_size": 1,
             "minecraft:use_modifiers": {
+                "start_using": "always",
                 "use_duration": 1.6
             },
             "minecraft:food": {

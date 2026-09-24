@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "tofucraft:kinu_tofu_block",
@@ -23,9 +23,12 @@
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:loot": "loot_tables/blocks/tofu/kinu_tofu_block.json",
             "tofucraft:kinu_tofu_block": {},
-
-            
-            "tag:minecraft:is_shovel_item_destructible":{}
+            "minecraft:tags": [
+                "minecraft:is_shovel_item_destructible"
+            ],
+            "minecraft:entity_fall_on": {
+                "min_fall_distance": 0.5
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:ttt_burger"
@@ -25,6 +25,9 @@
                 "item": "tofucraft:ttt_burger",
                 "count": 1
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

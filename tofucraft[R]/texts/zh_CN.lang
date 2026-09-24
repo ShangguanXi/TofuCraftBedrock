@@ -48,13 +48,12 @@ item.tofucraft:grilled_tofu.name=烤豆腐
 
 item.tofucraft:tofu_gem.name=豆腐宝石
 item.tofucraft:diamond_tofu_nugget.name=钻石豆腐粒
-item.tofucraft:adv_tofu_gem.name=強化豆腐宝石
+item.tofucraft:adv_tofu_gem.name=强化豆腐宝石
 
 
 
 tile.tofucraft:soybeans.name=大豆
 tile.tofucraft:hell_soybeans.name=地狱大豆
-tile.tofucraft:momen_tofu_block.name=豆腐块
 tile.tofucraft:fried_tofu_pouch_block.name=炸豆腐块
 tile.tofucraft:fried_tofu_block.name=炸油豆腐块
 tile.tofucraft:egg_tofu_block.name=日本豆腐块
@@ -95,7 +94,7 @@ tile.tofucraft:tf_mix_reformer.name=豆腐能混合还原器
 tile.tofucraft:tofu_ore.name=豆腐矿石
 tile.tofucraft:diamond_tofu_ore.name=钻石豆腐矿石
 tile.tofucraft:adv_tofu_gem_barrel.name=豆腐宝石桶
-tile.tofucraft:adv_tofu_gem_block.name=強化豆腐宝石块
+tile.tofucraft:adv_tofu_gem_block.name=强化豆腐宝石块
 tile.tofucraft:plain_chikuwa_platform.name=竹轮块
 tile.tofucraft:tofu_chikuwa_platform.name=豆腐竹轮块
 tile.tofucraft:tofu_farmland.name=栽培豆腐
@@ -296,7 +295,7 @@ item.tofucraft:zunda.name=毛豆泥
 item.tofucraft:edamame_boiled.name=熟毛豆
 item.tofucraft:empty_barrel.name=木桶
 item.tofucraft:miso_barrel.name=味噌桶
-item.tofucraft:soy_sauce_bottle.name=醤油瓶
+item.tofucraft:soy_sauce_bottle.name=酱油瓶
 item.tofucraft:soybeans_parched.name=炒豆子
 item.tofucraft:kinako.name=大豆粉
 item.tofucraft:nikujaga.name=土豆炖肉
@@ -364,7 +363,6 @@ item.tofucraft:cooked_tofu_fish.name=熟豆腐鱼
 item.tofucraft:goheimochi.name=五平饼
 item.tofucraft:zunda_bow.name=毛豆泥弓
 item.tofucraft:zunda_arrow.name=毛豆泥箭
-item.tofucraft:barrel_adv_tofu_gem.name=豆腐宝石桶
 item.tofucraft:tsuyu_bowl_glass.name=豆腐拉面汤汁
 item.tofucraft:hiyayakko_glass.name=凉拌豆腐
 item.tofucraft:natto_hiyayakko_glass.name=凉拌纳豆
@@ -658,25 +656,13 @@ container.tofucraft.TfOven=豆腐能炉
 container.tofucraft.TfReformer.simple=豆腐能还原器
 container.tofucraft.TfReformer.mix=豆腐能混合还原器
 
-fluid.tile.tofucraft:soymilk=豆浆
-fluid.tile.tofucraft:soymilkHell=地狱豆浆
-fluid.tile.tofucraft:soySauce=酱油
-fluid.tofucraft:nigari=盐卤
-fluid.tofucraft:mineralSoymilk=矿物豆浆
-fluid.tofucraft:strawberryJam=草莓果酱
-fluid.tofucraft:soupStock=高汤
 
 potion.glowing=荧光
-potion.glowing.postfix=荧光药水
 potion.filling=饱腹
-potion.filling.postfix=饱腹药水
 
 enchantment.batch=范围采掘
 enchantment.drain=吸收
 
-entity.TofuSlime.name=豆腐史莱姆
-entity.TofuCreeper.name=豆腐苦力怕
-entity.Tofunian.name=豆腐村民
 
 commands.tofuslimecheck.found=这个区块似乎有豆腐史莱姆的踪迹。
 commands.tofuslimecheck.notFound=这个区块没有豆腐史莱姆的踪迹。
@@ -700,10 +686,3 @@ tofucraft.soymilkInfo.randomEffect=随机效果
 tofucraft.soymilkInfo.stat1=每日饮用，效果会变强哦!
 tofucraft.soymilkInfo.stat2=今日的效果: Lv.%1$s
 
-tofucraft.update.server=豆腐Craft %1$s更新啦！下载链接（日文原版）: %2$s
-tofucraft.update.client=§e豆腐Craft§r §a%1$s§r更新成功！ %2$s
-tofucraft.update.link=§n点这里开始下载§r
-
-tofucraft.wrongPotionId1=[豆腐工艺] §c＊警告＊§r 药水ID与服务器设置不一致。
-tofucraft.wrongPotionId2=请按照下列内容在配置文件中更改设置，否则游戏将会崩溃。
-tofucraft.wrongPotionId3=I:glowing=%s   I:filling=%s

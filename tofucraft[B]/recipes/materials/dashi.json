@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:dashi"
@@ -18,7 +18,7 @@
                 "item": "minecraft:water_bucket"
             },
             "C": {
-                "item": "minecraft:cooked_fish"
+                "item": "minecraft:cooked_cod"
             }
         },
         "result": [
@@ -30,6 +30,9 @@
                 "item": "minecraft:bucket",
                 "count": 1
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

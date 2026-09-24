@@ -10,7 +10,7 @@
         },
         {
             "module_name": "@minecraft/server",
-            "version": "beta"
+            "version": "2.11.0-beta"
         }
     ],
     "format_version": 2,
@@ -19,7 +19,7 @@
         "min_engine_version": [
             1,
             26,
-            0
+            50
         ],
         "name": " TofuCraft",
         "uuid": "d55a2731-d60e-4dbf-b582-be1f730c9c8b",

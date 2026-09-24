@@ -2,7 +2,12 @@
   "name": "tofucraft-bedrock",
   "private": true,
   "type": "module",
+  "scripts": {
+    "check": "node tools/validate.mjs",
+    "test": "node --import ./tools/test/loader.mjs tools/test/smoke-test.mjs"
+  },
   "dependencies": {
-    "@minecraft/server": "^2.8.0-beta.1.26.20-preview.26"
+    "@minecraft/server": "2.11.0-beta.1.26.50-stable",
+    "@minecraft/vanilla-data": "1.26.50"
   }
 }

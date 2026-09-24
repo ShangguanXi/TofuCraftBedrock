@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "tofucraft:salty_melon"
@@ -12,7 +12,7 @@
                 "item": "tofucraft:salt"
             },
             {
-                "item": "minecraft:melon"
+                "item": "minecraft:melon_slice"
             }
         ],
         "result": [
@@ -20,6 +20,9 @@
                 "item": "tofucraft:salty_melon",
                 "count": 1
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

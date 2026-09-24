@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_furnace": {
         "description": {
             "identifier": "tofucraft:cooked_tofu_fish"
@@ -13,6 +13,9 @@
         "input": {
             "item": "tofucraft:raw_tofu_fish"
         },
-        "output": "tofucraft:cooked_tofu_fish"
+        "output": "tofucraft:cooked_tofu_fish",
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

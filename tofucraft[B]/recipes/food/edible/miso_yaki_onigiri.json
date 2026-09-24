@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "tofucraft:miso_yaki_onigiri"
@@ -20,6 +20,9 @@
                 "item": "tofucraft:miso_yaki_onigiri",
                 "count": 1
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

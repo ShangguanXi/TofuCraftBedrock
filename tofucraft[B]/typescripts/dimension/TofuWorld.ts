@@ -1,25 +1,15 @@
-import { EntityItemPickupBeforeEvent, StartupEvent, system, world } from "@minecraft/server";
+import { StartupEvent, system } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
 
+export const TOFU_WORLD_ID = "tofucraft:tofu_world";
 
 export class TofuWorld {
     /**
-     * Checks if the given dimension is the Tofu World.
-     * @param dimension The dimension to check.
-     * @returns True if it's the Tofu World, false otherwise.
+     * Registers the Tofu World as a custom dimension (void generator; terrain generation comes later).
+     * @param event The startup event.
      */
     @EventAPI.register(system.beforeEvents.startup)
     static registerTofuWorld(event: StartupEvent): void {
-        event.dimensionRegistry.registerCustomDimension("tufocraft:tofu_world")
-    }
-    @EventAPI.register(world.beforeEvents.entityItemPickup)
-    static preventItemPickup(event: EntityItemPickupBeforeEvent): void {
-        const entity = event.entity;
-        if (entity.dimension.id != "tufocraft:tofu_world") {
-            const tofuWorldDimension = world.getDimension("tufocraft:tofu_world");
-            system.run(() => {
-                entity.teleport(entity.location, { dimension: tofuWorldDimension });
-            });
-        }
+        event.dimensionRegistry.registerCustomDimension(TOFU_WORLD_ID);
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:chikuwa"
@@ -14,7 +14,7 @@
         ],
         "key": {
             "F": {
-                "item": "minecraft:cooked_fish"
+                "item": "minecraft:cooked_cod"
             },
             "S": {
                 "item": "tofucraft:salt"
@@ -31,6 +31,9 @@
                 "item": "tofucraft:chikuwa",
                 "count": 4
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "tofucraft:zunda_arrow"
@@ -20,6 +20,9 @@
                 "item": "tofucraft:zunda_arrow",
                 "count": 1
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

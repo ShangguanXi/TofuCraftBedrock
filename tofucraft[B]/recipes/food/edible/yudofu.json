@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "tofucraft:yudofu"
@@ -12,7 +12,8 @@
                 "item": "tofucraft:kinu_tofu"
             },
             {
-                "item": "minecraft:potion"
+                "item": "minecraft:potion",
+                "data": 0
             },
             {
                 "item": "minecraft:bowl"
@@ -23,6 +24,9 @@
                 "item": "tofucraft:yudofu",
                 "count": 1
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

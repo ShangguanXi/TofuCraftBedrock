@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "tofucraft:ramune_soy_milk"
@@ -19,8 +19,7 @@
                 "item": "tofucraft:soy_milk_bucket"
             },
             "R": {
-                "item": "minecraft:dye",
-                "data": 12
+                "item": "minecraft:light_blue_dye"
             },
             "G": {
                 "item": "minecraft:sugar"
@@ -35,6 +34,9 @@
                 "item": "minecraft:bucket",
                 "count": 1
             }
-        ]
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

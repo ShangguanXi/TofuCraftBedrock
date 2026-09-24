@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.26.50",
     "minecraft:recipe_furnace": {
         "description": {
             "identifier": "tofucraft:grilled_tofu_block_alt"
@@ -13,6 +13,9 @@
         "input": {
             "item": "tofucraft:momen_tofu_block"
         },
-        "output": "tofucraft:grilled_tofu_block"
+        "output": "tofucraft:grilled_tofu_block",
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
     }
 }

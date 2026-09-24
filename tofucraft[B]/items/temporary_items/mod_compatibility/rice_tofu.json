@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.50",
     "minecraft:item": {
         "description": {
             "identifier": "tofucraft:rice_tofu",
@@ -10,6 +10,7 @@
         },
         "components": {
             "minecraft:use_modifiers": {
+                "start_using": "always",
                 "use_duration": 1.6
             },
             "minecraft:food": {
