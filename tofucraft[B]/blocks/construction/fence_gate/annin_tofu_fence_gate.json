@@ -1,0 +1,150 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:annin_tofu_fence_gate",
+            "menu_category": {
+                "category": "construction",
+                "group": "tofucraft:itemGroup.name.fence_gate"
+            },
+            "states": {
+                "tofucraft:open": {
+                    "values": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.tofucraft.fence_gate",
+                "bone_visibility": {
+                    "posts_x": "(q.block_state('minecraft:cardinal_direction') == 'north') || (q.block_state('minecraft:cardinal_direction') == 'south')",
+                    "posts_z": "(q.block_state('minecraft:cardinal_direction') == 'east') || (q.block_state('minecraft:cardinal_direction') == 'west')",
+                    "closed_x": "q.block_state('tofucraft:open') == 0 && ((q.block_state('minecraft:cardinal_direction') == 'north') || (q.block_state('minecraft:cardinal_direction') == 'south'))",
+                    "closed_z": "q.block_state('tofucraft:open') == 0 && ((q.block_state('minecraft:cardinal_direction') == 'east') || (q.block_state('minecraft:cardinal_direction') == 'west'))",
+                    "open_north": "q.block_state('tofucraft:open') == 1 && q.block_state('minecraft:cardinal_direction') == 'north'",
+                    "open_east": "q.block_state('tofucraft:open') == 1 && q.block_state('minecraft:cardinal_direction') == 'east'",
+                    "open_south": "q.block_state('tofucraft:open') == 1 && q.block_state('minecraft:cardinal_direction') == 'south'",
+                    "open_west": "q.block_state('tofucraft:open') == 1 && q.block_state('minecraft:cardinal_direction') == 'west'"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "annin_tofu_block",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.2
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.2
+            },
+            "minecraft:map_color": "#8F7748",
+            "minecraft:light_dampening": 0,
+            "minecraft:tags": [
+                "minecraft:is_shovel_item_destructible",
+                "tofucraft:fence_gate"
+            ],
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:redstone_consumer": {},
+            "tofucraft:fence_gate": {}
+        },
+        "permutations": [
+            {
+                "condition": "(q.block_state('minecraft:cardinal_direction') == 'north') || (q.block_state('minecraft:cardinal_direction') == 'south')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -2
+                        ],
+                        "size": [
+                            16,
+                            24,
+                            4
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -2
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            4
+                        ]
+                    },
+                    "minecraft:connection_rule": {
+                        "accepts_connections_from": "all",
+                        "enabled_directions": [
+                            "east",
+                            "west"
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('minecraft:cardinal_direction') == 'east') || (q.block_state('minecraft:cardinal_direction') == 'west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -2,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            4,
+                            24,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -2,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            4,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:connection_rule": {
+                        "accepts_connections_from": "all",
+                        "enabled_directions": [
+                            "north",
+                            "south"
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:open') == 1",
+                "components": {
+                    "minecraft:collision_box": false
+                }
+            }
+        ]
+    }
+}

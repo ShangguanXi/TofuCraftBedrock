@@ -447,6 +447,114 @@
         },
         "blockadvtofugem": {
             "textures": "textures/blocks/blockadvtofugem"
+        },
+        "fried_tofu_pouch_block": {
+            "textures": "textures/blocks/blocktofufriedpouch"
+        },
+        "fried_tofu_block": {
+            "textures": "textures/blocks/blocktofufried"
+        },
+        "egg_tofu_block": {
+            "textures": "textures/blocks/blocktofuegg"
+        },
+        "annin_tofu_block": {
+            "textures": "textures/blocks/blocktofuannin"
+        },
+        "sesame_tofu_block": {
+            "textures": "textures/blocks/blocktofusesame"
+        },
+        "zunda_tofu_block": {
+            "textures": "textures/blocks/blocktofuzunda"
+        },
+        "strawberry_tofu_block": {
+            "textures": "textures/blocks/blocktofustrawberry"
+        },
+        "hell_tofu_block": {
+            "textures": "textures/blocks/blocktofuhell"
+        },
+        "glow_tofu_block": {
+            "textures": "textures/blocks/blocktofuglow"
+        },
+        "diamond_tofu_block": {
+            "textures": "textures/blocks/blocktofudiamond"
+        },
+        "miso_tofu_block": {
+            "textures": "textures/blocks/blocktofumiso"
+        },
+        "salt_block": {
+            "textures": "textures/blocks/blockSalt"
+        },
+        "soybean_hell_0": {
+            "textures": "textures/blocks/soybeanHell_0"
+        },
+        "soybean_hell_1": {
+            "textures": "textures/blocks/soybeanHell_1"
+        },
+        "soybean_hell_2": {
+            "textures": "textures/blocks/soybeanHell_2"
+        },
+        "soybean_hell_3": {
+            "textures": "textures/blocks/soybeanHell_3"
+        },
+        "soymilk_hell": {
+            "textures": "textures/blocks/soymilkHell"
+        },
+        "nigari_fluid": {
+            "textures": "textures/blocks/nigari"
+        },
+        "tofucraft_planks_oak": {
+            "textures": "textures/blocks/planks_oak"
+        },
+        "tofucraft_cobblestone": {
+            "textures": "textures/blocks/cobblestone"
+        },
+        "kinu_tofu_torch": {
+            "textures": "textures/blocks/kinu_tofu_torch"
+        },
+        "momen_tofu_torch": {
+            "textures": "textures/blocks/momen_tofu_torch"
+        },
+        "ishi_tofu_torch": {
+            "textures": "textures/blocks/ishi_tofu_torch"
+        },
+        "metal_tofu_torch": {
+            "textures": "textures/blocks/metal_tofu_torch"
+        },
+        "grilled_tofu_torch": {
+            "textures": "textures/blocks/grilled_tofu_torch"
+        },
+        "dried_tofu_torch": {
+            "textures": "textures/blocks/dried_tofu_torch"
+        },
+        "fried_tofu_pouch_torch": {
+            "textures": "textures/blocks/friedPouch_tofu_torch"
+        },
+        "fried_tofu_torch": {
+            "textures": "textures/blocks/fried_tofu_torch"
+        },
+        "egg_tofu_torch": {
+            "textures": "textures/blocks/egg_tofu_torch"
+        },
+        "annin_tofu_torch": {
+            "textures": "textures/blocks/annin_tofu_torch"
+        },
+        "sesame_tofu_torch": {
+            "textures": "textures/blocks/sesame_tofu_torch"
+        },
+        "zunda_tofu_torch": {
+            "textures": "textures/blocks/zunda_tofu_torch"
+        },
+        "strawberry_tofu_torch": {
+            "textures": "textures/blocks/strawberry_tofu_torch"
+        },
+        "hell_tofu_torch": {
+            "textures": "textures/blocks/hell_tofu_torch"
+        },
+        "diamond_tofu_torch": {
+            "textures": "textures/blocks/diamond_tofu_torch"
+        },
+        "miso_tofu_torch": {
+            "textures": "textures/blocks/miso_tofu_torch"
         }
     }
 }

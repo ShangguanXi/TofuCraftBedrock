@@ -26,6 +26,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:kinako_manju.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

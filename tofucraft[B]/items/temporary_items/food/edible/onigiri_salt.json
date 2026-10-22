@@ -26,6 +26,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:onigiri_salt.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

@@ -26,6 +26,15 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:hell_tofu.name"
+            },
+            "tofucraft:consume_effects": [
+                {
+                    "effect": "fire_resistance",
+                    "duration": 600
+                }
+            ],
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

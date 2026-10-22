@@ -1,72 +1,12 @@
 {
-   "note": "Groups taken out of crafting_item_catalog.json in M0 because their icon or members are not in the pack yet. Put each back into its category when the content returns.",
+   "note": "Groups taken out of crafting_item_catalog.json in M0 because their icon or members are not in the pack yet. Put each back into its category when the content returns (M2 restored doors, trapdoors, walls, fence gates and torches).",
    "groups": [
-      {
-         "category_name": "construction",
-         "group": {
-            "group_identifier": {
-               "icon": "tofucraft:kinu_tofu_door",
-               "name": "tofucraft:itemGroup.name.door"
-            },
-            "items": []
-         }
-      },
       {
          "category_name": "construction",
          "group": {
             "group_identifier": {
                "icon": "tofucraft:kinu_tofu_ladder",
                "name": "tofucraft:itemGroup.name.ladder"
-            },
-            "items": []
-         }
-      },
-      {
-         "category_name": "construction",
-         "group": {
-            "group_identifier": {
-               "icon": "tofucraft:kinu_tofu_trapdoor",
-               "name": "tofucraft:itemGroup.name.trapdoor"
-            },
-            "items": []
-         }
-      },
-      {
-         "category_name": "construction",
-         "group": {
-            "group_identifier": {
-               "icon": "tofucraft:kinu_tofu_wall",
-               "name": "tofucraft:itemGroup.name.wall"
-            },
-            "items": []
-         }
-      },
-      {
-         "category_name": "construction",
-         "group": {
-            "group_identifier": {
-               "icon": "tofucraft:kinu_tofu_fence_gate",
-               "name": "tofucraft:itemGroup.name.fence_gate"
-            },
-            "items": []
-         }
-      },
-      {
-         "category_name": "items",
-         "group": {
-            "group_identifier": {
-               "icon": "tofucraft:kinu_tofu_torch",
-               "name": "tofucraft:itemGroup.name.torch"
-            },
-            "items": []
-         }
-      },
-      {
-         "category_name": "items",
-         "group": {
-            "group_identifier": {
-               "icon": "tofucraft:miso_barrel",
-               "name": "tofucraft:itemGroup.name.equipment"
             },
             "items": []
          }

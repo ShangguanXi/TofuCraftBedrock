@@ -9,5 +9,428 @@
     },
     "tofucraft:momen_tofu_block": {
         "sound": "snow"
+    },
+    "tofucraft:ishi_tofu_block": {
+        "sound": "wood"
+    },
+    "tofucraft:metal_tofu_block": {
+        "sound": "metal"
+    },
+    "tofucraft:grilled_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:dried_tofu_block": {
+        "sound": "stone"
+    },
+    "tofucraft:fried_tofu_pouch_block": {
+        "sound": "sand"
+    },
+    "tofucraft:fried_tofu_block": {
+        "sound": "gravel"
+    },
+    "tofucraft:egg_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:annin_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:sesame_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:zunda_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:strawberry_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:hell_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:glow_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:diamond_tofu_block": {
+        "sound": "glass"
+    },
+    "tofucraft:miso_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:minced_tofu_block": {
+        "sound": "snow"
+    },
+    "tofucraft:salt_block": {
+        "sound": "sand"
+    },
+    "tofucraft:tofu_farmland": {
+        "sound": "snow"
+    },
+    "tofucraft:soybean_crop": {
+        "sound": "grass"
+    },
+    "tofucraft:sesame_crop": {
+        "sound": "grass"
+    },
+    "tofucraft:sprouts_crop": {
+        "sound": "grass"
+    },
+    "tofucraft:hell_soybean_crop": {
+        "sound": "grass"
+    },
+    "tofucraft:salt_pan": {
+        "sound": "wood"
+    },
+    "tofucraft:kinu_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:kinu_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:kinu_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:kinu_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:kinu_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:kinu_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:kinu_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:momen_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:momen_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:momen_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:momen_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:momen_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:momen_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:momen_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:ishi_tofu_stairs": {
+        "sound": "wood"
+    },
+    "tofucraft:ishi_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:ishi_tofu_wall": {
+        "sound": "wood"
+    },
+    "tofucraft:ishi_tofu_fence_gate": {
+        "sound": "wood"
+    },
+    "tofucraft:ishi_tofu_trapdoor": {
+        "sound": "wood"
+    },
+    "tofucraft:ishi_tofu_door": {
+        "sound": "wood"
+    },
+    "tofucraft:ishi_tofu_torch": {
+        "sound": "wood"
+    },
+    "tofucraft:metal_tofu_stairs": {
+        "sound": "metal"
+    },
+    "tofucraft:metal_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:metal_tofu_wall": {
+        "sound": "metal"
+    },
+    "tofucraft:metal_tofu_fence_gate": {
+        "sound": "metal"
+    },
+    "tofucraft:metal_tofu_trapdoor": {
+        "sound": "metal"
+    },
+    "tofucraft:metal_tofu_door": {
+        "sound": "metal"
+    },
+    "tofucraft:metal_tofu_torch": {
+        "sound": "metal"
+    },
+    "tofucraft:grilled_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:grilled_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:grilled_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:grilled_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:grilled_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:grilled_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:grilled_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:dried_tofu_stairs": {
+        "sound": "stone"
+    },
+    "tofucraft:dried_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:dried_tofu_wall": {
+        "sound": "stone"
+    },
+    "tofucraft:dried_tofu_fence_gate": {
+        "sound": "stone"
+    },
+    "tofucraft:dried_tofu_trapdoor": {
+        "sound": "stone"
+    },
+    "tofucraft:dried_tofu_door": {
+        "sound": "stone"
+    },
+    "tofucraft:dried_tofu_torch": {
+        "sound": "stone"
+    },
+    "tofucraft:fried_tofu_pouch_stairs": {
+        "sound": "sand"
+    },
+    "tofucraft:fried_tofu_pouch_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:fried_tofu_pouch_wall": {
+        "sound": "sand"
+    },
+    "tofucraft:fried_tofu_pouch_fence_gate": {
+        "sound": "sand"
+    },
+    "tofucraft:fried_tofu_pouch_trapdoor": {
+        "sound": "sand"
+    },
+    "tofucraft:fried_tofu_pouch_door": {
+        "sound": "sand"
+    },
+    "tofucraft:fried_tofu_pouch_torch": {
+        "sound": "sand"
+    },
+    "tofucraft:fried_tofu_stairs": {
+        "sound": "gravel"
+    },
+    "tofucraft:fried_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:fried_tofu_wall": {
+        "sound": "gravel"
+    },
+    "tofucraft:fried_tofu_fence_gate": {
+        "sound": "gravel"
+    },
+    "tofucraft:fried_tofu_trapdoor": {
+        "sound": "gravel"
+    },
+    "tofucraft:fried_tofu_door": {
+        "sound": "gravel"
+    },
+    "tofucraft:fried_tofu_torch": {
+        "sound": "gravel"
+    },
+    "tofucraft:egg_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:egg_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:egg_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:egg_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:egg_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:egg_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:egg_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:annin_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:annin_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:annin_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:annin_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:annin_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:annin_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:annin_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:sesame_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:sesame_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:sesame_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:sesame_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:sesame_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:sesame_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:sesame_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:zunda_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:zunda_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:zunda_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:zunda_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:zunda_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:zunda_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:zunda_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:strawberry_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:strawberry_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:strawberry_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:strawberry_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:strawberry_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:strawberry_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:strawberry_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:hell_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:hell_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:hell_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:hell_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:hell_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:hell_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:hell_tofu_torch": {
+        "sound": "snow"
+    },
+    "tofucraft:glow_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:glow_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:glow_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:glow_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:glow_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:glow_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:diamond_tofu_stairs": {
+        "sound": "glass"
+    },
+    "tofucraft:diamond_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:diamond_tofu_wall": {
+        "sound": "glass"
+    },
+    "tofucraft:diamond_tofu_fence_gate": {
+        "sound": "glass"
+    },
+    "tofucraft:diamond_tofu_trapdoor": {
+        "sound": "glass"
+    },
+    "tofucraft:diamond_tofu_door": {
+        "sound": "glass"
+    },
+    "tofucraft:diamond_tofu_torch": {
+        "sound": "glass"
+    },
+    "tofucraft:miso_tofu_stairs": {
+        "sound": "snow"
+    },
+    "tofucraft:miso_tofu_slab": {
+        "sound": "snow"
+    },
+    "tofucraft:miso_tofu_wall": {
+        "sound": "snow"
+    },
+    "tofucraft:miso_tofu_fence_gate": {
+        "sound": "snow"
+    },
+    "tofucraft:miso_tofu_trapdoor": {
+        "sound": "snow"
+    },
+    "tofucraft:miso_tofu_door": {
+        "sound": "snow"
+    },
+    "tofucraft:miso_tofu_torch": {
+        "sound": "snow"
     }
 }

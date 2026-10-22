@@ -28,6 +28,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:tasty_stew.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 85
             }
         }
     }

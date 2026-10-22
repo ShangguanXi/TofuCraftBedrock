@@ -58,7 +58,10 @@ for (const [dir, key, map] of [[path.join(BP, "items"), "minecraft:item", items]
         const body = doc?.[key];
         if (!body) { error(file, `missing "${key}"`); continue; }
         const id = body.description?.identifier;
-        if (map.has(id) || (map === blocks && items.has(id))) error(file, `duplicate identifier ${id} (also ${rel(map.get(id)?.file ?? items.get(id).file)})`);
+        // An item may share its block's identifier when it is that block's item ("replace_block_item", doors).
+        const blockItem = map === blocks && items.get(id)?.body.components?.["minecraft:block_placer"];
+        const replacesBlockItem = blockItem?.block === id && blockItem.replace_block_item === true;
+        if (map.has(id) || (map === blocks && items.has(id) && !replacesBlockItem)) error(file, `duplicate identifier ${id} (also ${rel(map.get(id)?.file ?? items.get(id).file)})`);
         map.set(id, { file, body, doc });
         if (doc.format_version !== FORMAT) warn(file, `format_version ${doc.format_version} (expected ${FORMAT})`);
     }
@@ -66,19 +69,34 @@ for (const [dir, key, map] of [[path.join(BP, "items"), "minecraft:item", items]
 const defined = new Set([...items.keys(), ...blocks.keys()]);
 
 // ---------- resource pack registries ----------
+// Vanilla resources the pack uses on purpose (the salt pan's cobblestone base, oak frame and tinted water).
+const VANILLA_TEXTURE_PATHS = new Set(["textures/blocks/planks_oak", "textures/blocks/cobblestone"]);
+const VANILLA_TERRAIN_KEYS = new Set(["still_water_grey"]);
+const VANILLA_GEOMETRY = new Set(["minecraft:geometry.full_block", "minecraft:geometry.cross"]);
 const textureFiles = new Set(walk(path.join(RP, "textures")).filter(f => /\.(png|tga)$/.test(f)).map(f => rel(f).replace(/^tofucraft\[R\]\//, "").replace(/\.(png|tga)$/, "")));
 function checkAtlas(file) {
     const atlas = readJson(file)?.texture_data ?? {};
     for (const [key, entry] of Object.entries(atlas)) {
         for (const t of [].concat(entry.textures)) {
             const p = typeof t === "string" ? t : t?.path;
-            if (!textureFiles.has(p)) error(file, `texture "${key}" -> ${p} does not exist (paths are case-sensitive on some platforms)`);
+            if (!textureFiles.has(p) && !VANILLA_TEXTURE_PATHS.has(p)) error(file, `texture "${key}" -> ${p} does not exist (paths are case-sensitive on some platforms)`);
         }
     }
-    return new Set(Object.keys(atlas));
+    return new Set([...Object.keys(atlas), ...(file.endsWith("terrain_texture.json") ? VANILLA_TERRAIN_KEYS : [])]);
 }
 const itemAtlas = checkAtlas(path.join(RP, "textures/item_texture.json"));
 const terrainAtlas = checkAtlas(path.join(RP, "textures/terrain_texture.json"));
+const flipbookFile = path.join(RP, "textures/flipbook_textures.json");
+for (const entry of fs.existsSync(flipbookFile) ? readJson(flipbookFile) ?? [] : []) {
+    if (!terrainAtlas.has(entry.atlas_tile)) error(flipbookFile, `flipbook atlas_tile "${entry.atlas_tile}" is not in terrain_texture.json`);
+    if (!textureFiles.has(entry.flipbook_texture)) error(flipbookFile, `flipbook texture ${entry.flipbook_texture} does not exist`);
+}
+const geometries = new Map(); // identifier -> bone names
+for (const file of walk(path.join(RP, "models")).filter(f => f.endsWith(".json"))) {
+    for (const g of readJson(file)?.["minecraft:geometry"] ?? []) geometries.set(g.description?.identifier, new Set((g.bones ?? []).map(b => b.name)));
+}
+const cullingRules = new Set(walk(path.join(RP, "block_culling")).filter(f => f.endsWith(".json"))
+    .map(f => readJson(f)?.["minecraft:block_culling_rules"]?.description?.identifier));
 const en = readLang(path.join(RP, "texts/en_US.lang"));
 const zh = readLang(path.join(RP, "texts/zh_CN.lang"));
 const languages = readJson(path.join(RP, "texts/languages.json")) ?? [];
@@ -146,7 +164,18 @@ for (const [id, { file, body }] of blocks) {
         }
         const loot = c["minecraft:loot"];
         if (loot && !fs.existsSync(path.join(BP, loot))) error(file, `loot table ${loot} does not exist`);
+        const geometry = c["minecraft:geometry"];
+        const geometryId = typeof geometry === "string" ? geometry : geometry?.identifier;
+        if (geometryId && !geometries.has(geometryId) && !VANILLA_GEOMETRY.has(geometryId)) error(file, `geometry ${geometryId} is not in the resource pack models`);
+        if (geometry?.culling && !cullingRules.has(geometry.culling)) error(file, `culling rules ${geometry.culling} are not in the resource pack block_culling`);
+        for (const bone of Object.keys(geometry?.bone_visibility ?? {})) {
+            if (geometries.has(geometryId) && !geometries.get(geometryId).has(bone)) error(file, `bone_visibility names bone "${bone}" that ${geometryId} does not have`);
+        }
     }
+}
+const blocksJson = readJson(path.join(RP, "blocks.json")) ?? {};
+for (const id of Object.keys(blocksJson)) {
+    if (id !== "format_version" && id.startsWith(NS) && !blocks.has(id)) error(path.join(RP, "blocks.json"), `sound entry for undefined block ${id}`);
 }
 
 // ---------- recipes ----------
@@ -185,7 +214,8 @@ for (const file of walk(path.join(RP, "attachables")).filter(f => f.endsWith(".j
 }
 
 // ---------- scripts ----------
-const knownNonItems = new Set([...registered, "tofucraft:tofu_world"]);
+const blockStates = [...blocks.values()].flatMap(({ body }) => Object.keys(body.description?.states ?? {}));
+const knownNonItems = new Set([...registered, ...blockStates, "tofucraft:tofu_world"]);
 for (const file of walk(path.join(BP, "scripts")).filter(f => f.endsWith(".js"))) {
     const text = fs.readFileSync(file, "utf8").replace(/\/\*[\s\S]*?\*\//g, "").replace(/^\s*\/\/.*$/gm, "");
     if (/tufocraft/.test(text)) error(file, `misspelled namespace "tufocraft"`);

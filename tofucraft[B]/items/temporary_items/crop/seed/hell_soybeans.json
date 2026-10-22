@@ -16,6 +16,19 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:hell_soybeans.name"
+            },
+            "tofucraft:seed": {
+                "plants": [
+                    {
+                        "on": [
+                            "minecraft:soul_sand"
+                        ],
+                        "place": "tofucraft:hell_soybean_crop"
+                    }
+                ]
+            },
+            "minecraft:compostable": {
+                "composting_chance": 35
             }
         }
     }

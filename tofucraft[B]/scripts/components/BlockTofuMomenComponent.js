@@ -6,14 +6,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { blockComponent } from "../lib/CustomComponentAPI";
 import { TofuBlockUtil } from "../lib/TofuBlockUtil";
-// Java drain rate 3: 7 steps at 1/3 each, then 1/6 per tick to convert = 27 random ticks under weight on average.
-// The per-step state arrives with the pressing chain (M1).
-const DRAIN_CHANCE = 1 / 27;
 /**
  * Momen (Cotton) Tofu Block Component
  *
  * Based on Java TofuCraft BlockTofu(momen).setDrain(3):
- * pressed under weight (a rock/metal block above and a firm block below), it drains into ishi (solid) tofu.
+ * pressed under weight (a rock/metal block above and a firm block below), it drains in 7 steps (1/3 per random
+ * tick each), then turns into ishi (solid) tofu with a 1/6 chance per tick.
  *
  * The transformation chain:
  * momen_tofu_block + weight -> ishi_tofu_block + weight -> metal_tofu_block
@@ -21,8 +19,8 @@ const DRAIN_CHANCE = 1 / 27;
 let BlockTofuMomenComponent = class BlockTofuMomenComponent {
     onRandomTick(args) {
         const { block } = args;
-        if (TofuBlockUtil.isUnderWeight(block) && Math.random() < DRAIN_CHANCE) {
-            block.setType("tofucraft:ishi_tofu_block");
+        if (TofuBlockUtil.isUnderWeight(block)) {
+            TofuBlockUtil.drainOneStep(block, 3, "tofucraft:ishi_tofu_block");
         }
     }
 };

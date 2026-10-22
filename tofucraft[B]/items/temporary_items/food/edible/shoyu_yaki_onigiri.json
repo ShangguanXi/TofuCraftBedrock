@@ -26,6 +26,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:shoyu_yaki_onigiri.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

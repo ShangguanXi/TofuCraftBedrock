@@ -4,7 +4,16 @@
         "description": {
             "identifier": "tofucraft:kinu_tofu_block",
             "menu_category": {
-                "category": "items"
+                "category": "construction",
+                "group": "tofucraft:itemGroup.name.tofu_block"
+            },
+            "states": {
+                "tofucraft:freeze_step": {
+                    "values": {
+                        "min": 0,
+                        "max": 7
+                    }
+                }
             }
         },
         "components": {
@@ -13,19 +22,22 @@
                     "texture": "kinu_tofu_block"
                 }
             },
+            "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.1
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 0.2
+                "explosion_resistance": 0.1
             },
-            "minecraft:map_color": "#FFFFFF",
-            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:map_color": "#C7C7C7",
             "minecraft:loot": "loot_tables/blocks/tofu/kinu_tofu_block.json",
-            "tofucraft:kinu_tofu_block": {},
             "minecraft:tags": [
                 "minecraft:is_shovel_item_destructible"
             ],
+            "minecraft:redstone_conductivity": {
+                "redstone_conductor": true
+            },
+            "tofucraft:kinu_tofu_block": {},
             "minecraft:entity_fall_on": {
                 "min_fall_distance": 0.5
             }

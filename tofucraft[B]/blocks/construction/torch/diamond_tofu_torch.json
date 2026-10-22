@@ -1,0 +1,164 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:diamond_tofu_torch",
+            "menu_category": {
+                "category": "items",
+                "group": "tofucraft:itemGroup.name.torch"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.tofucraft.torch",
+                "bone_visibility": {
+                    "standing": "q.block_state('minecraft:block_face') == 'up'",
+                    "wall_north": "q.block_state('minecraft:block_face') == 'north'",
+                    "wall_south": "q.block_state('minecraft:block_face') == 'south'",
+                    "wall_east": "q.block_state('minecraft:block_face') == 'east'",
+                    "wall_west": "q.block_state('minecraft:block_face') == 'west'"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "diamond_tofu_torch",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": 0
+                }
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -2,
+                    0,
+                    -2
+                ],
+                "size": [
+                    4,
+                    10,
+                    4
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 8
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 9
+            },
+            "minecraft:light_emission": 14,
+            "minecraft:light_dampening": 0,
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "north",
+                            "south",
+                            "east",
+                            "west"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "popped"
+                    }
+                ]
+            },
+            "minecraft:movable": {
+                "movement_type": "popped"
+            },
+            "minecraft:tick": {
+                "interval_range": [
+                    10,
+                    20
+                ],
+                "looping": true
+            },
+            "tofucraft:torch": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -3,
+                            3,
+                            3
+                        ],
+                        "size": [
+                            6,
+                            10,
+                            5
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -3,
+                            3,
+                            -8
+                        ],
+                        "size": [
+                            6,
+                            10,
+                            5
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            3,
+                            3,
+                            -3
+                        ],
+                        "size": [
+                            5,
+                            10,
+                            6
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            3,
+                            -3
+                        ],
+                        "size": [
+                            5,
+                            10,
+                            6
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

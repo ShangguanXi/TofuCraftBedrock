@@ -15,8 +15,7 @@
             },
             "minecraft:food": {
                 "nutrition": 2,
-                "saturation_modifier": 0.2,
-                "can_always_eat": true
+                "saturation_modifier": 0.2
             },
             "minecraft:use_animation": "eat",
             "minecraft:icon": {
@@ -26,6 +25,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:minced_tofu.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

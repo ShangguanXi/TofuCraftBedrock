@@ -27,6 +27,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:soboro_tofu_saute.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

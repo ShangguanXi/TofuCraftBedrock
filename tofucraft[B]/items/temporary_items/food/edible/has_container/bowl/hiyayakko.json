@@ -14,8 +14,8 @@
                 "use_duration": 1.6
             },
             "minecraft:food": {
-                "nutrition": 4,
-                "saturation_modifier": 0.4,
+                "nutrition": 6,
+                "saturation_modifier": 0.5,
                 "using_converts_to": "minecraft:bowl",
                 "can_always_eat": false
             },
@@ -27,6 +27,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:hiyayakko.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

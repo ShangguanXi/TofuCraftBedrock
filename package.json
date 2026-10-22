@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "gen:blocks": "node tools/gen/blocks.mjs",
     "check": "node tools/validate.mjs",
     "test": "node --import ./tools/test/loader.mjs tools/test/smoke-test.mjs"
   },

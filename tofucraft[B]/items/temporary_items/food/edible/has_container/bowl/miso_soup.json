@@ -28,6 +28,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:miso_soup.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 50
             }
         }
     }

@@ -1,0 +1,146 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:sprouts_crop",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "tofucraft:growth": {
+                    "values": {
+                        "min": 0,
+                        "max": 7
+                    }
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.cross",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "sprouts_0",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": 0
+                }
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    4,
+                    16
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "minecraft:white_wool",
+                            "minecraft:orange_wool",
+                            "minecraft:magenta_wool",
+                            "minecraft:light_blue_wool",
+                            "minecraft:yellow_wool",
+                            "minecraft:lime_wool",
+                            "minecraft:pink_wool",
+                            "minecraft:gray_wool",
+                            "minecraft:light_gray_wool",
+                            "minecraft:cyan_wool",
+                            "minecraft:purple_wool",
+                            "minecraft:blue_wool",
+                            "minecraft:brown_wool",
+                            "minecraft:green_wool",
+                            "minecraft:red_wool",
+                            "minecraft:black_wool"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:map_color": "#007C00",
+            "tofucraft:sprouts_crop": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 0 && q.block_state('tofucraft:growth') <= 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "sprouts_0",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 2 && q.block_state('tofucraft:growth') <= 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "sprouts_1",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 4 && q.block_state('tofucraft:growth') <= 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "sprouts_2",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 6 && q.block_state('tofucraft:growth') <= 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "sprouts_3",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 0 && q.block_state('tofucraft:growth') <= 1",
+                "components": {
+                    "minecraft:loot": "loot_tables/blocks/crop/sprouts_crop_young.json"
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 2 && q.block_state('tofucraft:growth') <= 6",
+                "components": {
+                    "minecraft:loot": "loot_tables/blocks/crop/sprouts_crop_growing.json"
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') == 7",
+                "components": {
+                    "minecraft:loot": "loot_tables/blocks/crop/sprouts_crop_mature.json"
+                }
+            }
+        ]
+    }
+}

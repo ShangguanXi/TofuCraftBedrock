@@ -1,0 +1,72 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:tofu_farmland",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "tofucraft:moisture": {
+                    "values": {
+                        "min": 0,
+                        "max": 7
+                    }
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.tofucraft.farmland",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "momen_tofu_block"
+                },
+                "top": {
+                    "texture": "tofufarmland_dry"
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15,
+                    16
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.4
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.4
+            },
+            "minecraft:map_color": "#C7C7C7",
+            "minecraft:loot": "loot_tables/blocks/misc/tofu_farmland.json",
+            "minecraft:tags": [
+                "minecraft:is_shovel_item_destructible"
+            ],
+            "minecraft:entity_fall_on": {
+                "min_fall_distance": 0.5
+            },
+            "tofucraft:tofu_farmland": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('tofucraft:moisture') > 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "momen_tofu_block"
+                        },
+                        "top": {
+                            "texture": "tofufarmland_wet"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

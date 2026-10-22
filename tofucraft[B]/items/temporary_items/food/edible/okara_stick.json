@@ -26,6 +26,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:okara_stick.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

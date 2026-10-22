@@ -1,0 +1,22 @@
+[
+          {
+                    "flipbook_texture": "textures/blocks/soymilk",
+                    "atlas_tile": "soymilk",
+                    "ticks_per_frame": 2
+          },
+          {
+                    "flipbook_texture": "textures/blocks/soymilkHell",
+                    "atlas_tile": "soymilk_hell",
+                    "ticks_per_frame": 2
+          },
+          {
+                    "flipbook_texture": "textures/blocks/soysauce",
+                    "atlas_tile": "soysauce",
+                    "ticks_per_frame": 2
+          },
+          {
+                    "flipbook_texture": "textures/blocks/nigari",
+                    "atlas_tile": "nigari_fluid",
+                    "ticks_per_frame": 2
+          }
+]

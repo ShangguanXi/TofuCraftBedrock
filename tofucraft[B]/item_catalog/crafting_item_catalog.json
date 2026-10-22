@@ -167,6 +167,74 @@
                      "name": "tofucraft:itemGroup.name.materials"
                   },
                   "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:salt_pan",
+                     "name": "tofucraft:itemGroup.name.equipment"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_torch",
+                     "name": "tofucraft:itemGroup.name.torch"
+                  },
+                  "items": []
+               }
+            ]
+         },
+         {
+            "category_name": "construction",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_block",
+                     "name": "tofucraft:itemGroup.name.tofu_block"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_stairs",
+                     "name": "tofucraft:itemGroup.name.stairs"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_slab",
+                     "name": "tofucraft:itemGroup.name.slab"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_wall",
+                     "name": "tofucraft:itemGroup.name.wall"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_fence_gate",
+                     "name": "tofucraft:itemGroup.name.fence_gate"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_trapdoor",
+                     "name": "tofucraft:itemGroup.name.trapdoor"
+                  },
+                  "items": []
+               },
+               {
+                  "group_identifier": {
+                     "icon": "tofucraft:kinu_tofu_door",
+                     "name": "tofucraft:itemGroup.name.door"
+                  },
+                  "items": []
                }
             ]
          }

@@ -1,0 +1,215 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:strawberry_tofu_door",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "tofucraft:open": {
+                    "values": {
+                        "min": 0,
+                        "max": 1
+                    }
+                },
+                "tofucraft:hinge": {
+                    "values": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            },
+            "traits": {
+                "minecraft:multi_block": {
+                    "enabled_states": [
+                        "minecraft:multi_block_part"
+                    ],
+                    "direction": "up",
+                    "parts": 2
+                },
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.tofucraft.door",
+                "bone_visibility": {
+                    "north_a": "(q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 1)",
+                    "north_b": "(q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 1)",
+                    "south_a": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 1) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 0)",
+                    "south_b": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 1)",
+                    "west_a": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 1)",
+                    "west_b": "(q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 1)",
+                    "east_a": "(q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 1)",
+                    "east_b": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 1) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 0)"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "tofudoor_strawberry_lower",
+                    "render_method": "alpha_test_single_sided"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.5
+            },
+            "minecraft:map_color": "#C7C7C7",
+            "minecraft:light_dampening": 0,
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:tags": [
+                "minecraft:is_shovel_item_destructible",
+                "tofucraft:door"
+            ],
+            "minecraft:movable": {
+                "movement_type": "popped"
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:redstone_consumer": {},
+            "tofucraft:door": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:multi_block_part') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "tofudoor_strawberry_upper",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 1) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 1)",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            3
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            3
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 1) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 1) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 0)",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            5
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            3
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            5
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            3
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 1) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 1)",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            5,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            3,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            5,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            3,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 1) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('tofucraft:open') == 1 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 0) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('tofucraft:open') == 0 && q.block_state('tofucraft:hinge') == 1)",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            3,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            3,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

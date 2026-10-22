@@ -4,7 +4,16 @@
         "description": {
             "identifier": "tofucraft:ishi_tofu_block",
             "menu_category": {
-                "category": "items"
+                "category": "construction",
+                "group": "tofucraft:itemGroup.name.tofu_block"
+            },
+            "states": {
+                "tofucraft:drain_step": {
+                    "values": {
+                        "min": 0,
+                        "max": 7
+                    }
+                }
             }
         },
         "components": {
@@ -13,20 +22,22 @@
                     "texture": "ishi_tofu_block"
                 }
             },
+            "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 2.0
+                "seconds_to_destroy": 2
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 60.0
+                "explosion_resistance": 6
             },
-            "minecraft:map_color": "#8B8B8B",
-            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:map_color": "#C7C7C7",
             "minecraft:loot": "loot_tables/blocks/tofu/ishi_tofu_block.json",
-            "tofucraft:ishi_tofu_block": {},
             "minecraft:tags": [
-                "minecraft:stone_tier_destructible",
                 "minecraft:is_pickaxe_item_destructible"
-            ]
+            ],
+            "minecraft:redstone_conductivity": {
+                "redstone_conductor": true
+            },
+            "tofucraft:ishi_tofu_block": {}
         }
     }
 }

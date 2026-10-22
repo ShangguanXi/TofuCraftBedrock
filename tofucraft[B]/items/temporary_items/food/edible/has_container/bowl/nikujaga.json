@@ -15,8 +15,8 @@
                 "use_duration": 1.6
             },
             "minecraft:food": {
-                "nutrition": 8,
-                "saturation_modifier": 0.8,
+                "nutrition": 10,
+                "saturation_modifier": 0.7,
                 "using_converts_to": "minecraft:bowl",
                 "can_always_eat": false
             },
@@ -28,6 +28,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:nikujaga.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 85
             }
         }
     }

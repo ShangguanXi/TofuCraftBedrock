@@ -16,6 +16,18 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:sprouts.name"
+            },
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 0.5
+            },
+            "minecraft:use_modifiers": {
+                "start_using": "always",
+                "use_duration": 1.6
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

@@ -26,6 +26,16 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:zunda_mochi.name"
+            },
+            "tofucraft:consume_effects": [
+                {
+                    "effect": "regeneration",
+                    "duration": 80,
+                    "amplifier": 2
+                }
+            ],
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

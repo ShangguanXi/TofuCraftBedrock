@@ -1,0 +1,150 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:soybean_crop",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "tofucraft:growth": {
+                    "values": {
+                        "min": 0,
+                        "max": 7
+                    }
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.tofucraft.crop",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "soybean_0",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": 0
+                }
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    4,
+                    16
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "minecraft:farmland",
+                            "tofucraft:tofu_farmland"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:map_color": "#007C00",
+            "tofucraft:soybean_crop": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 0 && q.block_state('tofucraft:growth') <= 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "soybean_0",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 2 && q.block_state('tofucraft:growth') <= 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "soybean_1",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "soybean_2",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 5 && q.block_state('tofucraft:growth') <= 6",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "soybean_3",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "soybean_4",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": 0
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') >= 0 && q.block_state('tofucraft:growth') <= 4",
+                "components": {
+                    "minecraft:loot": "loot_tables/blocks/crop/soybean_crop_young.json"
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') == 5",
+                "components": {
+                    "minecraft:loot": "loot_tables/blocks/crop/soybean_crop_5.json"
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') == 6",
+                "components": {
+                    "minecraft:loot": "loot_tables/blocks/crop/soybean_crop_6.json"
+                }
+            },
+            {
+                "condition": "q.block_state('tofucraft:growth') == 7",
+                "components": {
+                    "minecraft:loot": "loot_tables/blocks/crop/soybean_crop_mature.json"
+                }
+            }
+        ]
+    }
+}

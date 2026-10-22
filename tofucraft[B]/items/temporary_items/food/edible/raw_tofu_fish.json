@@ -26,6 +26,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:raw_tofu_fish.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 35
             }
         }
     }

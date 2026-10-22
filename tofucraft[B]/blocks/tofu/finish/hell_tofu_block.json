@@ -1,0 +1,34 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tofucraft:hell_tofu_block",
+            "menu_category": {
+                "category": "construction",
+                "group": "tofucraft:itemGroup.name.tofu_block"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "hell_tofu_block"
+                }
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.5
+            },
+            "minecraft:map_color": "#C7C7C7",
+            "minecraft:loot": "loot_tables/blocks/tofu/hell_tofu_block.json",
+            "minecraft:tags": [
+                "minecraft:is_shovel_item_destructible"
+            ],
+            "minecraft:redstone_conductivity": {
+                "redstone_conductor": true
+            }
+        }
+    }
+}

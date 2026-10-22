@@ -1,7 +1,7 @@
 // Minimal stand-in for @minecraft/server used by the Node smoke tests. It records subscriptions and registrations,
 // and throws when scripts read world members during early execution, like the real engine does.
 
-export const state = { earlyExecution: true, gameRules: { mobGriefing: true } };
+export const state = { earlyExecution: true, gameRules: { mobGriefing: true }, timeOfDay: 6000 };
 export const subscriptions = new Map();
 
 function signal(key) {
@@ -18,10 +18,17 @@ function signalGroup(prefix) {
     return new Proxy({}, { get: (_, name) => signal(`${prefix}.${String(name)}`) });
 }
 
+/** Fires an event to the subscribers whose options match (blockTypes filters are honoured). */
 export function dispatch(key, event) {
-    const list = subscriptions.get(key) ?? [];
-    for (const { callback } of list) callback(event);
-    return list.length;
+    let count = 0;
+    for (const { callback, options } of subscriptions.get(key) ?? []) {
+        if (options?.blockTypes && event.block && !options.blockTypes.includes(event.block.typeId ?? event.brokenBlockPermutation?.typeId)) {
+            if (!(event.brokenBlockPermutation && options.blockTypes.includes(event.brokenBlockPermutation.typeId))) continue;
+        }
+        callback(event);
+        count++;
+    }
+    return count;
 }
 
 export const queued = { run: [], interval: [], timeout: [] };
@@ -45,6 +52,7 @@ export const world = new Proxy(worldBase, {
         if (prop in target) return target[prop];
         if (state.earlyExecution) throw new Error(`world.${String(prop)} read during early execution`);
         if (prop === "gameRules") return state.gameRules;
+        if (prop === "getTimeOfDay") return () => state.timeOfDay;
         throw new Error(`mock world has no member ${String(prop)}`);
     },
 });
@@ -61,7 +69,11 @@ export function makeStartupEvent() {
 }
 
 export class Entity {
-    constructor(typeId = "minecraft:zombie") { this.typeId = typeId; }
+    constructor(typeId = "minecraft:zombie") {
+        this.typeId = typeId;
+        this.effects = [];
+    }
+    addEffect(effect, duration, options) { this.effects.push({ effect, duration, amplifier: options?.amplifier ?? 0 }); }
 }
 export class Player extends Entity {
     constructor() { super("minecraft:player"); }
@@ -71,11 +83,19 @@ export class ItemStack {
         if (amount < 1 || amount > 255) throw new Error(`invalid amount ${amount}`);
         this.typeId = typeId;
         this.amount = amount;
+        this.components = {};
     }
+    getComponent(id) { return this.components[id]; }
 }
+export class Block {}
 export class BlockPermutation {}
 export class BiomeType {}
-export class Block {}
 export class StartupEvent {}
+export class EntityEquippableComponent { static componentId = "minecraft:equippable"; }
+export class EntityInventoryComponent { static componentId = "minecraft:inventory"; }
+export class ItemDurabilityComponent { static componentId = "minecraft:durability"; }
+export class ItemEnchantableComponent { static componentId = "minecraft:enchantable"; }
 export const GameMode = { Adventure: "Adventure", Creative: "Creative", Spectator: "Spectator", Survival: "Survival" };
 export const Direction = { Down: "Down", East: "East", North: "North", South: "South", Up: "Up", West: "West" };
+export const EquipmentSlot = { Body: "Body", Chest: "Chest", Feet: "Feet", Head: "Head", Legs: "Legs", Mainhand: "Mainhand", Offhand: "Offhand" };
+export const WeatherType = { Clear: "Clear", Rain: "Rain", Thunder: "Thunder" };

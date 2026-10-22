@@ -4,7 +4,8 @@
         "description": {
             "identifier": "tofucraft:metal_tofu_block",
             "menu_category": {
-                "category": "items"
+                "category": "construction",
+                "group": "tofucraft:itemGroup.name.tofu_block"
             }
         },
         "components": {
@@ -13,19 +14,22 @@
                     "texture": "metal_tofu_block"
                 }
             },
+            "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 5.0
+                "seconds_to_destroy": 6
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 300.0
+                "explosion_resistance": 9
             },
-            "minecraft:map_color": "#A0A0A0",
-            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:map_color": "#A7A7A7",
             "minecraft:loot": "loot_tables/blocks/tofu/metal_tofu_block.json",
             "minecraft:tags": [
-                "minecraft:stone_tier_destructible",
-                "minecraft:is_pickaxe_item_destructible"
-            ]
+                "minecraft:is_pickaxe_item_destructible",
+                "minecraft:stone_tier_destructible"
+            ],
+            "minecraft:redstone_conductivity": {
+                "redstone_conductor": true
+            }
         }
     }
 }

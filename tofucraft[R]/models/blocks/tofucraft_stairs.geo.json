@@ -1,0 +1,434 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.tofucraft.stairs",
+                "texture_width": 16,
+                "texture_height": 16
+            },
+            "bones": [
+                {
+                    "name": "bottom_slab",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [-8, 0, -8],
+                            "size": [16, 8, 16],
+                            "uv": {
+                                "north": {
+                                    "uv": [0, 8],
+                                    "uv_size": [16, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [0, 8],
+                                    "uv_size": [16, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [0, 8],
+                                    "uv_size": [16, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [0, 8],
+                                    "uv_size": [16, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [0, 0],
+                                    "uv_size": [16, 16],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [0, 0],
+                                    "uv_size": [16, 16],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "top_slab",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [-8, 8, -8],
+                            "size": [16, 8, 16],
+                            "uv": {
+                                "north": {
+                                    "uv": [0, 0],
+                                    "uv_size": [16, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [0, 0],
+                                    "uv_size": [16, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [0, 0],
+                                    "uv_size": [16, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [0, 0],
+                                    "uv_size": [16, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [0, 0],
+                                    "uv_size": [16, 16],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [0, 0],
+                                    "uv_size": [16, 16],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "upper_north_west",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [0, 8, -8],
+                            "size": [8, 8, 8],
+                            "uv": {
+                                "north": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "lower_north_west",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [0, 0, -8],
+                            "size": [8, 8, 8],
+                            "uv": {
+                                "north": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "upper_north_east",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [-8, 8, -8],
+                            "size": [8, 8, 8],
+                            "uv": {
+                                "north": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "lower_north_east",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [-8, 0, -8],
+                            "size": [8, 8, 8],
+                            "uv": {
+                                "north": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "upper_south_west",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [0, 8, 0],
+                            "size": [8, 8, 8],
+                            "uv": {
+                                "north": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "lower_south_west",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [0, 0, 0],
+                            "size": [8, 8, 8],
+                            "uv": {
+                                "north": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "upper_south_east",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [-8, 8, 0],
+                            "size": [8, 8, 8],
+                            "uv": {
+                                "north": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [0, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [8, 0],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "lower_south_east",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [-8, 0, 0],
+                            "size": [8, 8, 8],
+                            "uv": {
+                                "north": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "north"
+                                },
+                                "east": {
+                                    "uv": [0, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "east"
+                                },
+                                "south": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "south"
+                                },
+                                "west": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "west"
+                                },
+                                "up": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [8, 8],
+                                    "uv_size": [8, 8],
+                                    "material_instance": "down"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -16,6 +16,19 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:sesame.name"
+            },
+            "tofucraft:seed": {
+                "plants": [
+                    {
+                        "on": [
+                            "minecraft:farmland"
+                        ],
+                        "place": "tofucraft:sesame_crop"
+                    }
+                ]
+            },
+            "minecraft:compostable": {
+                "composting_chance": 35
             }
         }
     }

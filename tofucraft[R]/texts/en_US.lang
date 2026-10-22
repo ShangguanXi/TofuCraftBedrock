@@ -52,8 +52,8 @@ item.tofucraft:adv_tofu_gem.name=High-Powered Tofu Gem
 
 
 
-tile.tofucraft:soybeans.name=Soybean
-tile.tofucraft:hell_soybeans.name=Hell Soybean
+tile.tofucraft:soybean_crop.name=Soybean
+tile.tofucraft:hell_soybean_crop.name=Hell Soybean
 tile.tofucraft:fried_tofu_pouch_block.name=Fried Tofu Pouch Block
 tile.tofucraft:fried_tofu_block.name=Fried Tofu Block
 tile.tofucraft:egg_tofu_block.name=Egg Tofu Block
@@ -73,9 +73,9 @@ tile.tofucraft:tofu_portal.name=Tofu Portal Block
 tile.tofucraft:morijio.name=Morijio
 tile.tofucraft:miso_barrel.name=Miso Barrel
 tile.tofucraft:natto_bed.name=Natto Bed
-tile.tofucraft:sesame.name=Sesame
+tile.tofucraft:sesame_crop.name=Sesame
 tile.tofucraft:natto_block.name=Natto Block
-tile.tofucraft:sprouts.name=Sprouts
+tile.tofucraft:sprouts_crop.name=Sprouts
 tile.tofucraft:salt_block.name=Salt Block
 tile.tofucraft:yuba.name=Yuba
 tile.tofucraft:miso_tofu_barrel.name=Miso Tofu Barrel
@@ -100,9 +100,9 @@ tile.tofucraft:tofu_chikuwa_platform.name=Tofu Chikuwa Platform Block
 tile.tofucraft:tofu_farmland.name=Cultivated Tofu
 tile.tofucraft:salt_pan.name=Salt Pan
 
-tile.tofucraft:soy_milk.name=Soy Milk
-tile.tofucraft:hell_soy_milk.name=Hell Soy Milk
-tile.tofucraft:soy_sauce.name=Soy Sauce
+tile.tofucraft:soy_milk_fluid.name=Soy Milk
+tile.tofucraft:hell_soy_milk_fluid.name=Hell Soy Milk
+tile.tofucraft:soy_sauce_fluid.name=Soy Sauce
 
 tile.tofucraft:apricot_leaves.name=Apricot Leaves
 tile.tofucraft:tofu_leaves.name=Tofu Leaves
@@ -137,7 +137,7 @@ tile.tofucraft:dried_tofu_slab.name=Koya-Tofu Slab
 tile.tofucraft:fried_tofu_pouch_slab.name=Fried Tofu Pouch Slab
 tile.tofucraft:fried_tofu_slab.name=Fried Tofu Slab
 tile.tofucraft:egg_tofu_slab.name=Egg Tofu Slab
-tile.tofucraft:annin_tofu_slab.name=Annin-Tofu Tofu Slab
+tile.tofucraft:annin_tofu_slab.name=Annin-Tofu Slab
 tile.tofucraft:sesame_tofu_slab.name=Sesame Tofu Slab
 tile.tofucraft:zunda_tofu_slab.name=Zunda Tofu Slab
 tile.tofucraft:strawberry_tofu_slab.name=Strawberry Tofu Slab
@@ -686,3 +686,7 @@ tofucraft.soymilkInfo.randomEffect=Random effect (one of flavors)
 tofucraft.soymilkInfo.stat1=Drink daily to boost effect!
 tofucraft.soymilkInfo.stat2=Today's effect: Level %1$s
 
+tofucraft:itemGroup.name.tofu_block=TofuCraft: Tofu Blocks
+
+tofucraft:itemGroup.name.stairs=TofuCraft: Stairs
+tofucraft:itemGroup.name.slab=TofuCraft: Slabs

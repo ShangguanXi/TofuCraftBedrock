@@ -27,6 +27,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:tofu_somen_bowl_glass.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

@@ -20,7 +20,7 @@
                 "using_converts_to": "tofucraft:glass_bowl",
                 "can_always_eat": true
             },
-            "minecraft:use_animation": "eat",
+            "minecraft:use_animation": "drink",
             "minecraft:icon": {
                 "textures": {
                     "default": "tsuyu_bowl_glass"

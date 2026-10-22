@@ -26,6 +26,9 @@
             },
             "minecraft:display_name": {
                 "value": "item.tofucraft:momen_tofu.name"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
             }
         }
     }

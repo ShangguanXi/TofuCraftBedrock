@@ -7,16 +7,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 import { Player, world } from "@minecraft/server";
 import { blockComponent } from "../lib/CustomComponentAPI";
 import { TofuBlockUtil } from "../lib/TofuBlockUtil";
-// Java freezes in 7 steps with a 1/5 chance each, then converts on the next valid tick:
-// 7 * 5 + 1 = 36 valid random ticks on average. The per-step state arrives with the pressing chain (M1).
-const FREEZE_CHANCE = 1 / 36;
+const FREEZE_STEP = "tofucraft:freeze_step";
 /**
  * Kinu Tofu Block Component
  *
  * Based on Java TofuCraft BlockTofu(kinu).setFragile().setFreeze(5):
  * 1. Fragile - crushed when pressed under weight, or when an entity falls on it from more than 0.5 blocks
  *    (mobs only with mobGriefing on). Each of its 4 drops survives with a 40% chance.
- * 2. Freezable - near the surface of cold places with air above, it slowly turns into dried (koya) tofu.
+ * 2. Freezable - near the surface of cold places with air above, it freezes in 7 steps (1/5 per random tick each)
+ *    and turns into dried (koya) tofu on the next valid tick.
  */
 let BlockTofuKinuComponent = class BlockTofuKinuComponent {
     /**
@@ -36,7 +35,14 @@ let BlockTofuKinuComponent = class BlockTofuKinuComponent {
             TofuBlockUtil.crushKinu(block);
             return;
         }
-        if (TofuBlockUtil.canFreeze(block) && Math.random() < FREEZE_CHANCE) {
+        if (!TofuBlockUtil.canFreeze(block))
+            return;
+        const step = block.permutation.getState(FREEZE_STEP) ?? 0;
+        if (step < 7) {
+            if (Math.random() < 1 / 5)
+                block.setPermutation(block.permutation.withState(FREEZE_STEP, step + 1));
+        }
+        else {
             block.setType("tofucraft:dried_tofu_block");
         }
     }

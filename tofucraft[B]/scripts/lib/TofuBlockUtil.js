@@ -1,7 +1,15 @@
-import { ItemStack } from "@minecraft/server";
-import { BIOME_TEMPERATURE } from "../data/BiomeTemperature";
-// Tofu blocks made of Material.iron in Java; every other tofu block is Material.tofu and never counts as weight.
-const HEAVY_TOFU_BLOCKS = new Set(["tofucraft:metal_tofu_block", "tofucraft:adv_tofu_gem_block"]);
+import { ItemStack, WeatherType, world } from "@minecraft/server";
+import { BIOME_CLIMATE } from "../data/BiomeClimate";
+// Tofu blocks made of Material.iron in Java (metal tofu and the metal stairs, wall, trapdoor and door built from it);
+// every other tofu block is Material.tofu (or wood, for fence gates) and never counts as weight.
+const HEAVY_TOFU_BLOCKS = new Set([
+    "tofucraft:metal_tofu_block",
+    "tofucraft:adv_tofu_gem_block",
+    "tofucraft:metal_tofu_stairs",
+    "tofucraft:metal_tofu_wall",
+    "tofucraft:metal_tofu_trapdoor",
+    "tofucraft:metal_tofu_door",
+]);
 // Tofu blocks with a Java hardness of at least 1.0, which makes them a valid base for pressing.
 const HARD_TOFU_BLOCKS = new Set([
     "tofucraft:ishi_tofu_block",
@@ -15,6 +23,14 @@ const HARD_TOFU_BLOCKS = new Set([
 ]);
 // Unbreakable blocks (Java hardness < 0) also count as a valid base.
 const UNBREAKABLE_BLOCKS = new Set(["minecraft:bedrock", "minecraft:barrier", "minecraft:end_portal_frame"]);
+// Java Material.water: vanilla water and the three TofuCraft fluids.
+const WATER_BLOCKS = new Set([
+    "minecraft:water",
+    "minecraft:flowing_water",
+    "tofucraft:soy_milk_fluid",
+    "tofucraft:hell_soy_milk_fluid",
+    "tofucraft:soy_sauce_fluid",
+]);
 /**
  * Shared checks for tofu blocks, ported from Java TofuCraft BlockTofu / TofuBlockUtils.
  */
@@ -58,6 +74,20 @@ export class TofuBlockUtil {
         }
     }
     /**
+     * Java BlockTofu.drainOneStep: 1/rate per tick to add a step (0-7 kept in `state`), then 1/(2 * rate) to turn
+     * into `next`.
+     */
+    static drainOneStep(block, rate, next, state = "tofucraft:drain_step") {
+        const step = block.permutation.getState(state) ?? 0;
+        if (step < 7) {
+            if (Math.random() < 1 / rate)
+                block.setPermutation(block.permutation.withState(state, step + 1));
+        }
+        else if (Math.random() < 1 / (2 * rate)) {
+            block.setType(next);
+        }
+    }
+    /**
      * Java BlockTofu.isValidPlaceForDriedTofu: colder than 0.15, at most 9 blocks below the surface, air above.
      */
     static canFreeze(block) {
@@ -80,13 +110,40 @@ export class TofuBlockUtil {
      * Biomes missing from the vanilla table (custom biomes) fall back to their tags.
      */
     static temperatureAt(biome, y) {
-        let temperature = BIOME_TEMPERATURE[biome.id];
+        let temperature = BIOME_CLIMATE[biome.id]?.temperature;
         if (temperature === undefined) {
             temperature = biome.hasTags(["frozen"]) ? 0 : biome.hasTags(["cold"]) ? 0.05 : 0.8;
         }
         if (y > 64)
             temperature -= ((y - 64) * 0.05) / 30;
         return temperature;
+    }
+    /**
+     * Java BiomeGenBase.rainfall (Bedrock "downfall"). Custom biomes fall back to their tags.
+     */
+    static downfallOf(biome) {
+        const downfall = BIOME_CLIMATE[biome.id]?.downfall;
+        if (downfall !== undefined)
+            return downfall;
+        if (biome.hasTags(["desert"]) || biome.hasTags(["mesa"]) || biome.hasTags(["nether"]))
+            return 0;
+        return biome.hasTags(["jungle"]) ? 0.9 : 0.5;
+    }
+    /** Java Material.water: vanilla water and the TofuCraft fluids. */
+    static isWater(block) {
+        return !!block && (WATER_BLOCKS.has(block.typeId) || block.isWaterlogged);
+    }
+    /** Java World.canBlockSeeTheSky: full sky light at the block. */
+    static canSeeSky(block) {
+        return block.getSkyLightLevel() >= 15;
+    }
+    /** Java World.isRaining: the dimension is raining or thundering. */
+    static isRaining(dimension) {
+        return dimension.getWeather() !== WeatherType.Clear;
+    }
+    /** Java: worldTime % 24000 < 12000. */
+    static isDaytime() {
+        return world.getTimeOfDay() < 12000;
     }
     /**
      * Breaks a kinu tofu block the way Java does: each of its 4 drops survives with a 40% chance.
@@ -103,5 +160,10 @@ export class TofuBlockUtil {
         if (count > 0) {
             dimension.spawnItem(new ItemStack("tofucraft:kinu_tofu", count), center);
         }
+    }
+    /** Breaks a block as if mined, dropping its loot table. */
+    static breakNaturally(block) {
+        const { x, y, z } = block.location;
+        block.dimension.runCommand(`setblock ${x} ${y} ${z} air destroy`);
     }
 }

@@ -4,7 +4,8 @@
         "description": {
             "identifier": "tofucraft:grilled_tofu_block",
             "menu_category": {
-                "category": "items"
+                "category": "construction",
+                "group": "tofucraft:itemGroup.name.tofu_block"
             },
             "traits": {
                 "minecraft:placement_direction": {
@@ -18,95 +19,100 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "momen_tofu_block"
-                },
-                "up": {
-                    "texture": "grilled_tofu_block"
                 }
             },
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.4
+                "seconds_to_destroy": 1
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 0.2
+                "explosion_resistance": 30
             },
-            "minecraft:map_color": "#C4A050",
+            "minecraft:map_color": "#C7C7C7",
             "minecraft:loot": "loot_tables/blocks/tofu/grilled_tofu_block.json",
             "minecraft:tags": [
                 "minecraft:is_shovel_item_destructible"
-            ]
+            ],
+            "minecraft:redstone_conductivity": {
+                "redstone_conductor": true
+            }
         },
         "permutations": [
             {
-                "condition": "query.block_state('minecraft:facing_direction') == 'north'",
+                "condition": "q.block_state('minecraft:facing_direction') == 'north'",
                 "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            90,
-                            0,
-                            0
-                        ]
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "momen_tofu_block"
+                        },
+                        "south": {
+                            "texture": "grilled_tofu_block"
+                        }
                     }
                 }
             },
             {
-                "condition": "query.block_state('minecraft:facing_direction') == 'south'",
+                "condition": "q.block_state('minecraft:facing_direction') == 'south'",
                 "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            -90,
-                            0,
-                            0
-                        ]
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "momen_tofu_block"
+                        },
+                        "north": {
+                            "texture": "grilled_tofu_block"
+                        }
                     }
                 }
             },
             {
-                "condition": "query.block_state('minecraft:facing_direction') == 'west'",
+                "condition": "q.block_state('minecraft:facing_direction') == 'east'",
                 "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            0,
-                            -90
-                        ]
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "momen_tofu_block"
+                        },
+                        "west": {
+                            "texture": "grilled_tofu_block"
+                        }
                     }
                 }
             },
             {
-                "condition": "query.block_state('minecraft:facing_direction') == 'east'",
+                "condition": "q.block_state('minecraft:facing_direction') == 'west'",
                 "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            0,
-                            90
-                        ]
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "momen_tofu_block"
+                        },
+                        "east": {
+                            "texture": "grilled_tofu_block"
+                        }
                     }
                 }
             },
             {
-                "condition": "query.block_state('minecraft:facing_direction') == 'up'",
+                "condition": "q.block_state('minecraft:facing_direction') == 'up'",
                 "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            180,
-                            0,
-                            0
-                        ]
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "momen_tofu_block"
+                        },
+                        "down": {
+                            "texture": "grilled_tofu_block"
+                        }
                     }
                 }
             },
             {
-                "condition": "query.block_state('minecraft:facing_direction') == 'down'",
+                "condition": "q.block_state('minecraft:facing_direction') == 'down'",
                 "components": {
-                   
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            0,
-                            0
-                        ]
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "momen_tofu_block"
+                        },
+                        "up": {
+                            "texture": "grilled_tofu_block"
+                        }
                     }
                 }
             }
